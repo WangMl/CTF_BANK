@@ -1,0 +1,81 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div>
+        <div hui-layout-type='RowLayout'>
+            <div class="common-header">
+                <div class="col l8 push-l2 common-header-title-wrapper">
+                    <div class="commom-head-title">
+                        销售线索转介
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container" id="zhuanjiePage">
+        <div class="common-content-container" style="overflow-y: auto;">
+            <div hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12">
+                        <div class="wangdianjingliHtml">
+                            <div>
+                                <div class="col l12">
+                                    <div id='app11'>
+                                        <filter-list></filter-list>
+                                    </div>
+                                    <template id='xiansuozhuanjie-condition-temp' hidden="hidden">
+                                        <input type="text" v-model="filterText" class="input-control"
+                                               placeholder="请输入查询条件" bui-disable-focus='true'/>
+                                    </template>
+                                    <template id='xiansuozhuanjie-filter-list-temp'>
+                                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                                            <div>
+                                                <div class="col l3">
+                                                    <condition :filter-text.sync="filterText"></condition>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="col l12" style="overflow-y: auto;height: 450px;">
+                                                    <list :items="filteredItems"></list>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                    <template id='xiansuozhuanjie-list-temp'>
+                                        <table class="table table-bordered"
+                                               style="margin-top: 10px;text-align: center;">
+                                            <tr class="active">
+                                                <th>客户经理员工号</th>
+                                                <th>客户经理姓名</th>
+                                                <th>性别</th>
+                                                <th>电话</th>
+                                                <th>岗位</th>
+                                                <th>所属机构</th>
+                                            </tr>
+                                            <tr v-for="item in items">
+                                                <td class="{{item.USERCODE}}" name="{{item.USERCODE}}">{{item.USERCODE}}</td>
+                                                <td class="{{item.USERCODE}}" name="{{item.USERCODE}}">{{item.USERNAME}}</td>
+                                                <td class="{{item.USERCODE}}" name="{{item.USERCODE}}">{{item.SEX}}</td>
+                                                <td class="{{item.USERCODE}}" name="{{item.USERCODE}}">{{item.MOBILEPHONE}}</td>
+                                                <td class="{{item.USERCODE}}" name="{{item.USERCODE}}">{{item.STANAME}}</td>
+                                                <td class="{{item.USERCODE}}" name="{{item.USERCODE}}">{{item.BRNAME}}</td>
+                                            </tr>
+                                        </table>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div hui-layout-type="RowLayout">
+        <div>
+            <div class="col l3 push-l3">
+                <div class="btn btn-cold" hui-widget-nodeType="confirmBtnNode">确定</div>
+            </div>
+            <div class="col l3 push-l3">
+                <div class="btn btn-default" hui-widget-nodeType="cancelBtnNode">取消</div>
+            </div>
+        </div>
+    </div>
+</div>

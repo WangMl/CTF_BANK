@@ -1,0 +1,46 @@
+{
+  "b": {
+    "PRODUCTLIST": [
+      {
+        "LOGO_PATH": "/home/usera/padserver/BIPS/resources/20160708162614881.jpg",
+        "PRODUCTCODE": "999005",
+        "PRODUCTNAME": "test",
+        "PRODUCT_TYPE": "1"
+      },
+      {
+        "LOGO_PATH": "D:/padserver/BIPS/resources/20160707162038225.jpg",
+        "PRODUCTCODE": "999001",
+        "PRODUCTNAME": "test",
+        "PRODUCT_TYPE": "1"
+      },
+      {
+        "LOGO_PATH": "D:/padserver/BIPS/resources/20160711132437460.jpg",
+        "PRODUCTCODE": "999002",
+        "PRODUCTNAME": "保险测试",
+        "PRODUCT_TYPE": "3"
+      },
+      {
+        "LOGO_PATH": "D:/padserver/BIPS/resources/20160711132455839.jpg",
+        "PRODUCTCODE": "999003",
+        "PRODUCTNAME": "国债测试",
+        "PRODUCT_TYPE": "4"
+      },
+      {
+        "LOGO_PATH": "D:/padserver/BIPS/resources/20160711132508450.jpg",
+        "PRODUCTCODE": "999004",
+        "PRODUCTNAME": "贵金属测试",
+        "PRODUCT_TYPE": "5"
+      },
+      {
+        "LOGO_PATH": "D:/padserver/BIPS/resources/20160711132524917.jpg",
+        "PRODUCTCODE": "999006",
+        "PRODUCTNAME": "信托测试",
+        "PRODUCT_TYPE": "6"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

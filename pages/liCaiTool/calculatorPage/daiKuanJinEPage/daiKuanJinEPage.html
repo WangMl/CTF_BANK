@@ -1,0 +1,157 @@
+<div hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights":["0%","100%","0%"]}'>
+    <div></div>
+    <div class="main-container">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openCalculatorMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            贷&nbsp;款&nbsp;金&nbsp;额
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common-content-container" id="daiKuanJinEPage">
+            <div hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12">
+                        <div hui-layout-type='SashLayout' hui-layout-attr='["50%","50%"]' style="overflow-y: auto">
+                            <div id="left">
+                                <div class="input-area">
+                                    <div hui-layout-type="RowLayout">
+
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">贷款种类：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <div id="daikuanzhongleiSelect" hui-widget-type="btop.bui.Select"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">起贷日期：</label>
+                                            </div>
+                                            <div class="col l5">
+                                                <div id="datepicker1" hui-widget-type="btop.hui.DatePicker"
+                                                     hui-widget-attr='{"format" : "yyyy-MM-dd"}'>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">贷款期限：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <input id="qixianSelect" class="input-control" type="number" placeholder="请输入贷款期限" bui-input-rulers='{"required":true}'>
+                                            </div>
+
+                                            <div class="col l1 input-wrapper-group"style="margin-top: 3px;">
+                                                <label class="label" style="padding-left: 10px">月</label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">还款方式：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <div id="fangshiSelect" hui-widget-type="btop.bui.Select"></div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">还款周期：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <div id="zhouqiSelect" hui-widget-type="btop.bui.Select"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1">
+                                                <label class="label">基本还款金额：</label>
+                                            </div>
+                                            <div class="col l5">
+                                                <!--<input id="benjin" class="input-control" type="number" placeholder="请输入基本还款">-->
+                                                <div id="benjin" hui-widget-type="btop.hui.Amount"
+                                                     hui-widget-attr='{"decimalLen":"4","maxLength":"20","minus":"false"}' bui-input-rulers='{"required":true}'>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div class="col l12 input-row">
+                                                <div class="col l3 push-l1">
+                                                    <label class="label">利率：</label>
+                                                </div>
+                                                <div class="col l5">
+                                                    <input type="text" id="lixilv" class="input-control" bui-input-rulers='{"required":true}'>
+                                                </div>
+                                                <div class="col l3" style="margin-left: 30px">
+                                                    <div id="zidonghuoquBTN" class="btn btn-cold">自动获取</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l8 push-l3">
+                                                <div id="compute" class="btn btn-danger">
+                                                    <span>开始计算</span>
+                                                </div>
+                                                <div id="recount" class="btn btn-danger">
+                                                    <span>重新计算</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="right">
+                                <div class="output-area">
+                                    <div hui-layout-type="RowLayout">
+                                        <div>
+                                            <div class="col l12">
+                                                <div class="answer">
+                                                    <label class="label">计算结果</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">贷款金额：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <input type="text" id="daiKuan" disabled="disabled"
+                                                       class="input-control"/>
+                                            </div>
+                                        </div>
+                                        <div style="width: 70%;margin-top: 100px">
+                                            <div class="col l12">
+                                                <span style="font-size: 20px;color: red"><b> 注：此工具仅供参考，成交价均以实际交易汇率为准</b></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottonPanel" hui-layout-type="RowLayout">
+        <div></div>
+    </div>
+</div>

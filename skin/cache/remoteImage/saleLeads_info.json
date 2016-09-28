@@ -1,0 +1,25 @@
+{
+  "b": {
+    "CEMPCODE": "00000889",
+    "CEMPNAME": "王建军",
+    "CERTNO": "1212154654",
+    "CERTTYPE": "身份证",
+    "COMOC_STATE": "20160411",
+    "CONT_TEL_NO": "121212121",
+    "CUSTNAME": "1212",
+    "CUSTTYPE": "潜在客户",
+    "CUST_ID": "",
+    "CUST_PRODID": "资产支持理财03期存期02年",
+    "INPUTDT": "2016-04-11",
+    "INTRDATE": "2016-04-11",
+    "ORGID": "",
+    "SERIALNO": "ZJ000000000000000000000000000ODB",
+    "STATUS": "无效",
+    "ZJEMPCODE": "00006687",
+    "ZJEMPNAME": "韩伶敏"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

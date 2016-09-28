@@ -1,0 +1,71 @@
+{
+  "b": {
+    "CONPANYLIST": [
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "3J",
+        "FUND_COMPANY_NAME": "北信瑞丰基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "北信瑞丰"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "27",
+        "FUND_COMPANY_NAME": "广发基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "广发基金"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "05",
+        "FUND_COMPANY_NAME": "博时基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "博时基金"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "32",
+        "FUND_COMPANY_NAME": "诺安基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "诺安基金"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "0Q",
+        "FUND_COMPANY_NAME": "中信建投基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "中信建投基金"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "48",
+        "FUND_COMPANY_NAME": "工银瑞信基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "工银瑞信"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "09",
+        "FUND_COMPANY_NAME": "大成基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "大成基金"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "01",
+        "FUND_COMPANY_NAME": "南方基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "南方"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "03",
+        "FUND_COMPANY_NAME": "华夏基金管理有限公司",
+        "FUND_COMPANY_NAME_A": "华夏基金"
+      },
+      {
+        "DATADATE": "20160701",
+        "FUND_COMPANY_CODE": "07",
+        "FUND_COMPANY_NAME": "嘉实基金管理公司",
+        "FUND_COMPANY_NAME_A": "嘉实基金"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}
+

@@ -1,0 +1,67 @@
+.main-container .row .col{
+    padding: 0px;
+}
+
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+#pubZiChanBusinessPage .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_feishiwuguijinshu.png");
+    background-size: 100% 100%;
+}
+
+
+
+
+#pubZiChanBusinessPage .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_guozhai.png");
+    background-size: 100% 100%;
+}
+
+
+#pubZiChanBusinessPage .bui-tab-item:nth-child(3){
+    background-color: #5bbef3;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(3):hover{
+    background-color: #5a9cd2;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(3) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_guozhaichanping.png");
+    background-size: 100% 100%;
+}
+
+#pubZiChanBusinessPage .bui-tab-item:nth-child(4){
+    background-color: #c866c5;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(4):hover{
+    background-color: #ae57ab;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(4) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_guozhai.png");
+    background-size: 100% 100%;
+}
+
+
+#pubZiChanBusinessPage .bui-tab-item:nth-child(5){
+    background-color: #fda93f;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(5):hover{
+    background-color: #d28736;
+}
+#pubZiChanBusinessPage .bui-tab-item:nth-child(5) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_guozhaichanping.png");
+    background-size: 100% 100%;
+}

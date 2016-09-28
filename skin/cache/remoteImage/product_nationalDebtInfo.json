@@ -1,0 +1,24 @@
+{
+  "b": {
+    "CURRENCY": "",
+    "DATADATE": 1466492400000,
+    "INTERESTTYPE": "",
+    "ISSUEPRICE": 0.000000,
+    "ISSUEYEAR": "2014",
+    "MOVEPRICE": 0.000000,
+    "NDTYPE": "1",
+    "PAYFREQUENCY": "",
+    "PAYTYPE": "",
+    "PERIODS": "143",
+    "PRODUCTCODE": "14305",
+    "PRODUCTLIMIT": "05",
+    "PRODUCTNAME": "2014年凭证式（三期）国债5年期",
+    "PURCHASEAMOUNT": "100的整数倍",
+    "RATE": 5.4100000,
+    "STARTDT": 1410332400000
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

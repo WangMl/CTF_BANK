@@ -1,0 +1,256 @@
+{
+  "b": {
+    "ProductList": [
+      {
+        "PRODID": "ALAL00006W",
+        "PRODNAME": "001",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALAL00006X",
+        "PRODNAME": "0010",
+        "SUPID": "ALAL00006W"
+      },
+      {
+        "PRODID": "ALPGA00004",
+        "PRODNAME": "缴费通",
+        "SUPID": "ALPGA00001"
+      },
+      {
+        "PRODID": "ALPGA00006",
+        "PRODNAME": "特约商户",
+        "SUPID": "ALPGA00001"
+      },
+      {
+        "PRODID": "ALPGC00050",
+        "PRODNAME": "存折取款机功能",
+        "SUPID": "ALPGA00001"
+      },
+      {
+        "PRODID": "ALPGC00052",
+        "PRODNAME": "电子银行类",
+        "SUPID": "ALPGA00001"
+      },
+      {
+        "PRODID": "ALPGC0005D",
+        "PRODNAME": "外汇",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPGC0005E",
+        "PRODNAME": "外汇汇出汇款",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "DDPGC1105E",
+        "PRODNAME": "哈哈哈我成功了",
+        "SUPID": "ALPGC0005E"
+      },
+      {
+        "PRODID": "ALPGC0005G",
+        "PRODNAME": "外汇汇入汇款",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005I",
+        "PRODNAME": "美元全额到账境外汇款",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005K",
+        "PRODNAME": "多币种汇款",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005M",
+        "PRODNAME": "美元快汇",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005O",
+        "PRODNAME": "外币携带证",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005Q",
+        "PRODNAME": "电子银行结售汇",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005S",
+        "PRODNAME": "电子旅行支票",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPGC0005U",
+        "PRODNAME": "存款证明",
+        "SUPID": "ALPGC0005D"
+      },
+      {
+        "PRODID": "ALPG00003Z",
+        "PRODNAME": "期缴型",
+        "SUPID": "ALPG500001"
+      },
+      {
+        "PRODID": "ALPG00004Z",
+        "PRODNAME": "趸交型",
+        "SUPID": "ALPG500001"
+      },
+      {
+        "PRODID": "ALPG000003",
+        "PRODNAME": "股票型基金",
+        "SUPID": "ALPG400001"
+      },
+      {
+        "PRODID": "ALPG000004",
+        "PRODNAME": "混合型基金",
+        "SUPID": "ALPG400001"
+      },
+      {
+        "PRODID": "ALPG000005",
+        "PRODNAME": "货币型基金",
+        "SUPID": "ALPG400001"
+      },
+      {
+        "PRODID": "ALPG000006",
+        "PRODNAME": "债券型基金",
+        "SUPID": "ALPG400001"
+      },
+      {
+        "PRODID": "ALPG700004",
+        "PRODNAME": "保本",
+        "SUPID": "ALPG700001"
+      },
+      {
+        "PRODID": "ALPG700005",
+        "PRODNAME": "非保本",
+        "SUPID": "ALPG700001"
+      },
+      {
+        "PRODID": "ALPGA00001",
+        "PRODNAME": "签约类",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPGA00002",
+        "PRODNAME": "医保通",
+        "SUPID": "ALPGA00001"
+      },
+      {
+        "PRODID": "ALPG200013",
+        "PRODNAME": "存款类过期产品",
+        "SUPID": "ALPG200001"
+      },
+      {
+        "PRODID": "ALPG300005",
+        "PRODNAME": "国债类过期产品",
+        "SUPID": "ALPG300001"
+      },
+      {
+        "PRODID": "ALPG40000C",
+        "PRODNAME": "基金类过期产品",
+        "SUPID": "ALPG400001"
+      },
+      {
+        "PRODID": "ALPG50000E",
+        "PRODNAME": "保险类过期产品",
+        "SUPID": "ALPG500001"
+      },
+      {
+        "PRODID": "ALPG600004",
+        "PRODNAME": "贵金属过期产品",
+        "SUPID": "ALPG600001"
+      },
+      {
+        "PRODID": "ALPG70000A",
+        "PRODNAME": "理财产品过期产品",
+        "SUPID": "ALPG700001"
+      },
+      {
+        "PRODID": "ALPG600002",
+        "PRODNAME": "非实物贵金属",
+        "SUPID": "ALPG600001"
+      },
+      {
+        "PRODID": "ALPG600003",
+        "PRODNAME": "实物贵金属",
+        "SUPID": "ALPG600001"
+      },
+      {
+        "PRODID": "ALPG700001",
+        "PRODNAME": "个人理财",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPGB00001",
+        "PRODNAME": "银行卡",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPGB00002",
+        "PRODNAME": "个人借记卡",
+        "SUPID": "ALPGB00001"
+      },
+      {
+        "PRODID": "ALPGB00005",
+        "PRODNAME": "个人信用卡",
+        "SUPID": "ALPGB00001"
+      },
+      {
+        "PRODID": "ALPG00003D",
+        "PRODNAME": "储蓄式国债",
+        "SUPID": "ALPG300001"
+      },
+      {
+        "PRODID": "ALPG300001",
+        "PRODNAME": "国债",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPG300004",
+        "PRODNAME": "记帐式国债",
+        "SUPID": "ALPG300001"
+      },
+      {
+        "PRODID": "ALPG400001",
+        "PRODNAME": "基金",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPG500001",
+        "PRODNAME": "保险",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPG600005",
+        "PRODNAME": "积存金",
+        "SUPID": "ALPG600001"
+      },
+      {
+        "PRODID": "ALPG200001",
+        "PRODNAME": "个人存款",
+        "SUPID": ""
+      },
+      {
+        "PRODID": "ALPG200002",
+        "PRODNAME": "活期存款",
+        "SUPID": "ALPG200001"
+      },
+      {
+        "PRODID": "ALPG200003",
+        "PRODNAME": "定期存款",
+        "SUPID": "ALPG200001"
+      },
+      {
+        "PRODID": "ALPG600001",
+        "PRODNAME": "贵金属",
+        "SUPID": ""
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}
+

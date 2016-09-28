@@ -1,0 +1,75 @@
+.main-container .row .col {
+    padding: 0px;
+}
+
+.main-container .row {
+    margin-bottom: 0px;
+}
+
+.fengxian-input-area {
+    height: 550px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 1);
+    /*border: 2px solid black;*/
+}
+
+.fengxian-output-area {
+    height: 550px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.fengxian-item-title {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px dashed #ffffff;
+    background-color: rgb(242, 242, 242);
+    font-size: 20px;
+}
+/*   基金风险测评主页     */
+#jijinceping-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+}
+#jijinceping-manager .bui-widget-view:hover{
+    background-color: #18a698;
+}
+#jijinceping-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+/*    理财风险测评主页            */
+#licaifengxian-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+}
+#licaifengxian-manager .bui-widget-view:hover{
+    background-color: #18a698;
+}
+#licaifengxian-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+#fengXianCePingMainPage .bui-widget-view{
+    display: table;
+}
+#fengXianCePingMainPage .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#fengXianCePingMainPage .bui-pbox-img-content{
+    padding: 7px;
+}
+#fengXianCePingMainPage .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#fengXianCePingMainPage .common-content-container{
+    height: 88%;
+}

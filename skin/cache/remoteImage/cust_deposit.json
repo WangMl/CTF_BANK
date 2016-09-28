@@ -1,0 +1,19 @@
+{
+  "b": {
+    "ACTIV_BAL": "1",
+    "ADVISE_DPST": "2",
+    "CUST_ID": "100422531",
+    "DATA_DT": "2015-10-31 00:00:00.0",
+    "FCURR_DPST_BAL": "3",
+    "FIX_M3_BAL": "4",
+    "FIX_M6_BAL": "5",
+    "FIX_Y1_BAL": "6",
+    "FIX_Y2_BAL": "7",
+    "FIX_Y3_BAL": "8",
+    "FIX_Y5_BAL": "9"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

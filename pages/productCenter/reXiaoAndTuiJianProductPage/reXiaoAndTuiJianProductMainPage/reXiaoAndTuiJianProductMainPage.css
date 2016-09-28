@@ -1,0 +1,144 @@
+#reXiaoAndTuiJian .row .col {
+
+    padding: 0;
+}
+
+.product-center1 .bui-tab-root {   /*//大背景*/
+    width: 390px;
+    height: 565px;
+    background-color: #fbfbfb;
+}
+.product-center1 .bui-tab-container {
+    padding-top: 1px;
+}
+.product-center1 .bui-tab-item {   /*//单个背景*/
+    width: 360px;
+    height: 50px;
+    margin: auto;
+    margin-top: 8px;
+}
+.product-center1 .bui-tab-item-img-content {   /*//左边图片所占区域root*/
+    display: inline-block;
+    width: 103px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.product-center1 .bui-tab-item-img {    /*//左边图片所占区域大小*/
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.product-center1 .bui-tab-item-title {    /*//右边文字所占区域oot*/
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_jijinchanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_xinyongkachanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(3){
+    background-color: #5bbef3;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(3):hover{
+    background-color: #5a9cd2;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(3) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_guozhaichanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(4){
+    background-color: #fda93f;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(4):hover{
+    background-color: #d28736;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(4) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_guozhaichanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(5){
+    background-color: #c866c5;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(5):hover{
+    background-color: #ae57ab;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(5) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_daebaodan.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(6){
+    background-color: #1dc2b2;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(6):hover{
+    background-color: #1d9787;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(6) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_baoxianchanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(7){
+    background-color: #5bbef3;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(7):hover{
+    background-color: #4591bd;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(7) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_guijinshuchanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(8){
+    background-color: #fda93f;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(8):hover{
+    background-color: #ca8832;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(8) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_xintuochanping.png");
+    background-size: 100% 100%;
+}
+
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(9){
+    background-color: #f47a7a;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(9):hover{
+    background-color: #e27272;
+}
+#reXiaoAndTuiJianTab .bui-tab-item:nth-child(9) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_waihui.png");
+    background-size: 100% 100%;
+}
+

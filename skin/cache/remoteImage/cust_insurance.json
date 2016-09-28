@@ -1,0 +1,34 @@
+{
+  "b": {
+    "INSURANCE": [
+      {
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "INSURANCE_DT": "2011-12-30 00:00:00.0",
+        "INSURE_BAL": "300000",
+        "INSURE_PROD_NAME": "人保寿险金鼎富贵两全保险(分红型)(E款)",
+        "INSURE_TERM": "102",
+        "PAY_MODE": "0"
+      },
+      {
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "INSURANCE_DT": "2011-03-07 00:00:00.0",
+        "INSURE_BAL": "3000",
+        "INSURE_PROD_NAME": "人保寿险盛世富贵两全保险(分红型)(A款)",
+        "INSURE_TERM": "102",
+        "PAY_MODE": "1"
+      },
+      {
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "INSURANCE_DT": "2012-01-12 00:00:00.0",
+        "INSURE_BAL": "300000",
+        "INSURE_PROD_NAME": "人保寿险金鼎富贵两全保险(分红型)(E款)",
+        "INSURE_TERM": "102",
+        "PAY_MODE": "0"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

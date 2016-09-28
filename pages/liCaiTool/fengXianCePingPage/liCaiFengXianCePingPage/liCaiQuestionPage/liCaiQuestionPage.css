@@ -1,0 +1,79 @@
+.text-box{
+    text-align:left;
+}
+.text-label{
+    font-size: 25px;
+}
+.next{
+    cursor:pointer;
+    text-align: center;
+    width:100px;
+    height:30px;
+    font-size: 25px;
+    /*background-color: pink;*/
+}
+.exit{
+    cursor:pointer;
+    text-align: center;
+    width:100px;
+    height:30px;
+    font-size: 25px;
+    /*background-color: pink;*/
+}
+
+.pre{
+    cursor:pointer;
+    display: none;
+    text-align: center;
+    width:100px;
+    height:30px;
+    font-size: 25px;
+    /*background-color: pink;*/
+}
+
+.submit{
+    cursor:pointer;
+    display: none;
+    text-align: center;
+    width:100px;
+    height:30px;
+    font-size: 25px;
+    /*background-color: pink;*/
+}
+.question1{
+}
+.question2{
+    display: none;
+}
+.question3{
+    display: none;
+}
+.question4{
+    display: none;
+}
+.question5{
+    display: none;
+}
+.question6{
+    display: none;
+}
+.question7{
+    display: none;
+}
+.question8{
+    display: none;
+}
+.question9{
+    display: none;
+}
+.question10{
+    display: none;
+}
+.question11{
+    display: none;
+
+}
+.common-header-button-wrapper{
+    height: 30px;
+    line-height: 30px;
+}

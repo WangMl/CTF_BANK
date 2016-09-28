@@ -1,0 +1,1042 @@
+{
+  "b": {
+    "PRODUCTLIST": [
+      {
+        "PRODUCTCODE": "001",
+        "PRODUCTNAME": "中国青铜器纪念币（第2组）金银套装"
+      },
+      {
+        "PRODUCTCODE": "002",
+        "PRODUCTNAME": "杭州西湖文化景观纪念币金银币套装"
+      },
+      {
+        "PRODUCTCODE": "003",
+        "PRODUCTNAME": "2015吉祥文化纪念币大全套"
+      },
+      {
+        "PRODUCTCODE": "004",
+        "PRODUCTNAME": "“年年有余”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "005",
+        "PRODUCTNAME": "“瓜瓞绵绵”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "006",
+        "PRODUCTNAME": "“五福拱寿”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "007",
+        "PRODUCTNAME": "2015吉祥文化金币套装"
+      },
+      {
+        "PRODUCTCODE": "008",
+        "PRODUCTNAME": "明心星月"
+      },
+      {
+        "PRODUCTCODE": "009",
+        "PRODUCTNAME": "明心金刚"
+      },
+      {
+        "PRODUCTCODE": "010",
+        "PRODUCTNAME": "觉道金刚"
+      },
+      {
+        "PRODUCTCODE": "011",
+        "PRODUCTNAME": "智成星月"
+      },
+      {
+        "PRODUCTCODE": "012",
+        "PRODUCTNAME": "智成金刚"
+      },
+      {
+        "PRODUCTCODE": "013",
+        "PRODUCTNAME": "2016版熊猫普制金币套装"
+      },
+      {
+        "PRODUCTCODE": "116",
+        "PRODUCTNAME": "2014年熊猫银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "117",
+        "PRODUCTNAME": "2014年熊猫银币10枚套装"
+      },
+      {
+        "PRODUCTCODE": "118",
+        "PRODUCTNAME": "2015年熊猫银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "119",
+        "PRODUCTNAME": "2015年熊猫银币10枚套装"
+      },
+      {
+        "PRODUCTCODE": "122",
+        "PRODUCTNAME": "《开启幸福》猴年银钥匙"
+      },
+      {
+        "PRODUCTCODE": "123",
+        "PRODUCTNAME": "《福猴迎春》猴年银章"
+      },
+      {
+        "PRODUCTCODE": "124",
+        "PRODUCTNAME": "《灵猴献寿》猴年银盘30G"
+      },
+      {
+        "PRODUCTCODE": "125",
+        "PRODUCTNAME": "《灵猴献寿》猴年银盘100G"
+      },
+      {
+        "PRODUCTCODE": "126",
+        "PRODUCTNAME": "《猴年大吉》金信封"
+      },
+      {
+        "PRODUCTCODE": "127",
+        "PRODUCTNAME": "《猴年大吉》银信封"
+      },
+      {
+        "PRODUCTCODE": "128",
+        "PRODUCTNAME": "2016年熊猫银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "129",
+        "PRODUCTNAME": "2016年熊猫银币10枚套装"
+      },
+      {
+        "PRODUCTCODE": "200",
+        "PRODUCTNAME": "美泰乐投资金条1公斤"
+      },
+      {
+        "PRODUCTCODE": "201",
+        "PRODUCTNAME": "投资金条1盎司"
+      },
+      {
+        "PRODUCTCODE": "202",
+        "PRODUCTNAME": "投资金条2盎司"
+      },
+      {
+        "PRODUCTCODE": "205",
+        "PRODUCTNAME": "投资金条5盎司"
+      },
+      {
+        "PRODUCTCODE": "210",
+        "PRODUCTNAME": "投资金条10盎司"
+      },
+      {
+        "PRODUCTCODE": "310",
+        "PRODUCTNAME": "《阿弥陀佛》金雕银唐卡"
+      },
+      {
+        "PRODUCTCODE": "311",
+        "PRODUCTNAME": "《火猴迎新》金邮票1.5克四方联"
+      },
+      {
+        "PRODUCTCODE": "312",
+        "PRODUCTNAME": "《火猴迎新》金邮票5克小版票"
+      },
+      {
+        "PRODUCTCODE": "313",
+        "PRODUCTNAME": "《火猴迎新》银邮票大全套"
+      },
+      {
+        "PRODUCTCODE": "402",
+        "PRODUCTNAME": "中国佛教圣地（普陀山）金银纪念币套装"
+      },
+      {
+        "PRODUCTCODE": "403",
+        "PRODUCTNAME": "中国佛教圣地（普陀山）1公斤银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "404",
+        "PRODUCTNAME": "中国青铜器金银纪念币（第2组）套装"
+      },
+      {
+        "PRODUCTCODE": "407",
+        "PRODUCTNAME": "2013版熊猫普制金币1盎司单枚装（自营）"
+      },
+      {
+        "PRODUCTCODE": "408",
+        "PRODUCTNAME": "2013版熊猫普制金币1/2盎司单枚装（自营）"
+      },
+      {
+        "PRODUCTCODE": "409",
+        "PRODUCTNAME": "2013版熊猫普制金币1/10盎司单枚装（自营）"
+      },
+      {
+        "PRODUCTCODE": "411",
+        "PRODUCTNAME": "2014版熊猫普制金币1/2盎司单枚装（自营）"
+      },
+      {
+        "PRODUCTCODE": "412",
+        "PRODUCTNAME": "2014版熊猫普制金币1/4盎司单枚装（自营）"
+      },
+      {
+        "PRODUCTCODE": "416",
+        "PRODUCTNAME": "2014熊猫精制金币5盎司单枚装"
+      },
+      {
+        "PRODUCTCODE": "417",
+        "PRODUCTNAME": "2014熊猫精制金币1公斤单枚装"
+      },
+      {
+        "PRODUCTCODE": "418",
+        "PRODUCTNAME": "2014熊猫精制银币5盎司单枚装"
+      },
+      {
+        "PRODUCTCODE": "419",
+        "PRODUCTNAME": "2014熊猫精制银币1公斤单枚装"
+      },
+      {
+        "PRODUCTCODE": "420",
+        "PRODUCTNAME": "中国佛教圣地（峨眉山）金银纪念币套装"
+      },
+      {
+        "PRODUCTCODE": "421",
+        "PRODUCTNAME": "中国佛教圣地（峨眉山）1公斤银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "425",
+        "PRODUCTNAME": "中国青铜器纪念币（第3组）5盎司金币"
+      },
+      {
+        "PRODUCTCODE": "426",
+        "PRODUCTNAME": "中国青铜器纪念币（第3组）金银币套装"
+      },
+      {
+        "PRODUCTCODE": "428",
+        "PRODUCTNAME": "中国青铜器纪念币（第3组）1公斤银币"
+      },
+      {
+        "PRODUCTCODE": "429",
+        "PRODUCTNAME": "杭州西湖文化景观纪念币5盎司金币"
+      },
+      {
+        "PRODUCTCODE": "430",
+        "PRODUCTNAME": "杭州西湖文化景观纪念币1公斤银币"
+      },
+      {
+        "PRODUCTCODE": "431",
+        "PRODUCTNAME": "杭州西湖文化景观纪念币金银币套装"
+      },
+      {
+        "PRODUCTCODE": "432",
+        "PRODUCTNAME": "杭州西湖文化景观纪念币4枚银币套装"
+      },
+      {
+        "PRODUCTCODE": "433",
+        "PRODUCTNAME": "2015中国乙未（羊）年本色金银币套装"
+      },
+      {
+        "PRODUCTCODE": "434",
+        "PRODUCTNAME": "2015中国乙未（羊）年彩色金银币套装"
+      },
+      {
+        "PRODUCTCODE": "435",
+        "PRODUCTNAME": "2015中国乙未（羊）年1公斤银币"
+      },
+      {
+        "PRODUCTCODE": "436",
+        "PRODUCTNAME": "2015中国乙未（羊）年1盎司本色银币"
+      },
+      {
+        "PRODUCTCODE": "437",
+        "PRODUCTNAME": "2015版熊猫普制金币五枚套装（自营）"
+      },
+      {
+        "PRODUCTCODE": "438",
+        "PRODUCTNAME": "2015吉祥文化金币套装"
+      },
+      {
+        "PRODUCTCODE": "439",
+        "PRODUCTNAME": "2015吉祥文化银币套装"
+      },
+      {
+        "PRODUCTCODE": "440",
+        "PRODUCTNAME": "“并蒂同心”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "441",
+        "PRODUCTNAME": "“年年有余”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "442",
+        "PRODUCTNAME": "“瓜瓞绵绵”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "443",
+        "PRODUCTNAME": "“五福拱寿”金银币套装"
+      },
+      {
+        "PRODUCTCODE": "448",
+        "PRODUCTNAME": "中国佛教圣地（九华山）金银纪念币套装"
+      },
+      {
+        "PRODUCTCODE": "451",
+        "PRODUCTNAME": "中国人民抗日战争暨世界反法西斯战争胜利70周年金银币套装"
+      },
+      {
+        "PRODUCTCODE": "452",
+        "PRODUCTNAME": "中国人民抗日战争暨世界反法西斯战争胜利70周年5盎司银币"
+      },
+      {
+        "PRODUCTCODE": "453",
+        "PRODUCTNAME": "中国人民抗日战争暨世界反法西斯战争胜利70周年1盎司银币"
+      },
+      {
+        "PRODUCTCODE": "454",
+        "PRODUCTNAME": "明心星月"
+      },
+      {
+        "PRODUCTCODE": "455",
+        "PRODUCTNAME": "明心金刚"
+      },
+      {
+        "PRODUCTCODE": "456",
+        "PRODUCTNAME": "觉道金刚"
+      },
+      {
+        "PRODUCTCODE": "457",
+        "PRODUCTNAME": "智成星月"
+      },
+      {
+        "PRODUCTCODE": "458",
+        "PRODUCTNAME": "智成金刚"
+      },
+      {
+        "PRODUCTCODE": "459",
+        "PRODUCTNAME": "2016丙申（猴）年扇形金银币套装"
+      },
+      {
+        "PRODUCTCODE": "460",
+        "PRODUCTNAME": "2016丙申（猴）年1盎司扇形银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "461",
+        "PRODUCTNAME": "2016丙申（猴）年梅花形金银币套装"
+      },
+      {
+        "PRODUCTCODE": "462",
+        "PRODUCTNAME": "2016丙申（猴）年1盎司梅花形银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "463",
+        "PRODUCTNAME": "2016丙申（猴）年圆形本色金银币套装"
+      },
+      {
+        "PRODUCTCODE": "464",
+        "PRODUCTNAME": "2016丙申（猴）年1盎司圆形本色银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "465",
+        "PRODUCTNAME": "2016丙申（猴）年圆形彩色金银币套装"
+      },
+      {
+        "PRODUCTCODE": "466",
+        "PRODUCTNAME": "2016丙申（猴）年1盎司圆形彩色银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "467",
+        "PRODUCTNAME": "2016丙申（猴）年1公斤圆形精制银币"
+      },
+      {
+        "PRODUCTCODE": "468",
+        "PRODUCTNAME": "2016丙申（猴）年5盎司长方形精制银币"
+      },
+      {
+        "PRODUCTCODE": "469",
+        "PRODUCTNAME": "2016丙申（猴）年5盎司圆形彩色精制银币"
+      },
+      {
+        "PRODUCTCODE": "470",
+        "PRODUCTNAME": "2015版熊猫普制金币1/20盎司（自营）"
+      },
+      {
+        "PRODUCTCODE": "471",
+        "PRODUCTNAME": "2015版熊猫普制金币1/10盎司（自营）"
+      },
+      {
+        "PRODUCTCODE": "472",
+        "PRODUCTNAME": "2015版熊猫普制金币1/4盎司（自营）"
+      },
+      {
+        "PRODUCTCODE": "473",
+        "PRODUCTNAME": "2015版熊猫普制金币1/2盎司（自营）"
+      },
+      {
+        "PRODUCTCODE": "474",
+        "PRODUCTNAME": "福运绵长超值福礼"
+      },
+      {
+        "PRODUCTCODE": "475",
+        "PRODUCTNAME": "2016年贺岁银质纪念币"
+      },
+      {
+        "PRODUCTCODE": "521",
+        "PRODUCTNAME": "羊年贺岁金条30克"
+      },
+      {
+        "PRODUCTCODE": "522",
+        "PRODUCTNAME": "羊年贺岁金条50克"
+      },
+      {
+        "PRODUCTCODE": "523",
+        "PRODUCTNAME": "羊年贺岁金条100克"
+      },
+      {
+        "PRODUCTCODE": "525",
+        "PRODUCTNAME": "羊年贺岁银条50克"
+      },
+      {
+        "PRODUCTCODE": "526",
+        "PRODUCTNAME": "羊年贺岁银条100克"
+      },
+      {
+        "PRODUCTCODE": "527",
+        "PRODUCTNAME": "羊年贺岁银条200克"
+      },
+      {
+        "PRODUCTCODE": "531",
+        "PRODUCTNAME": "猴年贺岁金条30克"
+      },
+      {
+        "PRODUCTCODE": "532",
+        "PRODUCTNAME": "猴年贺岁金条50克"
+      },
+      {
+        "PRODUCTCODE": "533",
+        "PRODUCTNAME": "猴年贺岁金条100克"
+      },
+      {
+        "PRODUCTCODE": "535",
+        "PRODUCTNAME": "猴年贺岁银条50克"
+      },
+      {
+        "PRODUCTCODE": "536",
+        "PRODUCTNAME": "猴年贺岁银条100克"
+      },
+      {
+        "PRODUCTCODE": "537",
+        "PRODUCTNAME": "猴年贺岁银条200克"
+      },
+      {
+        "PRODUCTCODE": "601",
+        "PRODUCTNAME": "投资金条1盎司"
+      },
+      {
+        "PRODUCTCODE": "602",
+        "PRODUCTNAME": "投资金条2盎司"
+      },
+      {
+        "PRODUCTCODE": "603",
+        "PRODUCTNAME": "投资金条5盎司"
+      },
+      {
+        "PRODUCTCODE": "604",
+        "PRODUCTNAME": "投资金条10盎司"
+      },
+      {
+        "PRODUCTCODE": "605",
+        "PRODUCTNAME": "贺岁金条30克"
+      },
+      {
+        "PRODUCTCODE": "606",
+        "PRODUCTNAME": "贺岁金条50克"
+      },
+      {
+        "PRODUCTCODE": "607",
+        "PRODUCTNAME": "贺岁金条100克"
+      },
+      {
+        "PRODUCTCODE": "608",
+        "PRODUCTNAME": "贺岁银条50克"
+      },
+      {
+        "PRODUCTCODE": "609",
+        "PRODUCTNAME": "贺岁银条100克"
+      },
+      {
+        "PRODUCTCODE": "610",
+        "PRODUCTNAME": "贺岁银条200克"
+      },
+      {
+        "PRODUCTCODE": "611",
+        "PRODUCTNAME": "《阿弥陀佛》金雕银唐卡"
+      },
+      {
+        "PRODUCTCODE": "612",
+        "PRODUCTNAME": "2011年熊猫金币五枚套装"
+      },
+      {
+        "PRODUCTCODE": "613",
+        "PRODUCTNAME": "2012年熊猫金币五枚套装"
+      },
+      {
+        "PRODUCTCODE": "614",
+        "PRODUCTNAME": "2013年熊猫金币五枚套装"
+      },
+      {
+        "PRODUCTCODE": "615",
+        "PRODUCTNAME": "2014年熊猫银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "616",
+        "PRODUCTNAME": "2014年熊猫银币10枚套装"
+      },
+      {
+        "PRODUCTCODE": "617",
+        "PRODUCTNAME": "十八罗汉金钱10g六枚套装"
+      },
+      {
+        "PRODUCTCODE": "618",
+        "PRODUCTNAME": "十八罗汉金钱30g六枚套装"
+      },
+      {
+        "PRODUCTCODE": "619",
+        "PRODUCTNAME": "十八罗汉银钱18g*6"
+      },
+      {
+        "PRODUCTCODE": "620",
+        "PRODUCTNAME": "十八罗汉银钱30g*6"
+      },
+      {
+        "PRODUCTCODE": "621",
+        "PRODUCTNAME": "十八罗汉银条180g*2"
+      },
+      {
+        "PRODUCTCODE": "622",
+        "PRODUCTNAME": "十八罗汉银条300g*2"
+      },
+      {
+        "PRODUCTCODE": "623",
+        "PRODUCTNAME": "世界五大投资银币"
+      },
+      {
+        "PRODUCTCODE": "624",
+        "PRODUCTNAME": "世界六大投资金币"
+      },
+      {
+        "PRODUCTCODE": "625",
+        "PRODUCTNAME": "镇库银砖"
+      },
+      {
+        "PRODUCTCODE": "626",
+        "PRODUCTNAME": "2015年熊猫银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "627",
+        "PRODUCTNAME": "2015年熊猫银币10枚套装"
+      },
+      {
+        "PRODUCTCODE": "630",
+        "PRODUCTNAME": "念念平安"
+      },
+      {
+        "PRODUCTCODE": "631",
+        "PRODUCTNAME": "白头偕老18g"
+      },
+      {
+        "PRODUCTCODE": "632",
+        "PRODUCTNAME": "白头偕老30g"
+      },
+      {
+        "PRODUCTCODE": "633",
+        "PRODUCTNAME": "白头偕老60g"
+      },
+      {
+        "PRODUCTCODE": "636",
+        "PRODUCTNAME": "平安护身金佛塔（长）"
+      },
+      {
+        "PRODUCTCODE": "637",
+        "PRODUCTNAME": "平安护身金佛塔（短）"
+      },
+      {
+        "PRODUCTCODE": "640",
+        "PRODUCTNAME": "如意长生金"
+      },
+      {
+        "PRODUCTCODE": "643",
+        "PRODUCTNAME": "如意长生银"
+      },
+      {
+        "PRODUCTCODE": "644",
+        "PRODUCTNAME": "鸿运金玫瑰（长串）"
+      },
+      {
+        "PRODUCTCODE": "645",
+        "PRODUCTNAME": "鸿运金玫瑰（短串）"
+      },
+      {
+        "PRODUCTCODE": "646",
+        "PRODUCTNAME": "聚财貔貅（银）"
+      },
+      {
+        "PRODUCTCODE": "650",
+        "PRODUCTNAME": "财源滚滚"
+      },
+      {
+        "PRODUCTCODE": "651",
+        "PRODUCTNAME": "富贵银碗"
+      },
+      {
+        "PRODUCTCODE": "652",
+        "PRODUCTNAME": "富贵银筷"
+      },
+      {
+        "PRODUCTCODE": "653",
+        "PRODUCTNAME": "富贵银勺"
+      },
+      {
+        "PRODUCTCODE": "654",
+        "PRODUCTNAME": "福禄娃"
+      },
+      {
+        "PRODUCTCODE": "661",
+        "PRODUCTNAME": "福丫"
+      },
+      {
+        "PRODUCTCODE": "662",
+        "PRODUCTNAME": "福袋"
+      },
+      {
+        "PRODUCTCODE": "665",
+        "PRODUCTNAME": "中国象棋（32克银）"
+      },
+      {
+        "PRODUCTCODE": "667",
+        "PRODUCTNAME": "四叶草"
+      },
+      {
+        "PRODUCTCODE": "668",
+        "PRODUCTNAME": "公主皇冠"
+      },
+      {
+        "PRODUCTCODE": "669",
+        "PRODUCTNAME": "六字真言手串男"
+      },
+      {
+        "PRODUCTCODE": "670",
+        "PRODUCTNAME": "六子真言手串女"
+      },
+      {
+        "PRODUCTCODE": "671",
+        "PRODUCTNAME": "真爱天使（男）"
+      },
+      {
+        "PRODUCTCODE": "672",
+        "PRODUCTNAME": "真爱天使（女）"
+      },
+      {
+        "PRODUCTCODE": "673",
+        "PRODUCTNAME": "招财貔貅"
+      },
+      {
+        "PRODUCTCODE": "674",
+        "PRODUCTNAME": "招宝葫芦"
+      },
+      {
+        "PRODUCTCODE": "675",
+        "PRODUCTNAME": "十字金刚杵"
+      },
+      {
+        "PRODUCTCODE": "676",
+        "PRODUCTNAME": "萌宝生肖（12生肖之1）"
+      },
+      {
+        "PRODUCTCODE": "677",
+        "PRODUCTNAME": "转运福猴"
+      },
+      {
+        "PRODUCTCODE": "678",
+        "PRODUCTNAME": "灵猴献瑞"
+      },
+      {
+        "PRODUCTCODE": "679",
+        "PRODUCTNAME": "招财进宝金元宝（10克）"
+      },
+      {
+        "PRODUCTCODE": "680",
+        "PRODUCTNAME": "招财进宝金元宝（50克）"
+      },
+      {
+        "PRODUCTCODE": "681",
+        "PRODUCTNAME": "招财进宝金元宝（100克）"
+      },
+      {
+        "PRODUCTCODE": "682",
+        "PRODUCTNAME": "招财进宝银元宝（30克）"
+      },
+      {
+        "PRODUCTCODE": "683",
+        "PRODUCTNAME": "招财进宝银元宝（50克）"
+      },
+      {
+        "PRODUCTCODE": "684",
+        "PRODUCTNAME": "招财进宝银元宝（100克）"
+      },
+      {
+        "PRODUCTCODE": "685",
+        "PRODUCTNAME": "招财进宝银元宝（500克）"
+      },
+      {
+        "PRODUCTCODE": "686",
+        "PRODUCTNAME": "招财进宝银元宝套装"
+      },
+      {
+        "PRODUCTCODE": "687",
+        "PRODUCTNAME": "吉祥门海"
+      },
+      {
+        "PRODUCTCODE": "688",
+        "PRODUCTNAME": "龙凤配"
+      },
+      {
+        "PRODUCTCODE": "689",
+        "PRODUCTNAME": "吉祥如意（30克）"
+      },
+      {
+        "PRODUCTCODE": "690",
+        "PRODUCTNAME": "吉祥如意（100克）"
+      },
+      {
+        "PRODUCTCODE": "691",
+        "PRODUCTNAME": "三星报喜如意"
+      },
+      {
+        "PRODUCTCODE": "692",
+        "PRODUCTNAME": "天作之合金条"
+      },
+      {
+        "PRODUCTCODE": "693",
+        "PRODUCTNAME": "丙申猴年金钞"
+      },
+      {
+        "PRODUCTCODE": "694",
+        "PRODUCTNAME": "杨柳观音"
+      },
+      {
+        "PRODUCTCODE": "695",
+        "PRODUCTNAME": "莲台如来"
+      },
+      {
+        "PRODUCTCODE": "696",
+        "PRODUCTNAME": "清圣酒壶"
+      },
+      {
+        "PRODUCTCODE": "697",
+        "PRODUCTNAME": "Paulfrank大嘴猴"
+      },
+      {
+        "PRODUCTCODE": "702",
+        "PRODUCTNAME": "跃龙门"
+      },
+      {
+        "PRODUCTCODE": "703",
+        "PRODUCTNAME": "念念平安"
+      },
+      {
+        "PRODUCTCODE": "706",
+        "PRODUCTNAME": "平安护身金佛塔（长）"
+      },
+      {
+        "PRODUCTCODE": "707",
+        "PRODUCTNAME": "平安护身金佛塔（短）"
+      },
+      {
+        "PRODUCTCODE": "711",
+        "PRODUCTNAME": "如意长生银"
+      },
+      {
+        "PRODUCTCODE": "713",
+        "PRODUCTNAME": "鸿运金玫瑰（短串）"
+      },
+      {
+        "PRODUCTCODE": "714",
+        "PRODUCTNAME": "节节高（女款）"
+      },
+      {
+        "PRODUCTCODE": "715",
+        "PRODUCTNAME": "节节高（男款）"
+      },
+      {
+        "PRODUCTCODE": "716",
+        "PRODUCTNAME": "聚财貔貅（银）"
+      },
+      {
+        "PRODUCTCODE": "720",
+        "PRODUCTNAME": "关帝圣君（摆件）"
+      },
+      {
+        "PRODUCTCODE": "721",
+        "PRODUCTNAME": "福禄貔貅（摆件）"
+      },
+      {
+        "PRODUCTCODE": "722",
+        "PRODUCTNAME": "鸿运金玫瑰（长串）"
+      },
+      {
+        "PRODUCTCODE": "723",
+        "PRODUCTNAME": "福禄娃"
+      },
+      {
+        "PRODUCTCODE": "724",
+        "PRODUCTNAME": "转运福羊"
+      },
+      {
+        "PRODUCTCODE": "725",
+        "PRODUCTNAME": "喜气洋洋"
+      },
+      {
+        "PRODUCTCODE": "726",
+        "PRODUCTNAME": "财源滚滚"
+      },
+      {
+        "PRODUCTCODE": "727",
+        "PRODUCTNAME": "富贵银碗"
+      },
+      {
+        "PRODUCTCODE": "728",
+        "PRODUCTNAME": "富贵银筷"
+      },
+      {
+        "PRODUCTCODE": "729",
+        "PRODUCTNAME": "富贵银勺"
+      },
+      {
+        "PRODUCTCODE": "734",
+        "PRODUCTNAME": "福袋"
+      },
+      {
+        "PRODUCTCODE": "735",
+        "PRODUCTNAME": "福丫"
+      },
+      {
+        "PRODUCTCODE": "738",
+        "PRODUCTNAME": "中国象棋（32克银）"
+      },
+      {
+        "PRODUCTCODE": "739",
+        "PRODUCTNAME": "公主皇冠"
+      },
+      {
+        "PRODUCTCODE": "740",
+        "PRODUCTNAME": "真爱天使（男）"
+      },
+      {
+        "PRODUCTCODE": "741",
+        "PRODUCTNAME": "真爱天使（女）"
+      },
+      {
+        "PRODUCTCODE": "744",
+        "PRODUCTNAME": "四叶草"
+      },
+      {
+        "PRODUCTCODE": "745",
+        "PRODUCTNAME": "六字真言手串（男）"
+      },
+      {
+        "PRODUCTCODE": "746",
+        "PRODUCTNAME": "六字真言手串（女）"
+      },
+      {
+        "PRODUCTCODE": "747",
+        "PRODUCTNAME": "招财貔貅"
+      },
+      {
+        "PRODUCTCODE": "748",
+        "PRODUCTNAME": "招宝葫芦"
+      },
+      {
+        "PRODUCTCODE": "749",
+        "PRODUCTNAME": "十字金刚杵"
+      },
+      {
+        "PRODUCTCODE": "750",
+        "PRODUCTNAME": "萌宝生肖（子鼠）"
+      },
+      {
+        "PRODUCTCODE": "751",
+        "PRODUCTNAME": "萌宝生肖（丑牛）"
+      },
+      {
+        "PRODUCTCODE": "752",
+        "PRODUCTNAME": "萌宝生肖（寅虎）"
+      },
+      {
+        "PRODUCTCODE": "753",
+        "PRODUCTNAME": "萌宝生肖（卯兔）"
+      },
+      {
+        "PRODUCTCODE": "754",
+        "PRODUCTNAME": "萌宝生肖（辰龙）"
+      },
+      {
+        "PRODUCTCODE": "755",
+        "PRODUCTNAME": "萌宝生肖（巳蛇）"
+      },
+      {
+        "PRODUCTCODE": "756",
+        "PRODUCTNAME": "萌宝生肖（午马）"
+      },
+      {
+        "PRODUCTCODE": "757",
+        "PRODUCTNAME": "萌宝生肖（未羊）"
+      },
+      {
+        "PRODUCTCODE": "758",
+        "PRODUCTNAME": "萌宝生肖（申猴）"
+      },
+      {
+        "PRODUCTCODE": "759",
+        "PRODUCTNAME": "萌宝生肖（酉鸡）"
+      },
+      {
+        "PRODUCTCODE": "760",
+        "PRODUCTNAME": "萌宝生肖（戌狗）"
+      },
+      {
+        "PRODUCTCODE": "761",
+        "PRODUCTNAME": "萌宝生肖（亥猪）"
+      },
+      {
+        "PRODUCTCODE": "762",
+        "PRODUCTNAME": "转运福猴"
+      },
+      {
+        "PRODUCTCODE": "763",
+        "PRODUCTNAME": "灵猴献瑞"
+      },
+      {
+        "PRODUCTCODE": "764",
+        "PRODUCTNAME": "招财进宝金元宝（10克）"
+      },
+      {
+        "PRODUCTCODE": "765",
+        "PRODUCTNAME": "招财进宝金元宝（50克）"
+      },
+      {
+        "PRODUCTCODE": "766",
+        "PRODUCTNAME": "招财进宝金元宝（100克）"
+      },
+      {
+        "PRODUCTCODE": "767",
+        "PRODUCTNAME": "招财进宝银元宝（30克）"
+      },
+      {
+        "PRODUCTCODE": "768",
+        "PRODUCTNAME": "招财进宝银元宝（50克）"
+      },
+      {
+        "PRODUCTCODE": "769",
+        "PRODUCTNAME": "招财进宝银元宝（100克）"
+      },
+      {
+        "PRODUCTCODE": "770",
+        "PRODUCTNAME": "招财进宝银元宝（500克）"
+      },
+      {
+        "PRODUCTCODE": "771",
+        "PRODUCTNAME": "招财进宝银元宝套装"
+      },
+      {
+        "PRODUCTCODE": "772",
+        "PRODUCTNAME": "吉祥门海"
+      },
+      {
+        "PRODUCTCODE": "773",
+        "PRODUCTNAME": "龙凤配"
+      },
+      {
+        "PRODUCTCODE": "774",
+        "PRODUCTNAME": "吉祥如意（30克）"
+      },
+      {
+        "PRODUCTCODE": "775",
+        "PRODUCTNAME": "吉祥如意（100克）"
+      },
+      {
+        "PRODUCTCODE": "776",
+        "PRODUCTNAME": "三星报喜如意"
+      },
+      {
+        "PRODUCTCODE": "777",
+        "PRODUCTNAME": "天作之合金条"
+      },
+      {
+        "PRODUCTCODE": "778",
+        "PRODUCTNAME": "丙申猴年金钞"
+      },
+      {
+        "PRODUCTCODE": "779",
+        "PRODUCTNAME": "杨柳观音"
+      },
+      {
+        "PRODUCTCODE": "780",
+        "PRODUCTNAME": "莲台如来"
+      },
+      {
+        "PRODUCTCODE": "781",
+        "PRODUCTNAME": "清圣酒壶"
+      },
+      {
+        "PRODUCTCODE": "782",
+        "PRODUCTNAME": "Paulfrank大嘴猴"
+      },
+      {
+        "PRODUCTCODE": "804",
+        "PRODUCTNAME": "迪士尼欢庆珍藏册"
+      },
+      {
+        "PRODUCTCODE": "805",
+        "PRODUCTNAME": "金猴送福大银章"
+      },
+      {
+        "PRODUCTCODE": "818",
+        "PRODUCTNAME": "十八罗汉银钱18g*6"
+      },
+      {
+        "PRODUCTCODE": "880",
+        "PRODUCTNAME": "十八罗汉银条180g*2"
+      },
+      {
+        "PRODUCTCODE": "881",
+        "PRODUCTNAME": "《开启幸福》猴年银钥匙"
+      },
+      {
+        "PRODUCTCODE": "882",
+        "PRODUCTNAME": "《福猴迎春》猴年银章"
+      },
+      {
+        "PRODUCTCODE": "883",
+        "PRODUCTNAME": "《灵猴献寿》猴年银盘30G"
+      },
+      {
+        "PRODUCTCODE": "884",
+        "PRODUCTNAME": "《灵猴献寿》猴年银盘100G"
+      },
+      {
+        "PRODUCTCODE": "885",
+        "PRODUCTNAME": "《猴年大吉》金信封"
+      },
+      {
+        "PRODUCTCODE": "886",
+        "PRODUCTNAME": "《猴年大吉》银信封"
+      },
+      {
+        "PRODUCTCODE": "887",
+        "PRODUCTNAME": "2016年熊猫银币单枚装"
+      },
+      {
+        "PRODUCTCODE": "888",
+        "PRODUCTNAME": "2016年熊猫银币10枚套装"
+      },
+      {
+        "PRODUCTCODE": "931",
+        "PRODUCTNAME": "2016版熊猫普制金币套装"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

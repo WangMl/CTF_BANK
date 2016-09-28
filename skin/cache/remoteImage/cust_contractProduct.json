@@ -1,0 +1,41 @@
+{
+  "b": {
+    "CRDT_CRD_COMN": "1",
+    "CRDT_CRD_EXPAND_TERM_SLF": "1",
+    "CRDT_CRD_GLD": "1",
+    "CRDT_CRD_WHTFLD": "1",
+    "CUST_ID": "",
+    "DATA_DT": "1",
+    "DEBIT_CRD_COMN": "1",
+    "DEBIT_CRD_GLD": "1",
+    "DEBIT_CRD_WHTFLD": "1",
+    "DEPOSIT": "1",
+    "DF_SALARY": "1",
+    "EBANK": "1",
+    "FOREX": "1",
+    "FUND": "1",
+    "GH_PAY": "1",
+    "HIBS": "1",
+    "INSURE": "1",
+    "LOAN": "1",
+    "MANAGERMONEY": "1",
+    "MOBILEBANK": "1",
+    "NATLDEBT": "1",
+    "NOTEINFORM": "1",
+    "PAPYGOLD": "1",
+    "PHOENIX": "1",
+    "PHOENIX_E_ACCT": "1",
+    "PHONEBANK": "1",
+    "QUICK_PAY": "1",
+    "SAVEGOLD": "1",
+    "SJJYB": "1",
+    "TRUSTPRD": "1",
+    "WECHATBANK": "1"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}
+
+

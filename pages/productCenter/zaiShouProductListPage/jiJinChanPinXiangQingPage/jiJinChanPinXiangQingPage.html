@@ -1,0 +1,132 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div  style=" border-bottom: 1px dashed #ffffff;
+    background-color: #f2f2f2;">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 push-l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            基&nbsp;金&nbsp;详&nbsp;情
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container" >
+        <div id="jiJinXiangQing" class="common-content-container">
+            <div hui-layout-type="RowLayout" style="overflow-y: auto">
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金代码:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_CD}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金名称:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_NAME}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金状态:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_STATE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金净值:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.UNIT_NET_VAL}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金公司名称:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_COMPANY_CODE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金类型:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_TP}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金转换状态:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_CON_STATE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金默认分红方式:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_ABONUS}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金是否可定投:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_ISDECIDE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">基金起购金额:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.FUND_PURCHASE_AMOUNT}}</div>
+                    </div>
+                </div>
+
+                <!--<div class="input-row" style="margin-left: 15px">-->
+                    <!--<div class="col l5 push-l2 input-wrapper-group ">-->
+                        <!--<label class="label">定投起点金额:</label>-->
+                    <!--</div>-->
+                    <!--<div class="col l6 rightMove">-->
+                        <!--<div>{{accountManagerLog.FUND_DECIDE_AMOUNT}}</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+    <div  style="background-color: #f2f2f2; padding-top: 10px">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l10">
+                    <div class="wenXinTiShi" >温馨提示：以上信息仅供参考，请以产品说明书为准；产品信息更新变动，请及时关注产品公告</div>
+                </div>
+                <div class="col l2 ">
+                    <div class="btn btn-cold" hui-widget-nodeType="cancelBtnNode">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

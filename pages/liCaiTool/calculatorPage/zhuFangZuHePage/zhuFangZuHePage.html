@@ -1,0 +1,209 @@
+<div id="ZhuFangZuHePage" hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights":["0%","100%","0%"]}'>
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openCalculatorMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            住&nbsp;房&nbsp;组&nbsp;合
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12">
+                        <div hui-layout-type='SashLayout' hui-layout-attr='["50%","50%"]' style="overflow-y: auto">
+                            <div id="left">
+                                <div class="common-input-area">
+                                    <div hui-layout-type="RowLayout" class="content">
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">起贷日期：</label>
+                                            </div>
+                                            <div class="col l5">
+                                                <div id="datepicker1" hui-widget-type="btop.hui.DatePicker"
+                                                     hui-widget-attr='{"format" : "yyyy-MM-dd"}'>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">贷款期限：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <input id="qixianSelect" class="input-control" type="number" placeholder="请输入贷款期限" bui-input-rulers='{"required":true}'>
+                                            </div>
+
+                                             <div class="col l1 input-wrapper-group"style="margin-top: 3px;">
+                                                 <label class="label" style="padding-left: 10px">月</label>
+                                             </div>
+                                        </div>
+                                        <div class="input-row">
+                                            <div class="col l3 push-l1 input-wrapper-group">
+                                                <label class="label">还款方式：</label>
+                                            </div>
+                                            <div class="col l5 input-wrapper-group">
+                                                <div id="fangshiSelect" hui-widget-type="btop.bui.Select"></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l4 push-l4">
+                                                <span>商业贷款</span>
+                                            </div>
+                                            <div class="col l4 push-l3">
+                                                <span>公积金贷款</span>
+                                            </div>
+                                            <div class="col l4 push-l2">
+                                                <span>合计</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l12 input-row">
+                                                <div class="col l3 push-l1">
+                                                    <label class="label">贷款金额：</label>
+                                                </div>
+                                                <div class="col l3" style="width: 22%">
+                                                    <!--<input id="benjin1" class="input-control"  placeholder="请输入" bui-input-rulers='{"required":true}'>-->
+                                                    <div id="benjin1" hui-widget-type="btop.hui.Amount"
+                                                         hui-widget-attr='{"decimalLen":"4","maxLength":"20","minus":"false"}' bui-input-rulers='{"required":true}'>
+                                                    </div>
+                                                </div>
+                                                <div class="col l3 " style="width: 22%;margin-left: 20px">
+                                                    <!--<input id="benjin" class="input-control"  placeholder="请输入" bui-input-rulers='{"required":true}'>-->
+                                                    <div id="benjin" hui-widget-type="btop.hui.Amount"
+                                                         hui-widget-attr='{"decimalLen":"4","maxLength":"20","minus":"false"}' bui-input-rulers='{"required":true}'>
+                                                    </div>
+                                                </div>
+                                                <div class="col l3" style="width: 22%;margin-left: 20px">
+                                                    <input type="text" id="daikuanheji" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l12 input-row">
+                                                <div class="col l3 push-l1">
+                                                    <label class="label">利率：</label>
+                                                </div>
+                                                <div class="col l2">
+                                                    <input type="text" id="lixilv1" class="input-control" bui-input-rulers='{"required":true}'>
+                                                </div>
+                                                <div class="col l3" style="padding-left: 40px">
+                                                    <input type="text" id="lixilv2" class="input-control" bui-input-rulers='{"required":true}'>
+                                                </div>
+                                                <div class="col l3 push-l1" >
+                                                    <div id="zidonghuoquBTN" class="btn btn-cold">自动获取</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="margin-top: 30px">
+                                            <div class="col l8 push-l4">
+                                                <div id="compute" class="btn btn-danger">
+                                                    <span>开始计算</span>
+                                                </div>
+                                                <dv id="recount" class="btn btn-danger">
+                                                    <span>重新计算</span>
+                                                </dv>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="right">
+                                <div class="common-output-area">
+                                    <div hui-layout-type="RowLayout">
+                                        <div>
+                                            <div class="col l3 push-l2  left-info">
+                                                <span>商业贷款</span>
+                                            </div>
+                                            <div class="col l3 push-l2  left-info">
+                                                <span>公积金贷款</span>
+                                            </div>
+                                            <div class="col l3 push-l2  left-info">
+                                                <span>合计</span>
+                                            </div>
+                                        </div>
+                                        <div id="xianShi">
+                                            <div class="col l12 input-row">
+                                                <div class="col l3 push-l1">
+                                                    <label class="label">还款金额：</label>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="huankuanjine1" disabled="disabled"
+                                                           class="input-control">
+                                                </div>
+                                                <div class="col l3" >
+                                                    <input type="text" id="huankuanjine2" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="huankuanjineheji" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l12 input-row">
+                                                <div class="col l3 push-l1">
+                                                    <label class="label">累计付息：</label>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="leijifuxi1" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="leijifuxi2" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="leijifuxiheji" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l12 input-row">
+                                                <div class="col l3 push-l1">
+                                                    <label class="label">累计还款：</label>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="leijihuankuan1" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="leijihuankuan2" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                                <div class="col l3">
+                                                    <input type="text" id="leijihuankuanheji" disabled="disabled"
+                                                           class="input-control"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="width: 70%;margin-top: 100px">
+                                            <div class="col l12">
+                                                <span style="font-size: 20px;color: red"><b> 注：此工具仅供参考，成交价均以实际交易汇率为准</b></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottonPanel" hui-layout-type="RowLayout"></div>
+</div>

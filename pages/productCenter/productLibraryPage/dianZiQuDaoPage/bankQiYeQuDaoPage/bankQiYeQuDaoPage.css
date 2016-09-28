@@ -1,0 +1,32 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+#bankQiYeQuDaoPage .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#bankQiYeQuDaoPage .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#bankQiYeQuDaoPage .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_guijinshuchanping.png");
+    background-size: 100% 100%;
+}
+
+
+
+
+#bankQiYeQuDaoPage .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#bankQiYeQuDaoPage .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#bankQiYeQuDaoPage .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/rexiaoproduct_zhihuangjinchanping.png");
+    background-size: 100% 100%;
+}
+

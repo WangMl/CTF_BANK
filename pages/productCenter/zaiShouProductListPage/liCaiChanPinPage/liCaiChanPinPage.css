@@ -1,0 +1,26 @@
+.main-container .row .col{
+    padding: 0px;
+}
+
+.main-container .row{
+    margin: 10px;
+}
+
+.td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    border-top: 1px white solid;
+    background-color: whitesmoke;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px whitesmoke;
+}
+
+.opp-hidden{
+    display: none;
+}
+.opp-show{
+    display: inline-block;
+}

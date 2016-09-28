@@ -1,0 +1,175 @@
+.main-container .row{
+    margin-bottom: 5px;
+}
+
+.main-container .row .col{
+    padding: 2px;
+}
+
+.assisttool-container{   /*  大背景    */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.assisttool-card-container{
+    height: inherit;
+}
+.assisttool-card-item{
+    height: inherit;
+}
+.assisttool-card-row{
+    height: 49%;
+}
+.assisttool-card{
+    height: inherit;
+}
+.assistool-card-content{
+    height: 100%;
+}
+.fuZhuTool-input-area{
+    width: 99%;
+    padding-top: 5px;
+    margin: auto;
+    height: inherit;
+}
+
+#LiCaiToolMainPage .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #f47a7a;
+    border-radius: 2px;
+    display: table;
+
+}
+#LiCaiToolMainPage .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#LiCaiToolMainPage .bui-widget-view:hover{
+    background-color: #c36262;
+}
+
+#LiCaiToolMainPage .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+
+
+#lilv-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(150,203,0);
+    border-radius: 2px;
+    display: table;
+}
+#lilv-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#lilv-manager .bui-widget-view:hover{
+    background-color: #719802;
+}
+
+#lilv-manager .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+
+#pinggu-center .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(253,169,63);
+    border-radius: 2px;
+    display: table;
+}
+#pinggu-center .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#pinggu-center .bui-widget-view:hover{
+    background-color: #d08c37;
+}
+
+#pinggu-center .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+
+#like-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #4d92e0;
+    border-radius: 2px;
+    display: table;
+}
+#like-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#like-manager .bui-widget-view:hover{
+    /*background-color: #3c6fa9;*/
+}
+
+#like-manager .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+
+
+#jisuanqi-product .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+    display: table;
+}
+#jisuanqi-product .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#jisuanqi-product .bui-widget-view:hover{
+    background-color: #18a698;
+}
+
+
+#jisuanqi-product .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+
+#fenxi-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #5bbef3;
+    border-radius: 2px;
+    display: table;
+}
+#fenxi-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#fenxi-manager .bui-widget-view:hover{
+    background-color: #4692ba;
+}
+
+#fenxi-manager .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+
+#bijiao-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #f47a7a;
+    border-radius: 2px;
+    display: table;
+}
+#bijiao-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#bijiao-manager .bui-widget-view:hover{
+    background-color: #c36262;
+}
+
+#bijiao-manager .bui-pbox-text-content{
+    font-size: 30px;
+    color: white;
+}
+.main-container .bui-pbox-img{
+    height:92px;
+}

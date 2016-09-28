@@ -1,0 +1,145 @@
+{
+  "b": [
+    {
+       "MESSAGEDATA":{
+         "TYPE":"P2",
+         "NOTICE_CODE":"1",
+         "NOTICE_TITLE":"PP1",
+         "BRANCHNO":"beiJin1",
+         "USERID":"duJing",
+         "CREATETIME":"2016-09-21",
+         "IMPORTANCE":"1",
+         "URGENTDEGREE":"1",
+         "NOTICE_CONTENT":"测试1",
+         "ENCLOSURE":"无"
+       }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P2",
+        "NOTICE_CODE":"2",
+        "NOTICE_TITLE":"PP2",
+        "BRANCHNO":"beiJin2",
+        "USERID":"du",
+        "CREATETIME":"2016-09-22",
+        "IMPORTANCE":"2",
+        "URGENTDEGREE":"2",
+        "NOTICE_CONTENT":"测试2",
+        "ENCLOSURE":"无"
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P7",
+        "HELP_CONTENT":"help me",
+        "BRANCHNO":"170800"
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P7",
+        "HELP_CONTENT":"help you",
+        "BRANCHNO":"170800"
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":" P1",
+        "SubSysNo":"网点子系统",
+        "OrgCode":"170800",
+        "OccurTime":"2016-09-21 18:00:00",
+        "BusTypeId":"业务标识",
+        "BusCode":"123456",
+        "BusName":"业务名称",
+        "QueueNo":"D1001",
+        "Action":"0",
+        "FetchTicketType":"0",
+        "TrxStatus":"0",
+        "CustTypeId":"2121",
+        "CustLevel":"2",
+        "CustId":"111111111",
+        "CustName":"dujing",
+        "CustSex":"0",
+        "CustBirthday":"1990-08-02",
+        "BankRank":"1",
+        "Qytx":"0",
+        "CustTel":"18555555555",
+        "PrintTime":"2016-09-21 21:15:00",
+        "CallTime":"2016-09-21 21:20:00",
+        "BeginTime":"2016-09-21 21:20:00",
+        "EndTime":"2016-09-21 21:30:00",
+        "OrderCode":"555555",
+        "AppValue":"2",
+        "WinNo":"2"
+
+
+
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":" P1",
+        "SubSysNo":"网点子系统",
+        "OrgCode":"170800",
+        "OccurTime":"2016-09-21 19:00:00",
+        "BusTypeId":"业务标识",
+        "BusCode":"654321",
+        "BusName":"业务名称",
+        "QueueNo":"D1002",
+        "Action":"1",
+        "FetchTicketType":"1",
+        "TrxStatus":"1",
+        "CustTypeId":"1212",
+        "CustLevel":"1",
+        "CustId":"22222222",
+        "CustName":"wang",
+        "CustSex":"1",
+        "CustBirthday":"1991-05-02",
+        "BankRank":"2",
+        "Qytx":"1",
+        "CustTel":"18666666666",
+        "PrintTime":"2016-09-22 21:15:00",
+        "CallTime":"2016-09-21 22:20:00",
+        "BeginTime":"2016-09-21 22:20:00",
+        "EndTime":"2016-09-21 22:30:00",
+        "OrderCode":"66666666",
+        "AppValue":"1",
+        "WinNo":"3"
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P3",
+        "MESSTYPE":"1",
+        "BRCODE":"170800",
+        "SERIALNO":"销售线索ID",
+        "MESSAGE":"通知内容1"
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P5",
+        "TITLE":"标题1",
+        "MESSAGE":"通知内容1",
+        "BRCODE":"170800",
+        "OWNERCODE":"00003959",
+        "CUSTCODE":"111111111"
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P5",
+        "TITLE":"标题2",
+        "MESSAGE":"通知内容2",
+        "BRCODE":"170800",
+        "OWNERCODE":"00005401",
+        "CUSTCODE":"000000000"
+
+      }
+    },{
+      "MESSAGEDATA":{
+        "TYPE":"P3",
+        "MESSTYPE":"1",
+        "BRCODE":"170800",
+        "SERIALNO":"销售线索ID",
+        "MESSAGE":"通知内容1"
+      }
+    }
+  ],
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

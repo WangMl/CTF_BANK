@@ -1,0 +1,44 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_guijinshuchanping.png");
+    background-size: 100% 100%;
+}
+
+
+
+
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_licaichanping.png");
+    background-size: 100% 100%;
+}
+
+
+
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(3){
+    background-color: #5bbef3;
+}
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(3):hover{
+    background-color: #4591bd;
+}
+#nongCunJinRongQuDaoPage .bui-tab-item:nth-child(3) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_xintuochanping.png");
+    background-size: 100% 100%;
+}

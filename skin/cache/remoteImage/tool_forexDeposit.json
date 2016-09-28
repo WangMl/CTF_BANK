@@ -1,0 +1,87 @@
+{
+  "b": {
+    "FXDEPOSITLIST": [
+      {
+        "CURR_RATE": "0.0100000",
+        "CURTYPE": "13",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "0.1500000",
+        "ONEYEAR": "0.7000000",
+        "SEVENDAY": "0.0500000",
+        "SIXMONTH": "0.5000000",
+        "THREEMONTH": "0.4000000",
+        "TWOYEAR": "0.7500000"
+      },
+      {
+        "CURR_RATE": "0.0001000",
+        "CURTYPE": "27",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "0.0100000",
+        "ONEYEAR": "0.0100000",
+        "SEVENDAY": "0.0005000",
+        "SIXMONTH": "0.0100000",
+        "THREEMONTH": "0.0100000",
+        "TWOYEAR": "0.0100000"
+      },
+      {
+        "CURR_RATE": "0.2500000",
+        "CURTYPE": "29",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "1.2500000",
+        "ONEYEAR": "1.5000000",
+        "SEVENDAY": "0.3000000",
+        "SIXMONTH": "1.3250000",
+        "THREEMONTH": "1.3125000",
+        "TWOYEAR": "1.5000000"
+      },
+      {
+        "CURR_RATE": "0.0100000",
+        "CURTYPE": "38",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "0.0500000",
+        "ONEYEAR": "0.7000000",
+        "SEVENDAY": "0.0100000",
+        "SIXMONTH": "0.5000000",
+        "THREEMONTH": "0.1000000",
+        "TWOYEAR": "1.0000000"
+      },
+      {
+        "CURR_RATE": "0.0500000",
+        "CURTYPE": "14",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "0.2500000",
+        "ONEYEAR": "0.9000000",
+        "SEVENDAY": "0.0700000",
+        "SIXMONTH": "0.7500000",
+        "THREEMONTH": "0.5000000",
+        "TWOYEAR": "1.0000000"
+      },
+      {
+        "CURR_RATE": "0.0100000",
+        "CURTYPE": "28",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "0.0500000",
+        "ONEYEAR": "0.4000000",
+        "SEVENDAY": "0.0500000",
+        "SIXMONTH": "0.3000000",
+        "THREEMONTH": "0.0500000",
+        "TWOYEAR": "0.4000000"
+      },
+      {
+        "CURR_RATE": "0.1250000",
+        "CURTYPE": "12",
+        "DATA_DT": "2016-06-21 00:00:00.0",
+        "ONEMONTH": "0.2500000",
+        "ONEYEAR": "0.7500000",
+        "SEVENDAY": "0.1750000",
+        "SIXMONTH": "0.6000000",
+        "THREEMONTH": "0.3500000",
+        "TWOYEAR": "1.0000000"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

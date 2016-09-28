@@ -1,0 +1,112 @@
+.main-container .row .col{
+    padding: 0px;
+}
+
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_waihui.png");
+    background-size: 100% 100%;
+}
+
+
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_ebaozhanghu.png");
+    background-size: 100% 100%;
+}
+
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(3){
+    background-color: #5bbef3;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(3):hover{
+    background-color: #4591bd;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(3) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_wangying.png");
+    background-size: 100% 100%;
+}
+
+
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(4){
+    background-color: #fda93f;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(4):hover{
+    background-color: #ca8832;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(4) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_xinyongka.png");
+    background-size: 100% 100%;
+}
+
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(5){
+    background-color: #c866c5;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(5):hover{
+    background-color: #ae57ab;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(5) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_dianhuayinhang.png");
+    background-size: 100% 100%;
+}
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(6){
+    background-color: #1dc2b2;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(6):hover{
+    background-color: #1d9787;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(6) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_guozhai.png");
+    background-size: 100% 100%;
+}
+
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(7){
+    background-color: #5bbef3;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(7):hover{
+    background-color: #4591bd;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(7) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_jijin.png");
+    background-size: 100% 100%;
+}
+
+
+
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(8){
+    background-color: #fda93f;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(8):hover{
+    background-color: #ca8832;
+}
+#pubZhongJianBusinessPage .bui-tab-item:nth-child(8) .bui-tab-item-img{
+    background: url("skin/default/img/clientinfo_waihui.png");
+    background-size: 100% 100%;
+}
+
+

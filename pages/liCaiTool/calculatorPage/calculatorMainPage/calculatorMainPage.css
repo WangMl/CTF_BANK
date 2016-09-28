@@ -1,0 +1,576 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 5px;
+}
+.common-content-container{
+    background-color: transparent;
+
+}#calculator .row{
+     margin-bottom: 15px;
+ }
+
+#calculator .row .col{
+    padding: 0px;
+}
+
+
+.calculator-item{
+    width: 98%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.calculator-item1 {
+    width: 92%;
+    border: 1px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+
+}
+
+.calculator-item2{
+    width: 83%;
+    border: 1px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    margin-right: 0;
+
+}
+
+
+.calculator-cards-container{
+    width: 96% ;
+    margin: auto;
+}
+#ziyou-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(248,150,122);
+    border-radius: 2px;
+}
+
+#ziyou-manager .bui-widget-view:hover{
+    background-color: #ca8832;
+}
+
+#ziyou-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+
+#ziyou-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#zhengcunzhengqu-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(150,203,0);
+    border-radius: 2px;
+    display: table;
+}
+#zhengcunzhengqu-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zhengcunzhengqu-manager .bui-widget-view:hover{
+    background-color: #7ca701;
+}
+
+#zhengcunzhengqu-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#zhengcunzhengqu-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#zhengcunzhengqu-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#lingcunzhengqu-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #fda93f;
+    border-radius: 2px;
+    display: table;
+}
+#lingcunzhengqu-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#lingcunzhengqu-manager .bui-widget-view:hover{
+    background-color: #d28736;
+}
+
+#lingcunzhengqu-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#lingcunzhengqu-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#lingcunzhengqu-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#cunbenquxi-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #5bbef3;
+    border-radius: 2px;
+    display: table;
+}
+#cunbenquxi-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#cunbenquxi-manager .bui-widget-view:hover{
+    background-color: #4591bd;
+}
+
+#cunbenquxi-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#cunbenquxi-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#cunbenquxi-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#zhengcunlingqu-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(200,102,197);
+    border-radius: 2px;
+    display: table;
+}
+#zhengcunlingqu-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zhengcunlingqu-manager .bui-widget-view:hover{
+    background-color: #ae57ab;
+}
+
+#zhengcunlingqu-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#zhengcunlingqu-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#zhengcunlingqu-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#jiaoyuchuxu-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #f47a7a;
+    border-radius: 2px;
+    display: table;
+}
+#jiaoyuchuxu-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#jiaoyuchuxu-manager .bui-widget-view:hover{
+    background-color: #e27272;
+}
+
+#jiaoyuchuxu-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#jiaoyuchuxu-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#jiaoyuchuxu-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#zidongzhuancun-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(248,150,122);
+    border-radius: 2px;
+    display: table;
+}
+#zidongzhuancun-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zidongzhuancun-manager .bui-widget-view:hover{
+    background-color: #e27272;
+}
+
+#zidongzhuancun-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#zidongzhuancun-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#zidongzhuancun-manager .bui-pbox-img{
+    width: 77px;
+    height:77px;
+}
+
+#dinghuoliangbian-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #5bbef3;
+    border-radius: 2px;
+    display: table;
+}
+#dinghuoliangbian-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#dinghuoliangbian-manager .bui-widget-view:hover{
+    background-color: #5a9cd2;
+}
+
+#dinghuoliangbian-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#dinghuoliangbian-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#dinghuoliangbian-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#zuhecunkuan-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(138,200,122);
+    border-radius: 2px;
+    display: table;
+}
+#zuhecunkuan-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zuhecunkuan-manager .bui-widget-view:hover{
+    background-color: #7ca701;
+}
+
+#zuhecunkuan-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#zuhecunkuan-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#zuhecunkuan-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+
+/*    贷款计算器            */
+
+#daikuan--manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(236,176,81);
+    border-radius: 2px;
+    display: table;
+}
+#daikuan--manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#daikuan--manager .bui-widget-view:hover{
+    background-color: #d28736;
+}
+
+#daikuan--manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#daikuan--manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#daikuan--manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+#tiqianhuandai--manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+    display: table;
+}
+#tiqianhuandai--manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#tiqianhuandai--manager .bui-widget-view:hover{
+    background-color: #18a698;
+}
+
+#tiqianhuandai--manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#tiqianhuandai--manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#tiqianhuandai--manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+#daikuanjinE--manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(150,203,0);
+    border-radius: 2px;
+    display: table;
+}
+#daikuanjinE--manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#daikuanjinE--manager .bui-widget-view:hover{
+    background-color: #7ca701;
+}
+
+#daikuanjinE--manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#daikuanjinE--manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#daikuanjinE--manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+#zuhedaikuantiqianhuan--manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(200,102,197);
+    border-radius: 2px;
+    display: table;
+}
+#zuhedaikuantiqianhuan--manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zuhedaikuantiqianhuan--manager .bui-widget-view:hover{
+    background-color: #ae57ab;
+}
+
+#zuhedaikuantiqianhuan--manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#zuhedaikuantiqianhuan--manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#zuhedaikuantiqianhuan--manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+#daikuanqixian--manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(244,122,100);
+    border-radius: 2px;
+    display: table;
+}
+#daikuanqixian--manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#daikuanqixian--manager .bui-widget-view:hover{
+    background-color: #e27272;
+}
+
+#daikuanqixian--manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#daikuanqixian--manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#daikuanqixian--manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+#zhufangzuhe--manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(244,122,122);
+    border-radius: 2px;
+    display: table;
+}
+#zhufangzuhe--manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zhufangzuhe--manager .bui-widget-view:hover{
+    background-color: #e27272;
+}
+
+#zhufangzuhe--manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#zhufangzuhe--manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#zhufangzuhe--manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+/*    计算器      */
+
+#calculator-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+    display: table;
+}
+#calculator-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#calculator-manager .bui-widget-view:hover{
+    background-color: #18a698;
+}
+
+#calculator-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#calculator-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#calculator-manager .bui-pbox-img{
+    width: 77px;
+    height:77px;
+}
+
+
+
+
+/*   4 货币时间价值计算器        */
+#shijianjiazhi-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(41,173,245);
+    border-radius: 2px;
+    display: table;
+}
+#shijianjiazhi-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#shijianjiazhi-manager .bui-widget-view:hover{
+    background-color: #5a9cd2;
+}
+
+#shijianjiazhi-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#shijianjiazhi-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#shijianjiazhi-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+/*  5 外币兑换              */
+#waibiduihuan-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+    display: table;
+}
+#waibiduihuan-manager .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#waibiduihuan-manager .bui-widget-view:hover{
+    background-color: #18a698;
+}
+
+#waibiduihuan-manager .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#waibiduihuan-manager .bui-pbox-img-content{
+    padding: 10px;
+}
+#waibiduihuan-manager .bui-pbox-img{
+    width: 63.25px;
+    height:63.25px;
+}
+
+
+
+#calculatorMainPage .bui-widget-view{
+    display: table;
+}
+#calculatorMainPage .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#calculatorMainPage .bui-pbox-img-content{
+    padding: 7px;
+}
+
+.main-container

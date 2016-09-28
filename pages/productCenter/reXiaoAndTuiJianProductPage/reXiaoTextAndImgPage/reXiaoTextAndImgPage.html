@@ -1,0 +1,60 @@
+<div hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights":["0%","100%","0%"]}'>
+    <div></div>
+    <div class="main-container" id="ReXiaoPage">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openProductCenterMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            {{productRecommendInfo.PRODUCTNAME}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12" hui-layout-type="SashLayout" hui-layout-attr='["35%","65%"]'>
+
+                        <div id="leftArea">
+                            <div class="TextAndImage-input-area" style="overflow-y: auto">
+                                <div class="top-item" style="margin-bottom: 15px">
+                                    <div>
+                                        {{productRecommendInfo.PRODUCTNAME}}
+                                    </div>
+                                </div>
+                                <div hui-layout-type="RowLayout" style=" width: 90%; margin: auto">
+                                    <div>
+                                        <div class="col l12">
+                                            {{productRecommendInfo.TEXTDATA}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="rightArea">
+                            <div hui-layout-type="RowLayout">
+                                <div class="TextAndImage-output-area">
+                                    <div class="col l12" style="margin-top: 10px">
+                                        <div class="DetailsTextAndImage">
+                                            <img style="height: 530px;width: 97%;" id="reXiaoFile">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottonPanel" hui-layout-type="RowLayout"></div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "b": {
+    "CONPANYLIST": [
+      {
+        "INSUREDCORPNAME": "长城人寿保险股份有限公司"
+      },
+      {
+        "INSUREDCORPNAME": "华泰人寿保险股份有限公司"
+      },
+      {
+        "INSUREDCORPNAME": "平安养老保险股份有限公司"
+      },
+      {
+        "INSUREDCORPNAME": "中国人民人寿保险股份有限公司"
+      },
+      {
+        "INSUREDCORPNAME": "中国人寿保险股份有限公司"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

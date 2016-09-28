@@ -1,0 +1,61 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+#liLvTab .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#liLvTab .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#liLvTab .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/assisttool_bijiaoqi.png");
+    background-size: 100% 100%;
+}
+
+#liLvTab .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#liLvTab .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#liLvTab .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/assisttool_cainixihuan.png");
+    background-size: 100% 100%;
+}
+
+#liLvTab .bui-tab-item:nth-child(3){
+    background-color: #5bbef3;
+}
+#liLvTab .bui-tab-item:nth-child(3):hover{
+    background-color: #5a9cd2;
+}
+#liLvTab .bui-tab-item:nth-child(3) .bui-tab-item-img{
+    background: url("skin/default/img/assisttool_fengxianceping.png");
+    background-size: 100% 100%;
+}
+
+#liLvTab .bui-tab-item:nth-child(4){
+    background-color: #fda93f;
+}
+#liLvTab .bui-tab-item:nth-child(4):hover{
+    background-color: #d28736;
+}
+#liLvTab .bui-tab-item:nth-child(4) .bui-tab-item-img{
+    background: url("skin/default/img/assisttool_goumailifenxi.png");
+    background-size: 100% 100%;
+}
+
+#liLvTab .product-center .bui-tab-item-title {
+    width: 270px;
+    height: 75px;
+    line-height: 75px;
+    text-align: left;
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+}

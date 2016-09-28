@@ -1,0 +1,20 @@
+{
+  "b": {
+    "DATADATE": "20160701",
+    "FUND_ABONUS": "1",
+    "FUND_CD": "202004",
+    "FUND_COMPANY_CODE": "01",
+    "FUND_CON_STATE": "0",
+    "FUND_DECIDE_AMOUNT": "",
+    "FUND_ISDECIDE": "0",
+    "FUND_NAME": "南方绩优（后）",
+    "FUND_PURCHASE_AMOUNT": "1000.00",
+    "FUND_STATE": "0",
+    "FUND_TP": "01",
+    "UNIT_NET_VAL": "1.5997"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

@@ -1,0 +1,17 @@
+.main-container .row .col{
+    padding: 3px;
+}
+.main-container .row{
+    margin-bottom: 30px;
+}
+.rightMove{
+    padding-left: 100px;
+}
+.Rightmove{
+    padding-left: 20px;
+}
+
+.labelFontSize{
+    font-size: 20px;
+
+}

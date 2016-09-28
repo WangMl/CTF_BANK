@@ -1,0 +1,307 @@
+{
+  "b": {
+    "CurList": [
+      {
+        "CURTYPE": "JPY",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "5616.400000",
+        "MIDDLEPRICE": "5638.900000",
+        "RELEASETIME": "142343",
+        "SELLPRICE": "5661.500000",
+        "SUPUPRICE": "5435.900000"
+      },
+      {
+        "CURTYPE": "HKD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "84.010000",
+        "MIDDLEPRICE": "84.170000",
+        "RELEASETIME": "142121",
+        "SELLPRICE": "84.340000",
+        "SUPUPRICE": "83.330000"
+      },
+      {
+        "CURTYPE": "CAD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "453.110000",
+        "MIDDLEPRICE": "454.930000",
+        "RELEASETIME": "93301",
+        "SELLPRICE": "456.750000",
+        "SUPUPRICE": "438.550000"
+      },
+      {
+        "CURTYPE": "AUD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "454.290000",
+        "MIDDLEPRICE": "456.120000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "457.940000",
+        "SUPUPRICE": "439.690000"
+      },
+      {
+        "CURTYPE": "AUD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "451.780000",
+        "MIDDLEPRICE": "453.590000",
+        "RELEASETIME": "142343",
+        "SELLPRICE": "455.410000",
+        "SUPUPRICE": "437.260000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.630000",
+        "MIDDLEPRICE": "657.950000",
+        "RELEASETIME": "142121",
+        "SELLPRICE": "659.270000",
+        "SUPUPRICE": "651.370000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.630000",
+        "MIDDLEPRICE": "657.950000",
+        "RELEASETIME": "142343",
+        "SELLPRICE": "659.270000",
+        "SUPUPRICE": "651.370000"
+      },
+      {
+        "CURTYPE": "HKD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "83.980000",
+        "MIDDLEPRICE": "84.150000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "84.320000",
+        "SUPUPRICE": "83.310000"
+      },
+      {
+        "CURTYPE": "JPY",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "5590.700000",
+        "MIDDLEPRICE": "5613.100000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "5635.600000",
+        "SUPUPRICE": "5411.000000"
+      },
+      {
+        "CURTYPE": "EUR",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "712.660000",
+        "MIDDLEPRICE": "715.520000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "718.380000",
+        "SUPUPRICE": "689.760000"
+      },
+      {
+        "CURTYPE": "CAD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "451.250000",
+        "MIDDLEPRICE": "453.060000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "454.880000",
+        "SUPUPRICE": "436.750000"
+      },
+      {
+        "CURTYPE": "CAD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "453.030000",
+        "MIDDLEPRICE": "454.850000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "456.670000",
+        "SUPUPRICE": "438.470000"
+      },
+      {
+        "CURTYPE": "AUD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "451.570000",
+        "MIDDLEPRICE": "453.390000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "455.200000",
+        "SUPUPRICE": "437.060000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.510000",
+        "MIDDLEPRICE": "657.830000",
+        "RELEASETIME": "93301",
+        "SELLPRICE": "659.150000",
+        "SUPUPRICE": "651.250000"
+      },
+      {
+        "CURTYPE": "GBP",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "928.180000",
+        "MIDDLEPRICE": "931.910000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "935.630000",
+        "SUPUPRICE": "898.360000"
+      },
+      {
+        "CURTYPE": "HKD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "83.980000",
+        "MIDDLEPRICE": "84.140000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "84.310000",
+        "SUPUPRICE": "83.300000"
+      },
+      {
+        "CURTYPE": "HKD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "84.070000",
+        "MIDDLEPRICE": "84.230000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "84.400000",
+        "SUPUPRICE": "83.390000"
+      },
+      {
+        "CURTYPE": "JPY",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "5601.000000",
+        "MIDDLEPRICE": "5623.500000",
+        "RELEASETIME": "142121",
+        "SELLPRICE": "5646.000000",
+        "SUPUPRICE": "5421.100000"
+      },
+      {
+        "CURTYPE": "EUR",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "714.360000",
+        "MIDDLEPRICE": "717.230000",
+        "RELEASETIME": "142121",
+        "SELLPRICE": "720.100000",
+        "SUPUPRICE": "691.410000"
+      },
+      {
+        "CURTYPE": "CAD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "451.690000",
+        "MIDDLEPRICE": "453.510000",
+        "RELEASETIME": "142121",
+        "SELLPRICE": "455.320000",
+        "SUPUPRICE": "437.180000"
+      },
+      {
+        "CURTYPE": "AUD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "452.820000",
+        "MIDDLEPRICE": "454.640000",
+        "RELEASETIME": "142121",
+        "SELLPRICE": "456.460000",
+        "SUPUPRICE": "438.280000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.580000",
+        "MIDDLEPRICE": "657.900000",
+        "RELEASETIME": "93546",
+        "SELLPRICE": "659.220000",
+        "SUPUPRICE": "651.320000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.570000",
+        "MIDDLEPRICE": "657.890000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "659.210000",
+        "SUPUPRICE": "651.310000"
+      },
+      {
+        "CURTYPE": "GBP",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "930.410000",
+        "MIDDLEPRICE": "934.140000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "937.880000",
+        "SUPUPRICE": "900.510000"
+      },
+      {
+        "CURTYPE": "JPY",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "5620.600000",
+        "MIDDLEPRICE": "5643.200000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "5665.800000",
+        "SUPUPRICE": "5440.000000"
+      },
+      {
+        "CURTYPE": "JPY",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "5582.800000",
+        "MIDDLEPRICE": "5605.300000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "5627.700000",
+        "SUPUPRICE": "5403.500000"
+      },
+      {
+        "CURTYPE": "EUR",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "715.270000",
+        "MIDDLEPRICE": "718.140000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "721.010000",
+        "SUPUPRICE": "692.290000"
+      },
+      {
+        "CURTYPE": "CAD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "453.280000",
+        "MIDDLEPRICE": "455.100000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "456.920000",
+        "SUPUPRICE": "438.710000"
+      },
+      {
+        "CURTYPE": "AUD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "454.690000",
+        "MIDDLEPRICE": "456.510000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "458.340000",
+        "SUPUPRICE": "440.080000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.480000",
+        "MIDDLEPRICE": "657.800000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "659.120000",
+        "SUPUPRICE": "651.220000"
+      },
+      {
+        "CURTYPE": "USD",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "656.620000",
+        "MIDDLEPRICE": "657.940000",
+        "RELEASETIME": "153459",
+        "SELLPRICE": "659.260000",
+        "SUPUPRICE": "651.360000"
+      },
+      {
+        "CURTYPE": "GBP",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "929.550000",
+        "MIDDLEPRICE": "933.280000",
+        "RELEASETIME": "93151",
+        "SELLPRICE": "937.020000",
+        "SUPUPRICE": "899.680000"
+      },
+      {
+        "CURTYPE": "EUR",
+        "DATA_DT": "2016-01-21 00:00:00.0",
+        "HUPUPRICE": "712.560000",
+        "MIDDLEPRICE": "715.420000",
+        "RELEASETIME": "84146",
+        "SELLPRICE": "718.280000",
+        "SUPUPRICE": "689.670000"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

@@ -1,0 +1,357 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div style=" border-bottom: 1px dashed #ffffff;
+    background-color: #f2f2f2;">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 push-l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            <div class="qianYueName"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div id="cunkuan" hui-layout-type="RowLayout" class="col l12 cards-panel-container" style="overflow-y: auto ">
+            <table id="cunkuanxiangqing" class="table table-bordered productlist-table">
+            </table>
+            <!--<div>
+                <div class="col l12">
+                    <div id='cunkuanapp'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='cunkuan-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件"/>
+                    </template>
+                    <template id='cunkuan-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='cunkuan-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>活期</th>
+                                <th>三个月定期</th>
+                                <th>半年定期</th>
+                                <th>一年定期</th>
+                                <th>二年定期</th>
+                                <th>三年定期</th>
+                                <th>五年定期</th>
+                                <th>通知存款</th>
+                                <th>外币</th>
+
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.ACTIV_BAL}}</td>
+                                <td>{{item.FIX_M3_BAL}}</td>
+                                <td>{{item.FIX_M6_BAL}}</td>
+                                <td>{{item.FIX_Y1_BAL}}</td>
+                                <td>{{item.FIX_Y2_BAL}}</td>
+                                <td>{{item.FIX_Y3_BAL}}</td>
+                                <td>{{item.FIX_Y5_BAL}}</td>
+                                <td>{{item.ADVISE_DPST}}</td>
+                                <td>{{item.FCURR_DPST_BAL}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>-->
+        </div>
+        <div id="daikuan" hui-layout-type="RowLayout" class="col l12 cards-panel-container" style="overflow-y: auto;overflow-x: hidden">
+            <table id="daikuanxiangqing" class="table table-bordered productlist-table">
+            </table>
+        </div>
+        <div id="jijin" hui-layout-type="RowLayout" class="col l12 cards-panel-container">
+            <div>
+                <div class="col l12">
+                    <div id='app'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='jinjin-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件" bui-disable-focus='true'/>
+                    </template>
+                    <template id='jinjin-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='jinjin-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>基金类型</th>
+                                <th>基金代码</th>
+                                <th>现有份额</th>
+                                <th>当前净值</th>
+                                <th>当前市值</th>
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.FUND_TP}}</td>
+                                <td>{{item.FUND_CD}}</td>
+                                <td>{{item.FUND_SHARE}}</td>
+                                <td>{{item.UNIT_NET_VAL}}</td>
+                                <td>{{item.FUND_BAL}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div id="guozhai" hui-layout-type="RowLayout" class="col l12 cards-panel-container">
+            <div>
+                <div class="col l12">
+                    <div id='appguozhai'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='guozhai-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件" bui-disable-focus='true'/>
+                    </template>
+                    <template id='guozhai-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='guozhai-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>国债名称</th>
+                                <th>利率</th>
+                                <th>购买日期</th>
+                                <th>期限</th>
+                                <th>持有金额</th>
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.NATION_DEBT_NAME}}</td>
+                                <td>{{item.SELL_RATE}}</td>
+                                <td>{{item.BUY_DT}}</td>
+                                <td>{{item.NATION_DEBT_TREM}}</td>
+                                <td>{{item.BUY_AMT}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div id="baoxian" hui-layout-type="RowLayout" class="col l12 cards-panel-container">
+            <div>
+                <div class="col l12">
+                    <div id='appbaoxian'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='baoxian-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件" bui-disable-focus='true'/>
+                    </template>
+                    <template id='baoxian-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='baoxian-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>保险产品名称</th>
+                                <th>投保金额</th>
+                                <th>缴费方式</th>
+                                <th>期限</th>
+                                <th>投保日期</th>
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.INSURE_PROD_NAME}}</td>
+                                <td>{{item.INSURE_BAL}}</td>
+                                <td>{{item.PAY_MODE}}</td>
+                                <td>{{item.INSURE_TERM}}</td>
+                                <td>{{item.INSURANCE_DT}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div id="xintuo" hui-layout-type="RowLayout" class="col l12 cards-panel-container">
+            <div>
+                <div class="col l12">
+                    <div id='appxintuo'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='xintuo-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件" bui-disable-focus='true'/>
+                    </template>
+                    <template id='xintuo-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='xintuo-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>产品名称</th>
+                                <th>购买日期</th>
+                                <th>产品期限</th>
+                                <th>购买金额</th>
+                                <th>收益率</th>
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.PRODUCTNAME}}</td>
+                                <td>{{item.TRUST_DATE}}</td>
+                                <td>{{item.TERM}}</td>
+                                <td>{{item.BUYBAL}}</td>
+                                <td>{{item.INCOMERATE}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div id="fenghuangbao" hui-layout-type="RowLayout" class="col l12 cards-panel-container">
+            <div>
+                <div class="col l12">
+                    <div id='appfenghuang'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='fenghuang-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件" bui-disable-focus='true'/>
+                    </template>
+                    <template id='fenghuang-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='fenghuang-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>基金总份额</th>
+                                <th>基金总金额</th>
+                                <th>基金代码</th>
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.FUND_SUM_SHARE}}</td>
+                                <td>{{item.FUND_SUM_AMT}}</td>
+                                <td>{{item.FUND_CD}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div id="jichunjin" hui-layout-type="RowLayout" class="col l12 cards-panel-container"
+             style="overflow-y: auto;overflow-x: hidden">
+            <table id="jicunjinxiangqing" class="table table-bordered productlist-table">
+            </table>
+            <!--<div>
+                <div class="col l12">
+                    <div id='jicunjinapp'>
+                        <filter-list></filter-list>
+                    </div>
+                    <template id='jicunjin-condition-temp'>
+                        <input type="text" v-model="filterText" class="input-control" placeholder="请输入查询条件"/>
+                    </template>
+                    <template id='jicunjin-filter-list-temp'>
+                        <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                            <div>
+                                <div class="col l3">
+                                    <condition :filter-text.sync="filterText"></condition>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                    <list :items="filteredItems"></list>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template id='jicunjin-list-temp'>
+                        <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                            <tr class="active">
+                                <th>价格</th>
+                                <th>重量</th>
+                                <th>积存金余额</th>
+                            </tr>
+                            <tr v-for="item in items">
+                                <td>{{item.PRC}}</td>
+                                <td>{{item.WGT}}</td>
+                                <td>{{item.ACCMLTGOLD_BAL}}</td>
+                            </tr>
+                        </table>
+                    </template>
+                </div>
+            </div>-->
+
+        </div>
+    </div>
+
+
+    <div style=" border-bottom: 1px dashed #ffffff;
+    background-color: #f2f2f2;">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l12 push-l9" style="margin-top: 7px">
+                    <div class="btn btn-cold" hui-widget-nodeType="cancelBtnNode">关闭</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

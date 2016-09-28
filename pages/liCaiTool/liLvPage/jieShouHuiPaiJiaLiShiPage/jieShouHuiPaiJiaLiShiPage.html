@@ -1,0 +1,86 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div  style=" border-bottom: 1px dashed #ffffff;
+    background-color: #f2f2f2;">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 push-l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            结&nbsp;售&nbsp;汇&nbsp;牌&nbsp;价&nbsp;历&nbsp;史
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="common-content-container" style="height: 100%">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l12"
+                     style="background-color:#fbfbfb;box-shadow: 5px 5px 5px #a2a2a2;"
+                     hui-layout-type="RowLayout">
+                    <div>
+                        <div class="col l12">
+                            <div id='app1'>
+                                <filter-list></filter-list>
+                            </div>
+                            <template id='jieShouHui-condition-temp'>
+                                <input type="text" v-model="filterText" class="input-control" style="display: none;"
+                                       placeholder="请输入过滤条件"/>
+                            </template>
+                            <template id='jieShouHui-filter-list-temp'>
+                                <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                                    <div>
+                                        <div class="col l3">
+                                            <condition :filter-text.sync="filterText"></condition>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                            <list :items="filteredItems"></list>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </template>
+                            <template id='jieShouHui-list-temp'>
+                                <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                                    <tr class="active">
+                                        <th>数据日期</th>
+                                        <th>钞买价</th>
+                                        <th>汇买价</th>
+                                        <th>卖出价</th>
+                                        <th>中间价</th>
+                                        <th>发布时间</th>
+                                        <th>有效日期</th>
+                                    </tr>
+                                    <tr v-for="item in items">
+                                        <td>{{item.DATA_DT}}</td>
+                                        <td>{{item.SUPUPRICE}}</td>
+                                        <td>{{item.HUPUPRICE}}</td>
+                                        <td>{{item.SELLPRICE}}</td>
+                                        <td>{{item.MIDDLEPRICE}}</td>
+                                        <td>{{item.RELEASETIME}}</td>
+                                        <td>{{item.EREFDT}}</td>
+                                    </tr>
+                                </table>
+                            </template>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  style=" border-bottom: 1px dashed #ffffff;
+    background-color: #f2f2f2;">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l10 push-l9" style="margin-top: 7px">
+                    <div class="btn btn-cold" hui-widget-nodeType="cancelBtnNode">关闭</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

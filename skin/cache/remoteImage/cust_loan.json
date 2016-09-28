@@ -1,0 +1,27 @@
+{
+  "b": {
+    "BEPSCRDTLOAN": "0",
+    "COLTRLLIMITLOAN": "0",
+    "COLTRLLOAN": "0",
+    "CONSMCARLOAN": "0",
+    "CRDTLIMITPROD": "0",
+    "CRDTLOAN": "0",
+    "DATA_DT": "2015-10-31 00:00:00.0",
+    "FASTLOAN": "750000",
+    "GUARLIMITLOAN": "0",
+    "GUARLOAN": "0",
+    "IMPAWNLIMITLOAN": "0",
+    "IMPAWNLOAN": "0",
+    "MTGOPERLIMITLOAN": "0",
+    "MTGOPERLOAN": "1000000",
+    "OPERCARLOAN": "0",
+    "SECONDOPERCARLOAN": "0",
+    "SYNCONSMLIMITLOAN": "0",
+    "SYNCONSMLOAN": "0"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}
+

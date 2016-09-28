@@ -1,0 +1,300 @@
+/************************************************************************
+ * 类名  :  ZiCanBussinessPage
+ * 描述  :
+ * 版本  :  v1.0
+ * 作者  :  wangxinlu
+ * 时间  :  2016/4/18
+ ************************************************************************
+ * Copyright @ bankit 2016 . All rights reserved.
+ ************************************************************************/
+///<reference path="../../../../../scripts/libs/lib.d.ts"/>
+///<reference path="../../../../../scripts/btop/btop.hui.d.ts"/>
+///<reference path="../../../../../scripts/libs/jQuery.d.ts"/>
+///<reference path="../../../../../scripts/bns/btop.bui.d.ts"/>
+///<reference path="../../../../common/stackPage/StackPage.ts"/>
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var btop;
+(function (btop) {
+    var bui;
+    (function (bui) {
+        var Page = btop.hui.Page;
+        var WidgetManager = btop.hui.WidgetManager;
+        var PageManager = btop.hui.PageManager;
+        var NongCunJinRongQuDaoPage = (function (_super) {
+            __extends(NongCunJinRongQuDaoPage, _super);
+            function NongCunJinRongQuDaoPage() {
+                _super.apply(this, arguments);
+            }
+            NongCunJinRongQuDaoPage.prototype.initView = function () {
+                //跳详情
+                $('#wdNongCunBusinessStack').on('click', function (e) {
+                    PageManager.to("btop.bui.TextAndTextPage", ziCanData1);
+                });
+                var _this = this;
+                //操作tab切换标签
+                this.tabInstance = WidgetManager.byId('nongCunJinRongQuDaoPage');
+                var titles = ["支付结算业务", "银行卡业务", "代理销售业务（代理类）"];
+                var option = {
+                    titles: titles,
+                    mountId: 'nongCunJinRongQuDaoPage'
+                };
+                this.tabInstance.initData(option);
+                var ziCanData = [
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    }
+                ];
+                //嵌套stackPage
+                PageManager.embedTo('btop.bui.StackPage', 'wdNongCunBusinessStack', { title: '支付结算业务', data: ziCanData });
+                $(this.tabInstance.nodeTypeMap.get('tabItemNode0')).click(function () {
+                    var stackPage = WidgetManager.byId('btop.bui.StackPage');
+                    stackPage.show('支付结算业务', ziCanData);
+                });
+                var ziCanData1 = [
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                ];
+                $(this.tabInstance.nodeTypeMap.get('tabItemNode1')).click(function () {
+                    PageManager.embedTo('btop.bui.StackPage', 'wdNongCunBusinessStack', { title: '银行卡业务', data: ziCanData1 });
+                    var stackPage = WidgetManager.byId('btop.bui.StackPage');
+                    stackPage.show('银行卡业务', ziCanData1);
+                });
+                var ziCanData2 = [
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 5,
+                        money: 1.168,
+                        title: 'AAABAA',
+                        number: 'K14527',
+                        productType: '基金产品',
+                        isAttension: false
+                    },
+                    {
+                        star: 3,
+                        money: 1.167,
+                        title: 'AAAAAA',
+                        number: 'K14527',
+                        productType: '理财产品',
+                        isAttension: true
+                    },
+                ];
+                $(this.tabInstance.nodeTypeMap.get('tabItemNode2')).click(function () {
+                    PageManager.embedTo('btop.bui.StackPage', 'wdNongCunBusinessStack', { title: '代理销售业务（代理类）', data: ziCanData2 });
+                    var stackPage = WidgetManager.byId('btop.bui.StackPage');
+                    stackPage.show('代理销售业务（代理类）', ziCanData2);
+                });
+                //返回产品中心页
+                $(this.nodeTypeMap.get('openProductCenterMainPage')).click(function () {
+                    PageManager.to("btop.bui.ProductCenterMainPage");
+                });
+            };
+            NongCunJinRongQuDaoPage.prototype.destroy = function () {
+                var stackpage = WidgetManager.byId("btop.bui.StackPage");
+                if (stackpage)
+                    stackpage.destroy();
+                _super.prototype.destroy.call(this);
+            };
+            return NongCunJinRongQuDaoPage;
+        })(Page);
+        bui.NongCunJinRongQuDaoPage = NongCunJinRongQuDaoPage;
+    })(bui = btop.bui || (btop.bui = {}));
+})(btop || (btop = {}));
+//# sourceMappingURL=NongCunJinRongQuDaoPage.js.map

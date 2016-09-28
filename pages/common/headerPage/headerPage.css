@@ -1,0 +1,79 @@
+
+#header .row{
+    margin-bottom: 0px;
+}
+#header > div{
+    height: 100%;
+}
+#header .logo{
+    height:100%;
+}
+#header .logo > div{
+    display: table;
+    height:100%;
+}
+#header .logo > div > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+#header .logo > div > div > img{
+    max-width: 95%;
+}
+
+#header .logo-title{
+    height: inherit;
+    display: table;
+}
+#header .logo-title > div{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+}
+#header .logo-title > div > span{
+    padding-left: 15px;
+    border-left: 2px white solid;
+}
+#header .header-box{
+    height: inherit;
+    text-align: center;
+}
+#header .header-box > div{
+    width: 80%;
+    height: inherit;
+}
+#header .header-box > div > div{
+    height: inherit;
+}
+#header .header-box > div > div > div{
+    display: table;
+    height:100%;
+}
+#header .header-box > div > div > div > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+#header .header-box > div > div > div > div > img{
+    max-width: 100%
+}
+.notification{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    z-index: 9999;
+    margin-top: 26px;
+}
+.notification-count{
+    height: 28px;
+    width: 28px;
+    top: 70px;
+    left: 160px;
+    content: '';
+    background-color: #1cc1c2;
+    position: absolute;
+    margin-top: -55px;
+    z-index: 10000;
+    color: white;
+    opacity:0;
+    border-radius: 30px;
+}

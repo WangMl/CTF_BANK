@@ -1,0 +1,42 @@
+{
+  "b": {
+    "NATIONALDEBT": [
+      {
+        "BUY_AMT": "0",
+        "BUY_DT": "2011-04-15 00:00:00.0",
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "NATION_DEBT_NAME": "2011年第二期储蓄国债（电子式）",
+        "NATION_DEBT_TREM": "Y03",
+        "SELL_RATE": "5.43"
+      },
+      {
+        "BUY_AMT": "0",
+        "BUY_DT": "2009-04-11 00:00:00.0",
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "NATION_DEBT_NAME": "2009年第一期储蓄国债（电子式）",
+        "NATION_DEBT_TREM": "Y03",
+        "SELL_RATE": "3.73"
+      },
+      {
+        "BUY_AMT": "0",
+        "BUY_DT": "2010-04-16 00:00:00.0",
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "NATION_DEBT_NAME": "2010年第二期储蓄国债（电子式）",
+        "NATION_DEBT_TREM": "Y03",
+        "SELL_RATE": "3.73"
+      },
+      {
+        "BUY_AMT": "30000",
+        "BUY_DT": "2012-10-10 00:00:00.0",
+        "DATA_DT": "2015-10-31 00:00:00.0",
+        "NATION_DEBT_NAME": "2012年凭证式（三期）国债3年期",
+        "NATION_DEBT_TREM": "03 ",
+        "SELL_RATE": "4.76"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

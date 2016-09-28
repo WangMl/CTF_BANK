@@ -1,0 +1,88 @@
+{
+  "b": {
+    "OPPList": [
+      {
+        "CERTCODE": "412822198312010475",
+        "CERTTYPE": "身份证",
+        "CREATEDT": "2016-03-31",
+        "CUSTID": "CN110820527",
+        "CUSTNAME": "陈庆来",
+        "OPPDESC": "sbG+qcWpyczS+NDQobC98Lfvu8vA7bLGobEyMDE1xOrOyL2huLvI2TE1NMbau/Wx0srQs6HQzcjLw/Gx0sDtssay+sa3tb3G2sjVyscyMDE2xOowNNTCMDXI1Q==",
+        "OPPID": "3248258",
+        "OPPSRC": "理财到期",
+        "OPPSTATUS": "已跟进",
+        "OPPTITLE": "理财到期",
+        "TELEPHONE": "13146998602"
+      },
+      {
+        "CERTCODE": "412822198312010475",
+        "CERTTYPE": "身份证",
+        "CREATEDT": "2016-03-31",
+        "CUSTID": "CN110820527",
+        "CUSTNAME": "陈庆来",
+        "OPPDESC": "sbG+qcWpyczS+NDQobC98Lfvu8vA7bLGobEyMDE1xOrOyL2huLvI2TE1NMbau/Wx0srQs6HQzcjLw/Gx0sDtssay+sa3tb3G2sjVyscyMDE2xOowNNTCMDXI1Q==",
+        "OPPID": "1",
+        "OPPSRC": "理财到期",
+        "OPPSTATUS": "待跟进",
+        "OPPTITLE": "理财到期0",
+        "TELEPHONE": "13146998602"
+      },
+      {
+        "CERTCODE": "412822198312010475",
+        "CERTTYPE": "身份证",
+        "CREATEDT": "2016-03-31",
+        "CUSTID": "CN110820527",
+        "CUSTNAME": "陈庆来",
+        "OPPDESC": "sbG+qcWpyczS+NDQobC98Lfvu8vA7bLGobEyMDE1xOrOyL2huLvI2TE1NMbau/Wx0srQs6HQzcjLw/Gx0sDtssay+sa3tb3G2sjVyscyMDE2xOowNNTCMDXI1Q==",
+        "OPPID": "1",
+        "OPPSRC": "理财到期",
+        "OPPSTATUS": "待跟进",
+        "OPPTITLE": "理财到期1",
+        "TELEPHONE": "13146998602"
+      },
+      {
+        "CERTCODE": "412822198312010475",
+        "CERTTYPE": "身份证",
+        "CREATEDT": "2016-03-31",
+        "CUSTID": "CN110820527",
+        "CUSTNAME": "陈庆来",
+        "OPPDESC": "s8LH7MC0u7nDu9PQt6K587H2v6g=",
+        "OPPID": "2",
+        "OPPSRC": "达标未发卡",
+        "OPPSTATUS": "已跟进",
+        "OPPTITLE": "达标未发卡0",
+        "TELEPHONE": "13146998602"
+      },
+      {
+        "CERTCODE": "412822198312010475",
+        "CERTTYPE": "身份证",
+        "CREATEDT": "2016-03-31",
+        "CUSTID": "CN110820527",
+        "CUSTNAME": "陈庆来",
+        "OPPDESC": "s8LH7MC0u7nDu9PQt6K587H2v6g=",
+        "OPPID": "3",
+        "OPPSRC": "达标未发卡",
+        "OPPSTATUS": "待跟进",
+        "OPPTITLE": "达标未发卡1",
+        "TELEPHONE": "13146998602"
+      },
+      {
+        "CERTCODE": "412822198312010475",
+        "CERTTYPE": "身份证",
+        "CREATEDT": "2016-03-31",
+        "CUSTID": "CN110820527",
+        "CUSTNAME": "陈庆来",
+        "OPPDESC": "s8LH7MC0u7nDu9PQt6K587H2v6g=",
+        "OPPID": "3299085",
+        "OPPSRC": "达标未发卡",
+        "OPPSTATUS": "待跟进",
+        "OPPTITLE": "达标未发卡",
+        "TELEPHONE": "13146998602"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

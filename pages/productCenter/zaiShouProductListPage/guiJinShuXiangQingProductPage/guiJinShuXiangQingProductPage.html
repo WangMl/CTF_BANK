@@ -1,0 +1,48 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div>
+        <div style="background: #f2f2f2;">
+            <div class="commom-head-title" style="text-align: center;width: 875px;height: 48px;">贵金属详情</div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div hui-layout-type="RowLayout" id="guijinshuxq">
+            <div>
+                <div class="col l3 push-l2">产品代码：</div>
+                <div class="col l9 push-l2">{{lobbyManagerLog.PRODUCTCODE}}</div>
+            </div>
+            <div>
+                <div class="col l3 push-l2">产品名称：</div>
+                <div class="col l9 push-l2">{{lobbyManagerLog.PRODUCTNAME}}</div>
+            </div>
+            <div>
+                <div class="col l3 push-l2">克数：</div>
+                <div class="col l9 push-l2">{{lobbyManagerLog.GRAM}}</div>
+            </div>
+            <div>
+                <div class="col l3 push-l2">单位：</div>
+                <div class="col l9 push-l2">{{lobbyManagerLog.UNIT}}</div>
+            </div>
+            <div>
+                <div class="col l3 push-l2">现货销售价格：</div>
+                <div class="col l9 push-l2">{{lobbyManagerLog.SPOTPRICE}}</div>
+            </div>
+            <div>
+                <div class="col l3 push-l2">订单销售价格：</div>
+                <div class="col l9 push-l2">{{lobbyManagerLog.ORDERPRICE}}</div>
+            </div>
+        </div>
+    </div>
+
+    <div  style="background-color: #f2f2f2; padding-top: 10px">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l10">
+                    <div class="wenXinTiShi" >温馨提示：以上信息仅供参考，请以产品说明书为准；产品信息更新变动，请及时关注产品公告</div>
+                </div>
+                <div class="col l2 ">
+                    <div class="btn btn-cold" hui-widget-nodeType="tuichuxaingqing">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

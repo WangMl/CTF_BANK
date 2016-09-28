@@ -1,0 +1,66 @@
+{
+  "b": {
+    "MENULIST": [
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010101",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人住房按揭贷款",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010102",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人商业用房按揭贷款",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010103",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人二手住房按揭贷款",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010104",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人经营贷款“快捷贷”",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010105",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人质押贷款",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010106",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人综合消费贷款",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010107",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "个人房产按揭项目额度",
+        "SUPERIOR_MENUID": "010101"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010108",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "商户电子结算融资业务",
+        "SUPERIOR_MENUID": "010101"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

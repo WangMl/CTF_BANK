@@ -1,0 +1,113 @@
+#licai-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 10px;
+}
+#licai-manager .bui-widget-view:hover{
+    background-color: #18a698;
+}
+#licai-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+#baoxian-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #c866c5;
+    border-radius: 10px;
+}
+#baoxian-manager .bui-widget-view:hover{
+    background-color: #ae57ab;
+}
+#baoxian-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+#guozhai-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #ffc56a;
+    border-radius: 10px;
+}
+#guozhai-manager .bui-widget-view:hover{
+    background-color: #d28736;
+}
+#guozhai-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+#jijin-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #fd5a5d;
+    border-radius: 10px;
+}
+#jijin-manager .bui-widget-view:hover{
+    background-color: #e27272;
+}
+#jijin-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+
+#jinshu-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #c866c5;
+    border-radius: 10px;
+}
+#jinshu-manager .bui-widget-view:hover{
+    background-color: #ae57ab;
+}
+#jinshu-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+
+#xintuo-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #6dc459;
+    border-radius: 10px;
+}
+#xintuo-manager .bui-widget-view:hover{
+    background-color: #7ca701;
+}
+#xintuo-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+
+#baodan-manager .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #fda93f;
+    border-radius: 10px;
+}
+#baodan-manager .bui-widget-view:hover{
+    background-color: #d28736;
+}
+#baodan-manager .bui-pbox-img{
+    max-width: 70%;
+}
+
+
+#zaiShouProductListMainPage .bui-widget-view{
+    display: table;
+}
+#zaiShouProductListMainPage .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#zaiShouProductListMainPage .bui-pbox-img-content{
+    padding: 7px;
+}
+#zaiShouProductListMainPage .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#productLibraryMainPage .common-content-container{
+    height: 100%;
+}
+.product-center .bui-pbox-img{
+    height:52px;
+}

@@ -1,0 +1,198 @@
+<div hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}'>
+    <div></div>
+    <div class="main-container" id="clientInforMainPage">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openPaiDuiXinXiMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            客&nbsp;户&nbsp;信&nbsp;息
+                        </div>
+                    </div>
+                    <div class="col l2 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            <div class="btn btn-warm" hui-widget-nodeType="chaxunshifouXiaoShou"
+                                 id="chaxunshifouXiaoShou">是否存在销售线索
+                            </div>
+                            <div class="btn btn-warm" hui-widget-nodeType="chaxunXiaoShou" hidden="hidden"
+                                 id="chaxunXiaoShou">查询
+                            </div>
+                            <div class="btn btn-warm" hui-widget-nodeType="chuangJianXiaoShou" hidden="hidden"
+                                 id="chuangJianXiaoShou">创建
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l2 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            <div class="btn btn-warm" hui-widget-nodeType="shangjichaxun">商机查询</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="SashLayout" hui-layout-attr='["33%","67%"]'>
+                <div hui-layout-type="RowLayout" id="tingtangguanli" class="cards-panel-wrapper">
+                    <div>
+                        <div class="col l12" class="cards-panel-wrapper">
+                            <div class="cards-panel">
+                                <div class="col l12 cards-panel-title">
+                                    客户基本信息
+                                </div>
+                                <div hui-layout-type="RowLayout">
+                                    <div style="margin-top: 50px">
+                                        <div class="col l7 push-l5 top-title">
+                                            客户信息
+                                        </div>
+                                        <!--<div class="col l2  top-title" style="margin-left: 50px">-->
+                                        <!--<div class="dazonghuiyuan "></div>-->
+                                        <!--<span style="font-size: 15px">大众客户</span>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div>
+                                        <div class="col l12 ">
+                                            <div class="hengxian"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col l12 " style="text-align: center">
+                                            <div class="star"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l5 push-l1 input-wrapper-group ">
+                                            <label class="label">客户ID：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div id="userID">{{accountManager.CUST_ID}}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l5 push-l1 input-wrapper-group ">
+                                            <label class="label">客户姓名：</label>
+                                        </div>
+                                        <div class="col l2 rightMove">
+                                            <div>{{accountManager.CUST_NAME}}</div>
+                                        </div>
+                                        <div class="col l2  input-wrapper-group keHuShengRiImage" >
+                                            <div class="shengri"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l5 push-l1 input-wrapper-group ">
+                                            <label class="label">客户等级：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div>{{accountManager.CUST_LEVEL}}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <!--<div class="col l1" style="margin: auto">-->
+                                        <!--<div class="shengri"></div>-->
+                                        <!--</div>-->
+                                        <div class="col l5 push-l1  input-wrapper-group ">
+                                            <label class="label">客户生日：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div>{{accountManager.CUST_BIRTHDAY}}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <!--<div class="col l1" style="margin: auto">-->
+                                            <!--<div class="xingbie"></div>-->
+                                        <!--</div>-->
+                                        <div class="col l5 push-l1  input-wrapper-group ">
+                                            <label class="label">客户性别：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div>{{accountManager.CUST_SEX}}</div>
+                                        </div>
+                                    </div>
+
+                                    <!--<div class="input-row" style="margin-left: 15px">-->
+                                    <!--<div class="col l5 push-l1 input-wrapper-group ">-->
+                                    <!--<label class="label">客户类型标识：</label>-->
+                                    <!--</div>-->
+                                    <!--<div class="col l6 rightMove">-->
+                                    <!--<div>{{accountManager.CustTypeId}}</div>-->
+                                    <!--</div>-->
+                                    <!--</div>-->
+
+                                    <div class="input-row" style="margin-left: 15px">
+
+                                        <div class="col l5 push-l1 input-wrapper-group ">
+                                            <label class="label">客户电话：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div>{{accountManager.TELEPHONE}}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <!--<div class="col l1" style="margin: auto">-->
+                                        <!--<div class="shengri"></div>-->
+                                        <!--</div>-->
+                                        <div class="col l5 push-l1  input-wrapper-group ">
+                                            <label class="label">所属机构：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div>{{accountManager.CUST_BRANCH}}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <!--<div class="col l1" style="margin: auto">-->
+                                        <!--<div class="shengri"></div>-->
+                                        <!--</div>-->
+                                        <div class="col l5 push-l1  input-wrapper-group ">
+                                            <label class="label">客户经理：</label>
+                                        </div>
+                                        <div class="col l6 rightMove">
+                                            <div>{{accountManager.MANAGER_NAME}}</div>
+                                        </div>
+                                    </div>
+
+                                    <!--<div class="input-row" style="margin-left: 15px">-->
+
+                                    <!--<div class="col l5 push-l1 input-wrapper-group ">-->
+                                    <!--<label class="label">签约时间：</label>-->
+                                    <!--</div>-->
+                                    <!--<div class="col l6 rightMove">-->
+                                    <!--<div>{{accountManager.PrintTime}}</div>-->
+                                    <!--</div>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="clientInforMount" style="height:100%;overflow-x: auto;overflow-y: hidden;width: 1000px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer"></div>
+</div>
+
+<div class="switch-page-wrapper">
+    <div class="switch-arrow-left-container">
+        <div class="switch-arrow-open" id="switchArrowOpen">
+
+        </div>
+    </div>
+    <div class="switch-arrow-right-container" hui-layout-type="RowLayout">
+        <div>
+            <div class="col l12" id="clientInfoTab" hui-widget-type='btop.bui.Tab'></div>
+        </div>
+    </div>
+</div>

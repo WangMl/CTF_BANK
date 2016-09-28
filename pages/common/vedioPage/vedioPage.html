@@ -1,0 +1,37 @@
+<div hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights":["0%","100%","0%"]}'>
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openPeiZhiPage1Page'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            视频资源文件
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout" id="VideoDetail">
+                <div>
+                    <div class="col l12">
+                        <div class="DetailsVedio-input-area">
+                            <div class="DetailsVedio">
+                                <video style="height: 530px;width: 97%;" src="{{videoPath}}" id="reXiaoFile" controls="controls"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottonPanel" hui-layout-type="RowLayout"></div>
+</div>

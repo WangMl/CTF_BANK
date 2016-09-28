@@ -1,0 +1,37 @@
+{
+  "b": {
+    "CurList": [
+      {
+        "DATA_DT": "2015-05-26 00:00:00.0",
+        "EREFDT": "",
+        "HUPUPRICE": "500.7",
+        "MIDDLEPRICE": "502.71",
+        "RELEASETIME": "",
+        "SELLPRICE": "504.72",
+        "SUPUPRICE": "484.62"
+      },
+      {
+        "DATA_DT": "2015-05-26 00:00:00.0",
+        "EREFDT": "",
+        "HUPUPRICE": "501.2",
+        "MIDDLEPRICE": "503.21",
+        "RELEASETIME": "",
+        "SELLPRICE": "505.23",
+        "SUPUPRICE": "485.1"
+      },
+      {
+        "DATA_DT": "2015-05-26 00:00:00.0",
+        "EREFDT": "",
+        "HUPUPRICE": "501.25",
+        "MIDDLEPRICE": "503.26",
+        "RELEASETIME": "",
+        "SELLPRICE": "505.27",
+        "SUPUPRICE": "485.14"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

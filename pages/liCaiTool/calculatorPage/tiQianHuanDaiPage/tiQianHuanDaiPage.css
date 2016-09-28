@@ -1,0 +1,22 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+
+
+.input-success {
+    position: absolute;
+    color: #468847;
+    margin-top: -25px;
+}
+
+.input-error{
+    position: absolute;
+    color:#b94a48;
+    margin-top: -25px;
+}
+
+

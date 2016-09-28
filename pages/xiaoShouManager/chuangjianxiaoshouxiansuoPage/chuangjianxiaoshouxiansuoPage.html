@@ -1,0 +1,167 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}'
+     id="chuangJianXiaoShouXianSuo">
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openXiaoShouMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            创&nbsp;建&nbsp;销&nbsp;售&nbsp;线&nbsp;索
+                        </div>
+                    </div>
+                    <div class="col l1 push-l1 common-header-button-wrapper" hui-widget-nodeType="chuangJianBaochun">
+                        <div class="btn btn-warm">
+                            保存
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout">
+                <div class="cards-panel-wrapper">
+                    <div class="col l12">
+
+                        <div hui-layout-type="RowLayout">
+                            <div class="cards-panel" style="width: 100%">
+                                 <div class="cards-panel-title" style="margin-bottom: 20px">
+                                    <div>
+                                        销售信息
+                                    </div>
+                                </div>
+                                <div hui-layout-type="RowLayout" class="col l12 cards-panel-container">
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label labelFontSize">被转介人号：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group ">
+                                            <input type="text" class="input-control inputHeight" id="ZJEMPCODE" hui-widget-nodeType="chuangJianZhuanJie" bui-input-rulers='{"required":true}' readonly/>
+                                        </div>
+
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label labelFontSize">客户类型：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group RightMove">
+                                            <div id="CUSTTYPESelect" hui-widget-type="btop.bui.Select" class="inputHeight" bui-input-rulers='{"required":true}'></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label labelFontSize">客户编号：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group">
+                                            <input type="text" id="CUST_ID"
+                                                   class="input-control inputHeight" bui-input-rulers='{"custNumber":true}'/>
+
+                                            <!--<input type="text" id="qianzai"
+                                                   class="input-control inputHeight" />-->
+                                        </div>
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label labelFontSize">证件类型：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group">
+                                            <div id="CERTTYPE" hui-widget-type="btop.bui.Select" class="inputHeight" bui-input-rulers='{"required":true}'></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px" >
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label labelFontSize">证件号码：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group">
+                                            <input type="text" id="CERTNO"
+                                                   class="input-control inputHeight" bui-input-rulers='{"idCard":true}' placeholder=""/>
+
+                                            <!--<input type="text" id="CERTNO1"
+                                                   class="input-control inputHeight" bui-input-rulers='{"required":true}' placeholder=""/>-->
+                                        </div>
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label labelFontSize">客户姓名：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group">
+                                            <input type="text" id="CUSTNAME"
+                                                   class="input-control inputHeight" bui-input-rulers='{"name":true}'/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label labelFontSize">联系电话:</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group">
+                                            <input type="text" id="CONT_TEL_NO"
+                                                   class="input-control inputHeight" bui-input-rulers='{"telePhone":true}'/>
+                                        </div>
+
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label labelFontSize">意向产品：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group ">
+                                            <input type="text" id="CUST_PRODID"
+                                                   hui-widget-nodeType="YiXiangChanPin" placeholder="请选择"
+                                                   class="input-control inputHeight" bui-input-rulers='{"required":true}' readonly/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+
+
+                                        <!--<div class="col l1 input-wrapper-group">-->
+                                            <!--<label class="label labelFontSize">转介日期：</label>-->
+                                        <!--</div>-->
+                                        <!--<div class="col l3 input-wrapper-group">-->
+                                            <!--<input type="text" id="INTRDATE"-->
+                                                   <!--class="input-control inputHeight"/>-->
+                                        <!--</div>-->
+
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label labelFontSize">转介日期：</label>
+                                        </div>
+                                        <div class="col l3 ">
+                                            <div  id="INTRDATE" hui-widget-type="btop.hui.DatePicker" hui-widget-attr='{"format" : "yyyy-MM-dd"}'>
+                                        </div>
+                                        </div>
+
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label labelFontSize">是否转介 ：</label>
+                                        </div>
+                                        <div class="col l3" style="margin-left: 50px">
+                                            <input name="choice" value=1 type="checkbox"
+                                                   class="checkbox-question" id="checkbox-1-2"
+                                                   hui-widget-nodeType="" >
+                                            <label for="checkbox-1-2" style="vertical-align: baseline;"></label>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label labelFontSize">销售线索描述：</label>
+                                        </div>
+                                        <div class="col l10 input-wrapper-group ">
+                                            <!--<input type="text" id="COMOC_STATE" class="input-control inputHe" />-->
+                                            <textarea rows="5" id="COMOC_STATE" class="input-control inputHe"></textarea>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</div>

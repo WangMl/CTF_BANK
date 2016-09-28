@@ -1,0 +1,27 @@
+#jiaobiao{
+    text-align: right!important;
+    background: #FFFFFF
+}
+th{
+    background: rgba(92, 190, 243, 0.56) !important;
+    font-weight: bold;
+    text-align:center !important;
+}
+.zuoti{
+    background:#6eb6e0 !important;
+    font-weight: bold;
+    text-align: center !important;
+}
+.yijibiaoti{
+    background: rgba(153, 244, 42, 0.67) !important;
+    font-weight: bold;
+    text-align:center !important;
+}
+td:not(.zuoti){
+    background: rgba(128, 128, 145, 0.31) !important;
+}
+
+#whcklilv td, th {
+    text-align: center;
+}
+

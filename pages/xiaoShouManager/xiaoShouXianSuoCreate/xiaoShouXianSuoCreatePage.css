@@ -1,0 +1,355 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 30px;
+}
+
+.rightMove{
+    padding: 30px;
+    margin-top: -4px;
+}
+
+.RightMove{
+    padding-left: 35px;
+}
+
+.labelFontSize{
+    font-size: 18px;
+}
+
+/*定期存款
+*/
+#dingqicunkuan .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #1dc2b2;
+    border-radius: 2px;
+}
+#dingqicunkuan .bui-widget-view:hover{
+    background-color: #18a698;
+}
+#dingqicunkuan .bui-pbox-img{
+    max-width: 70%;
+}
+
+/*大额存单
+*/
+#daecundan .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(150, 203, 0);
+    border-radius: 2px;
+}
+#daecundan .bui-widget-view:hover{
+    background-color: #6acb0e;
+}
+#daecundan .bui-pbox-img{
+    max-width: 70%;
+}
+
+/*期缴保险
+*/
+#qijiaobaoxian .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(91, 190, 243);
+    border-radius: 2px;
+}
+#qijiaobaoxian .bui-widget-view:hover{
+    background-color: #4c96f3;
+}
+#qijiaobaoxian .bui-pbox-img{
+    max-width: 70%;
+}
+/*趸缴保险
+*/
+#bengjiaobaoxian .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(253, 169, 63);
+    border-radius: 2px;
+}
+#bengjiaobaoxian .bui-widget-view:hover{
+    background-color: #fd680a;
+}
+#bengjiaobaoxian .bui-pbox-img{
+    max-width: 70%;
+}
+/*货币型基金
+*/
+#huobixingjijin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(200, 102, 197);
+    border-radius: 2px;
+}
+#huobixingjijin .bui-widget-view:hover{
+    background-color: #b539c8;
+}
+#huobixingjijin .bui-pbox-img{
+    max-width: 70%;
+}
+
+/*非货币型基金
+*/
+#feihuobixingjijin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(255, 204, 124);
+    border-radius: 2px;
+}
+#feihuobixingjijin .bui-widget-view:hover{
+    background-color: #ff963f;
+}
+#feihuobixingjijin .bui-pbox-img{
+    max-width: 70%;
+}
+
+/*储蓄式国债
+*/
+#chuxushiguozhai .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(91, 190, 243);
+    border-radius: 2px;
+}
+#chuxushiguozhai .bui-widget-view:hover{
+    background-color: #4c96f3;
+}
+#chuxushiguozhai .bui-pbox-img{
+    max-width: 70%;
+}
+
+#pingzhengshiguozhai .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(253, 90, 93);
+    border-radius: 2px;
+}
+#pingzhengshiguozhai .bui-widget-view:hover{
+    background-color: #fd2326;
+}
+#pingzhengshiguozhai .bui-pbox-img{
+    max-width: 70%;
+}
+/*金色时光系列
+*/
+#jinseshiguangxilie .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(29, 194, 178);
+    border-radius: 2px;
+}
+#jinseshiguangxilie .bui-widget-view:hover{
+    background-color: #1cc1c2;
+}
+#jinseshiguangxilie .bui-pbox-img{
+    max-width: 70%;
+}
+/*医保通
+*/
+#yibaotong .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(245, 122, 60);
+    border-radius: 2px;
+}
+#yibaotong .bui-widget-view:hover{
+    background-color: #f5454c;
+}
+#yibaotong .bui-pbox-img{
+    max-width: 70%;
+}
+/*缴费通
+*/
+#jiaofeitong .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(200, 102, 197);
+    border-radius: 2px;
+}
+#jiaofeitong .bui-widget-view:hover{
+    background-color: #b539c8;
+}
+#jiaofeitong .bui-pbox-img{
+    max-width: 70%;
+}
+
+#renminbilicaichanpin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(245, 122, 60);
+    border-radius: 2px;
+}
+#renminbilicaichanpin .bui-widget-view:hover{
+    background-color: #f5454c;
+}
+#renminbilicaichanpin .bui-pbox-img{
+    max-width: 70%;
+}
+/*借记卡(平通)
+*/
+#jiejikapingtong .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(245, 122, 60);
+    border-radius: 2px;
+}
+#jiejikapingtong .bui-widget-view:hover{
+    background-color: #f54656;
+}
+#jiejikapingtong .bui-pbox-img{
+    max-width: 70%;
+}
+/*借记卡(金卡)
+*/
+#jiejikajinka .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(63, 188, 143);
+    border-radius: 2px;
+}
+#jiejikajinka .bui-widget-view:hover{
+    background-color: #45b7bc;
+}
+#jiejikajinka .bui-pbox-img{
+    max-width: 70%;
+}
+/*信用卡(福瑞卡)
+*/
+#xinyongkafuruika .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(200, 102, 197);
+    border-radius: 2px;
+}
+#xinyongkafuruika .bui-widget-view:hover{
+    background-color: #b32fc8;
+}
+#xinyongkafuruika .bui-pbox-img{
+    max-width: 70%;
+}
+/*信用卡(其他)
+*/
+#xinyongkaqita .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(150, 203, 0);
+    border-radius: 2px;
+}
+#xinyongkaqita .bui-widget-view:hover{
+    background-color: #8ccb47;
+}
+#xinyongkaqita .bui-pbox-img{
+    max-width: 70%;
+}
+/*特约商户
+*/
+#teyueshanghu .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(59, 192, 140);
+    border-radius: 2px;
+}
+#teyueshanghu .bui-widget-view:hover{
+    background-color: #4fb6c0;
+}
+#teyueshanghu .bui-pbox-img{
+    max-width: 70%;
+}
+/*个人网银
+*/
+#gerenwangyin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(91, 190, 243);
+    border-radius: 2px;
+}
+#gerenwangyin .bui-widget-view:hover{
+    background-color: #2246f3;
+}
+#gerenwangyin .bui-pbox-img{
+    max-width: 70%;
+}
+/*对公网银
+*/
+#duigongwangyin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(91, 190, 243);
+    border-radius: 2px;
+}
+#duigongwangyin .bui-widget-view:hover{
+    background-color: #4c96f3;
+}
+#duigongwangyin .bui-pbox-img{
+    max-width: 70%;
+}
+/*手机网银
+*/
+#shoujiwangyin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(245, 122, 60);
+    border-radius: 2px;
+}
+#shoujiwangyin .bui-widget-view:hover{
+    background-color: #f54656;
+}
+#shoujiwangyin .bui-pbox-img{
+    max-width: 70%;
+}
+/*手机交易宝
+*/
+#shoujijiaoyibao .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(91, 190, 243);
+    border-radius: 2px;
+}
+#shoujijiaoyibao .bui-widget-view:hover{
+    background-color: #4c96f3;
+}
+#shoujijiaoyibao .bui-pbox-img{
+    max-width: 70%;
+}
+/*凤凰e账户
+*/
+#fenghuangezhanghu .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(236, 176, 81);
+    border-radius: 2px;
+}
+#fenghuangezhanghu .bui-widget-view:hover{
+    background-color: #ec826b;
+}
+#fenghuangezhanghu .bui-pbox-img{
+    max-width: 70%;
+}
+/*社区e服务
+*/
+#shequefuwu .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: rgb(138, 208, 122);
+    border-radius: 2px;
+}
+#shequefuwu .bui-widget-view:hover{
+    background-color: #9ed0b9;
+}
+#shequefuwu .bui-pbox-img{
+    max-width: 70%;
+}
+/*纸黄金
+*/
+#zhihuangjin .bui-widget-view{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.72);
+    background-color: #c8c8c8;
+    border-radius: 2px;
+}
+#zhihuangjin .bui-widget-view:hover{
+    background-color: #c8c8c8;
+}
+#zhihuangjin .bui-pbox-img{
+    max-width: 70%;
+}
+
+#xiaoShouXianSuoCreatePage .bui-widget-view{
+    display: table;
+}
+#xiaoShouXianSuoCreatePage .bui-pbox-root{
+    display: table-cell;
+    vertical-align: middle;
+}
+#xiaoShouXianSuoCreatePage .bui-pbox-img-content{
+    padding: 7px;
+}
+#xiaoShouXianSuoCreatePage .bui-pbox-text-content{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+#xiaoShouXianSuoCreatePage .common-content-container{
+    height: 88%;
+}
+
+

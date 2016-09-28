@@ -1,0 +1,154 @@
+{
+  "Server": {
+    "BipServer": {
+      "description": "bipServer同域服务器",
+      "httpType":"https",
+      "ip": "192.156.35.64",
+      "port": "8002",
+      "domain":"",
+      "wsport":"9091",
+      "netHallUrl":"",
+      "ajaxService": "mobile/InvokeTradeServer",
+      "wsService": "action/webSocketAcceptor",
+      "isDebug": true,
+      "isRemote": false,
+      "reOpenTime": 300000,
+      "timeOut": 6000,
+      "beatTime": 60000,
+      "defaultFilePath":"skin/default/img/rexiaoproduct_jijinchanping.png",
+      "localFilePath":"/storage/emulated/0/Android/data/cn.com.bankit.crosswalksample/cache/",
+      "remoteFilePath":"brcb_bip/resource/imageUpload/",
+      "birthTip":true,
+      "ringTip":true,
+      "ringTipType":0,
+      "custWaitting":"30",
+      "audioRecordLimit":3600000,
+      "videoRecordLimit":180000
+    }
+  },
+  "Validator": {
+    "required": {
+      "tipMsg": "必填"
+    },
+    "telePhone": {
+      "tipMsg": "手机号码格式有误"
+    },
+    "phone": {
+      "tipMsg": "电话号码格式有误"
+    },
+    "idCard": {
+      "tipMsg": "身份证号格式不正确"
+    },
+    "email": {
+      "tipMsg": "邮箱格式不正确"
+    },
+    "number": {
+      "tipMsg": "只能输入数字"
+    },
+    "letter": {
+      "tipMsg": "只能输入字母"
+    },
+    "numberOrLetter": {
+      "tipMsg": "只能输入数字或字母"
+    },
+    "name": {
+      "tipMsg": "只能中文或英文姓名"
+    },
+    "custNumber":{
+      "tipMsg": "只能9位数字"
+    }
+  },
+  "Themes": {
+    "red": {
+      "status": true,
+      "cssPath": "skin/theme/red/css/red.css",
+      "imgPath":"skin/theme/red/img/red.png"
+    },
+    "green": {
+      "status": false,
+      "cssPath": "skin/theme/green/css/green.css",
+      "imgPath":"skin/theme/green/img/green.png"
+    },
+    "gray": {
+      "status": false,
+      "cssPath": "skin/theme/gray/css/gray.css",
+      "imgPath":"skin/theme/gray/img/gray.png"
+    },
+    "blue": {
+      "status": false,
+      "cssPath": "skin/theme/blue/css/blue.css",
+      "imgPath":"skin/theme/blue/img/blue.png"
+    }
+  },
+  "RemoteImage": {
+    "hallManagerService_queueInfoAll": "hallManagerService_queueInfoAll.json",
+    "hallManagerService_custInfoAll": "hallManagerService_custInfoAll.json",
+    "hallManagerService_queueJumping": "hallManagerService_queueJumping.json",
+    "login_login": "login_login.json",
+    "login_padDevice": "login_padDevice.json",
+    "login_password": "login_password.json",
+    "login_logout":"login_logout.json",
+    "login_cpoint":"login_cpoint.json",
+    "login_ping":"login_ping.json",
+    "cust_accmltgold": "cust_accmltgold.json",
+    "cust_trust": "cust_trust.json",
+    "cust_phoenixTreasure": "cust_phoenixTreasure.json",
+    "cust_deposit": "cust_deposit.json",
+    "cust_fund": "cust_fund.json",
+    "cust_Info": "cust_Info.json",
+    "cust_insurance": "cust_insurance.json",
+    "cust_nationalDebt": "cust_nationalDebt.json",
+    "saleLeads_referTeller": "saleLeads_referTeller.json",
+    "saleLeads_teller": "saleLeads_teller.json",
+    "saleLeads_cust": "saleLeads_cust.json",
+    "saleLeads_custStatus": "saleLeads_custStatus.json",
+    "saleLeads_info": "saleLeads_info.json",
+    "saleLeads_maintenance": "saleLeads_maintenance.json",
+    "saleLeads_status": "saleLeads_status.json",
+    "saleLeads_agent": "saleLeads_agent.json",
+    "saleLeads_delete": "saleLeads_delete.json",
+    "saleLeads_manager": "saleLeads_manager.json",
+    "saleLeads_product": "saleLeads_product.json",
+    "jobLog_lobbyManagerList": "jobLog_lobbyManagerList.json",
+    "jobLog_accountManagerList": "jobLog_accountManagerList.json",
+    "jobLog_tomorrowPlan": "jobLog_tomorrowPlan.json",
+    "jobLog_accountManagerFillIn":"jobLog_accountManagerFillIn.json",
+    "jobLog_lobbyManagerFillIn":"jobLog_lobbyManagerFillIn.json",
+    "tool_forexPrice":"tool_forexPrice.json",
+    "product_hvpsLimit":"product_hvpsLimit.json",
+    "product_nobleMetalInfo":"product_nobleMetalInfo.json",
+    "product_nobleMetalList":"product_nobleMetalList.json",
+    "product_hvpsList":"product_hvpsList.json",
+    "product_hvpsInfo":"product_hvpsInfo.json",
+    "product_insuranceList":"product_insuranceList.json",
+    "product_insuranceInfo":"product_insuranceInfo.json",
+    "product_financingLimit":"product_financingLimit.json",
+    "product_financingList":"product_financingList.json",
+    "product_info":"product_info.json",
+    "product_financingDoc":"product_financingDoc.json",
+    "product_fundCompany":"product_fundCompany.json",
+    "product_fundList":"product_fundList.json",
+    "product_fundInfo":"product_fundInfo.json",
+    "product_insuranceCompany":"product_insuranceCompany.json",
+    "product_nationalDebtList":"product_nationalDebtList.json",
+    "product_nationalDebtInfo":"product_nationalDebtInfo.json",
+    "product_nationalDebtLimit":"product_nationalDebtLimit.json",
+    "cust_contractProduct":"cust_contractProduct.json",
+    "product_sellTrustInfo":"product_sellTrustInfo.json",
+    "product_sellTrustList":"product_sellTrustList.json",
+    "product_recommendList":"product_recommendList.json",
+    "product_recommendInfo":"product_recommendInfo.json",
+    "cust_loan":"cust_loan.json",
+    "cust_purchasingPower":"cust_purchasingPower.json",
+    "product_menu_level3":"menu/product_menu_level3.json",
+    "product_menu_level41":"menu/product_menu_level41.json",
+    "product_menu_level42":"menu/product_menu_level42.json",
+    "cust_financialAssets":"cust_financialAssets.json",
+    "tool_fund":"tool_fund.json",
+    "tool_deposit":"tool_deposit.json",
+    "tool_loan":"tool_loan.json",
+    "tool_forexDeposit":"tool_forexDeposit.json",
+    "tool_forexPriceHistory":"tool_forexPriceHistory.json",
+    "message_seleAll":"message_seleAll.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "b": {
+    "ARRPOST": "4人",
+    "ATMRUN": "正常",
+    "ATTENDMEET": "未开",
+    "BRNAME": "北京农商银行斋堂支行",
+    "BUSINESSSTOP": "16：30",
+    "CALLNUM": "58",
+    "CLOTHES": "良好",
+    "COUNTEREXNUM": "71",
+    "CUSTOMERCASE": "",
+    "CUSTVOUCHER": "齐全",
+    "ELESCREEN": "正常",
+    "EXPENSESCHART": "张贴",
+    "IOENVIRONMENT": "良好",
+    "LOGDATE": "2014-05-02",
+    "MAJORMATTER": "",
+    "MONEYMACHINE": "正常",
+    "NOTICE": "张贴",
+    "OTHERMATTER": "",
+    "OWNERNAME": "宋红星",
+    "PLAYBILL": "张贴",
+    "PROPAPER": "齐全",
+    "QUEUEMACHINE": "正常",
+    "RECOMMENDSUM": "0",
+    "REQUIRECASE": "",
+    "REVISITORBOOK": "无意见",
+    "SUBBANKNAME": "北京农商银行门头沟支行",
+    "TEREQUIPMENT": "正常",
+    "TEREQUIPMENTCASE": "",
+    "TERMDUMP": "切断",
+    "TJSUCCNUM": "0",
+    "VISITORBOOK": "摆放"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

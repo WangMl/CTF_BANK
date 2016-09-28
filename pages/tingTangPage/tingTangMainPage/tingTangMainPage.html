@@ -1,0 +1,125 @@
+<div hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}' id="tingTangMainPage">
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l2 common-header-back-wrapper" hui-widget-nodeType='openMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            厅&nbsp;堂&nbsp;信&nbsp;息
+                        </div>
+                    </div>
+                    <div class="col l2 common-header-button-wrapper" hui-widget-nodeType="openPaiDuiXinXiMainPage">
+                        <div class="btn btn-cold" style="margin-left: -10px">
+                            进入厅堂队列管理
+                        </div>
+                    </div>
+                    <div class="col l2 common-header-button-wrapper" hui-widget-nodeType="openDangRiLaiKeMainPage">
+                        <div class="btn btn-warm">
+                            当日来访客户查询
+                        </div>
+                    </div>
+                    <div class="col l2 common-header-button-wrapper" hui-widget-nodeType="openZiZhuQuDaoMainPage">
+                        <div class="btn btn-warm">
+                            自助渠道到访客户
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout" class="cards-panel-wrapper">
+                <div>
+                    <div class="col l4" hui-layout-type="RowLayout">
+                        <div class="cards-panel">
+                            <div class="col l12 cards-panel-title">
+                                <div>客户类型分类</div>
+                            </div>
+                            <div hui-layout-type='RowLayout' class="col l12 cards-panel-container">
+                                <div>
+                                    <div class="col l12">
+                                        <div id="cardTypePie" class="cardPie"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col l12" id="customerTypeRadiusMount"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l4" hui-layout-type="RowLayout">
+                        <div class="cards-panel">
+                            <div class="col l12 cards-panel-title">
+                                <div>客户办理业务分类</div>
+                            </div>
+                            <div hui-layout-type='RowLayout' class="col l12 cards-panel-container">
+                                <div>
+                                    <div id="businessTypePie" class="businessPie"></div>
+                                </div>
+                                <div>
+                                    <div class="col l12" id="bussinessTypeRadiusMount"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l4" hui-layout-type="RowLayout">
+                        <div class="cards-panel" style="width: 100%;">
+                            <div class="col l12 cards-panel-title">
+                                <div>等待时间</div>
+                            </div>
+                            <div hui-layout-type='RowLayout' class="col l12 cards-panel-container">
+                                <div>
+                                    <div class="col l12">
+                                        <div class="minutes">
+                                            <div class="time-num">分钟</div>
+                                            <div class="time-num">120</div>
+                                            <div class="time-num">100</div>
+                                            <div class="time-num">80</div>
+                                            <div class="time-num">60</div>
+                                            <div class="time-num">40</div>
+                                            <div class="time-num">20</div>
+                                            <div class="time-num">0</div>
+                                        </div>
+                                        <div class="line-area">
+                                            <div class="line"></div>
+                                            <div class="line"></div>
+                                            <div class="line"></div>
+                                            <div class="line"></div>
+                                            <div class="line"></div>
+                                            <div class="line"></div>
+                                            <div class="line"></div>
+                                            <div class="last"></div>
+                                        </div>
+                                        <div class="people">
+                                            <div class="time-120"><span hui-widget-nodeType="MOtherWaitingNode"></span></div>
+                                            <div class="time-100"><span hui-widget-nodeType="M120WaitingNode"></span></div>
+                                            <div class="time-80"><span hui-widget-nodeType="M100WaitingNode"></span></div>
+                                            <div class="time-60"><span hui-widget-nodeType="M80WaitingNode"></span></div>
+                                            <div class="time-40"><span hui-widget-nodeType="M60WaitingNode"></span></div>
+                                            <div class="time-20"><span hui-widget-nodeType="M40WaitingNode"></span></div>
+                                            <div class="time-0"><span hui-widget-nodeType="M20WaitingNode"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col l12">
+                                        <div class="avg-time"><span>平均等待时间:&nbsp;&nbsp;</span><span
+                                                class="avg-minutes" hui-widget-nodeType="avgMinutesNode">44</span><span class="avg-minutes">分钟</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer"></div>
+</div>

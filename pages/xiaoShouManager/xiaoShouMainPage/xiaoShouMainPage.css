@@ -1,0 +1,146 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+.dangri-shuaxin{
+    padding-top: 2px;
+    margin-top: 12px;
+    text-align: center;
+    height:30px;
+    width:100px;
+    font-size: 20px;
+    border-radius:15px;
+    color: white;
+    background-color:#f48969;
+}
+
+.dangri-title-item{
+    background-color: #f2f2f2;
+    height: 35px;
+    width: 100%;
+}
+
+
+.input-area {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+}
+
+.output-area1 {
+    width: 95%;
+    height: 480px;
+    background-color: #f9f9f9;
+    background: url("skin/default/img/1.png") no-repeat;
+    padding-right: 10px;
+    margin: auto;
+    background-size: 100% 100%;
+}
+
+.output-area2 {
+    width: 95%;
+    height: 480px;
+    background-color: #f9f9f9;
+    background: url("skin/default/img/2.png") no-repeat;
+    padding-right: 10px;
+    margin: auto;
+    background-size: 100% 100%;
+}
+
+.output-area3 {
+    width: 95%;
+    height: 480px;
+    background-color: #f9f9f9;
+    background: url("skin/default/img/3.png") no-repeat;
+    padding-right: 10px;
+    margin: auto;
+    background-size: 100% 100%;
+}
+
+#XiaoShouMainPage .row {
+    margin-bottom: 15px;
+}
+
+#XiaoShouMainPage .row .col{
+    padding: 0 0;
+}
+
+.xiaoshou-title{
+    text-align: center;
+    font-size: 22px;
+    /*color: deeppink;*/
+    margin-top: 5px;
+
+}
+
+.top-title{
+    font-size: 20px;
+   text-align: center;
+}
+.mid-title{
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.xingbie{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/nan.png")no-repeat;
+    text-align: right;
+}
+
+.hengxian{
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.red{
+    margin-top: 15px;
+    font-size: 20px;
+    color: red;
+}
+.green{
+    margin-top: 15px;
+    font-size: 20px;
+    color: green;
+}
+
+
+#XiaoShouMainPage .shengri{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/clientinfo_shengri.png")no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#XiaoShouMainPage .star{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/product_center_star.png")no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#XiaoShouMainPage .xingbie{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/clientinfo_nan.png")no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+#XiaoShouMainPage .dengdaiTime{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/dengdaiTime.png")no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+
+}

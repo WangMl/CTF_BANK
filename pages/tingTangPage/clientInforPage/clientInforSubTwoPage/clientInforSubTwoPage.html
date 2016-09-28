@@ -1,0 +1,53 @@
+<div>
+    <div hui-layout-type="RowLayout" class="cards-panel-wrapper">
+        <div>
+            <div class="col l12"
+                 style="color: #989898;background-color:#fbfbfb;box-shadow: 5px 5px 5px #a2a2a2;"
+                 hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12">
+                        <div id='app'>
+                            <filter-list></filter-list>
+                        </div>
+                        <template id='goumaili-condition-temp'>
+                            <input type="text" v-model="filterText" class="input-control" bui-disable-focus='true'
+                                   placeholder="请输入查询条件"/>
+                        </template>
+                        <template id='goumaili-filter-list-temp'>
+                            <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                                <div>
+                                    <div class="col l3">
+                                        <condition :filter-text.sync="filterText"></condition>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                        <list :items="filteredItems"></list>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </template>
+                        <template id='goumaili-list-temp'>
+                            <div style="text-align: center">购买力分析</div>
+                            <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                                <tr class="active">
+                                    <th>产品编码</th>
+                                    <th>产品名称</th>
+                                    <th>到期日</th>
+                                    <th>到期金额</th>
+                                </tr>
+                                <tr v-for="item in items">
+                                    <td>{{item.PRODUCTCODE}}</td>
+                                    <td>{{item.PRODUCTNAME}}</td>
+                                    <td>{{item.ENDDATA}}</td>
+                                    <td>{{item.ENDMONEY}}</td>
+                                </tr>
+                            </table>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+{
+  "b": {
+    "PRODUCTLIST": [
+      {
+        "INSUREDCORPNAME": "中国人寿保险股份有限公司",
+        "INSURETYPE": "传统险",
+        "PRODUCTCODE": "000009",
+        "PRODUCTNAME": "国寿小额贷款借款人意外伤害保险"
+      },
+      {
+        "INSUREDCORPNAME": "中国人民人寿保险股份有限公司",
+        "INSURETYPE": "传统险",
+        "PRODUCTCODE": "000011",
+        "PRODUCTNAME": "人保寿险盛世富贵两全保险(分红型)(A款)交5保10"
+      },
+      {
+        "INSUREDCORPNAME": "华泰人寿保险股份有限公司",
+        "INSURETYPE": "传统险",
+        "PRODUCTCODE": "000013",
+        "PRODUCTNAME": "吉年红两全保险（分红型）交3保10"
+      },
+      {
+        "INSUREDCORPNAME": "平安养老保险股份有限公司",
+        "INSURETYPE": "传统险",
+        "PRODUCTCODE": "000020",
+        "PRODUCTNAME": "平安借意险"
+      },
+      {
+        "INSUREDCORPNAME": "长城人寿保险股份有限公司",
+        "INSURETYPE": "分红",
+        "PRODUCTCODE": "000022",
+        "PRODUCTNAME": "金恒利缴五保十"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

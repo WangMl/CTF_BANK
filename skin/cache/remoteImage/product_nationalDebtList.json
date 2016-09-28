@@ -1,0 +1,662 @@
+{
+  "b": {
+    "PRODUCTLIST": [
+      {
+        "PRODUCTCODE": "111706",
+        "PRODUCTNAME": "2011年第六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131706",
+        "PRODUCTNAME": "2013年第六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101710",
+        "PRODUCTNAME": "2010年第十期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091703",
+        "PRODUCTNAME": "2009年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091702",
+        "PRODUCTNAME": "2009年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091704",
+        "PRODUCTNAME": "2009年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091701",
+        "PRODUCTNAME": "2009年第一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101707",
+        "PRODUCTNAME": "2010年第七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111717",
+        "PRODUCTNAME": "2011年第十七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101708",
+        "PRODUCTNAME": "2010年第八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111718",
+        "PRODUCTNAME": "2011年第十八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141706",
+        "PRODUCTNAME": "2014年第六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151706",
+        "PRODUCTNAME": "2015年第六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151710",
+        "PRODUCTNAME": "2015年第十期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111711",
+        "PRODUCTNAME": "2011年第十一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111715",
+        "PRODUCTNAME": "2011年第十五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121709",
+        "PRODUCTNAME": "2012年第九期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131709",
+        "PRODUCTNAME": "2013年第九期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141709",
+        "PRODUCTNAME": "2014年第九期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151709",
+        "PRODUCTNAME": "2015年第九期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111712",
+        "PRODUCTNAME": "2011年第十二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101702",
+        "PRODUCTNAME": "2010年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121704",
+        "PRODUCTNAME": "2012年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121712",
+        "PRODUCTNAME": "2012年第十二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141702",
+        "PRODUCTNAME": "2014年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101703",
+        "PRODUCTNAME": "2010年第三期储蓄国债(电子式）"
+      },
+      {
+        "PRODUCTCODE": "111713",
+        "PRODUCTNAME": "2011年第十三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131703",
+        "PRODUCTNAME": "2013年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141703",
+        "PRODUCTNAME": "2014年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151703",
+        "PRODUCTNAME": "2015年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101704",
+        "PRODUCTNAME": "2010年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131704",
+        "PRODUCTNAME": "2013年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141704",
+        "PRODUCTNAME": "2014年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151702",
+        "PRODUCTNAME": "2015年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151704",
+        "PRODUCTNAME": "2015年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101701",
+        "PRODUCTNAME": "2010年第一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121711",
+        "PRODUCTNAME": "2012年第十一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091706",
+        "PRODUCTNAME": "2009年第六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151701",
+        "PRODUCTNAME": "2015年第一期储蓄国债(电子式)"
+      },
+      {
+        "PRODUCTCODE": "07203",
+        "PRODUCTNAME": "07年第二期三年"
+      },
+      {
+        "PRODUCTCODE": "07205",
+        "PRODUCTNAME": "07年第二期五年"
+      },
+      {
+        "PRODUCTCODE": "07403",
+        "PRODUCTNAME": "07年凭证式(四期)三年期国债"
+      },
+      {
+        "PRODUCTCODE": "07405",
+        "PRODUCTNAME": "07年凭证式(四期)五年期国债"
+      },
+      {
+        "PRODUCTCODE": "08103",
+        "PRODUCTNAME": "08年第一期三年"
+      },
+      {
+        "PRODUCTCODE": "08105",
+        "PRODUCTNAME": "08年第一期五年"
+      },
+      {
+        "PRODUCTCODE": "08303",
+        "PRODUCTNAME": "2008凭证式三期三年期"
+      },
+      {
+        "PRODUCTCODE": "08305",
+        "PRODUCTNAME": "2008凭证式三期五年期"
+      },
+      {
+        "PRODUCTCODE": "09501",
+        "PRODUCTNAME": "09年第五期一年"
+      },
+      {
+        "PRODUCTCODE": "09503",
+        "PRODUCTNAME": "09年第五期三年"
+      },
+      {
+        "PRODUCTCODE": "10201",
+        "PRODUCTNAME": "2010年凭证式国债二期（一年）"
+      },
+      {
+        "PRODUCTCODE": "10203",
+        "PRODUCTNAME": "2010年凭证式国债二期（三年）"
+      },
+      {
+        "PRODUCTCODE": "10401",
+        "PRODUCTNAME": "2010年凭证式四期国债（一年期）"
+      },
+      {
+        "PRODUCTCODE": "10403",
+        "PRODUCTNAME": "2010年凭证式四期国债（三年期）"
+      },
+      {
+        "PRODUCTCODE": "08503",
+        "PRODUCTNAME": "2008凭证式国债5期"
+      },
+      {
+        "PRODUCTCODE": "08505",
+        "PRODUCTNAME": "2008凭证式国债5期"
+      },
+      {
+        "PRODUCTCODE": "11305",
+        "PRODUCTNAME": "2011年凭证式三期国债（五年期）"
+      },
+      {
+        "PRODUCTCODE": "12205",
+        "PRODUCTNAME": "2012年凭证式国债（二期）五年期"
+      },
+      {
+        "PRODUCTCODE": "13105",
+        "PRODUCTNAME": "2013年凭证式（一期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "13303",
+        "PRODUCTNAME": "2013年凭证式（三期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "13305",
+        "PRODUCTNAME": "2013年凭证式（三期）国债5年期"
+      },
+      {
+        "PRODUCTCODE": "14203",
+        "PRODUCTNAME": "2014年凭证式（二期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "14205",
+        "PRODUCTNAME": "2014年凭证式（二期）国债5年期"
+      },
+      {
+        "PRODUCTCODE": "14403",
+        "PRODUCTNAME": "2014年凭证式（四期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "14405",
+        "PRODUCTNAME": "2014年凭证式（四期）国债5年期"
+      },
+      {
+        "PRODUCTCODE": "09103",
+        "PRODUCTNAME": "09年第一期三年"
+      },
+      {
+        "PRODUCTCODE": "09105",
+        "PRODUCTNAME": "09年第一期五年"
+      },
+      {
+        "PRODUCTCODE": "09303",
+        "PRODUCTNAME": "09年三期国债三年"
+      },
+      {
+        "PRODUCTCODE": "09305",
+        "PRODUCTNAME": "09年三期国债五年"
+      },
+      {
+        "PRODUCTCODE": "10505",
+        "PRODUCTNAME": "2010年凭证式（五期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "11201",
+        "PRODUCTNAME": "2011年凭证式二期国债（一年期）"
+      },
+      {
+        "PRODUCTCODE": "11203",
+        "PRODUCTNAME": "2011年凭证式二期国债（三年期）"
+      },
+      {
+        "PRODUCTCODE": "11205",
+        "PRODUCTNAME": "2011年凭证式二期国债（五年期）"
+      },
+      {
+        "PRODUCTCODE": "11401",
+        "PRODUCTNAME": "2011年凭证式四期国债（一年期）"
+      },
+      {
+        "PRODUCTCODE": "11403",
+        "PRODUCTNAME": "2011年凭证式四期国债（三年期）"
+      },
+      {
+        "PRODUCTCODE": "12103",
+        "PRODUCTNAME": "2012年凭证式（一期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "12105",
+        "PRODUCTNAME": "2012年凭证式（一期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "12303",
+        "PRODUCTNAME": "2012年凭证式（三期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "13203",
+        "PRODUCTNAME": "2013年凭证式（二期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "14103",
+        "PRODUCTNAME": "2014年凭证式（一期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "15203",
+        "PRODUCTNAME": "2015年凭证式（二期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "15205",
+        "PRODUCTNAME": "2015年凭证式（二期）国债5年期"
+      },
+      {
+        "PRODUCTCODE": "15403",
+        "PRODUCTNAME": "2015年凭证式（四期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "15405",
+        "PRODUCTNAME": "2015年凭证式（四期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "081703",
+        "PRODUCTNAME": "2008年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111716",
+        "PRODUCTNAME": "2011年第十六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131708",
+        "PRODUCTNAME": "2013年第八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141708",
+        "PRODUCTNAME": "2014年第八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151708",
+        "PRODUCTNAME": "2015年第八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141707",
+        "PRODUCTNAME": "2014年第七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151707",
+        "PRODUCTNAME": "2015年第七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101706",
+        "PRODUCTNAME": "2010年第六期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091705",
+        "PRODUCTNAME": "2009年第五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121707",
+        "PRODUCTNAME": "2012年第七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121708",
+        "PRODUCTNAME": "2012年第八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121710",
+        "PRODUCTNAME": "2012年第十期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131710",
+        "PRODUCTNAME": "2013年第十期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141710",
+        "PRODUCTNAME": "2014年第十期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111710",
+        "PRODUCTNAME": "2011年第十期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131707",
+        "PRODUCTNAME": "2013年第七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101705",
+        "PRODUCTNAME": "2010年第五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101709",
+        "PRODUCTNAME": "2010年第九期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111705",
+        "PRODUCTNAME": "2011年第五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131705",
+        "PRODUCTNAME": "2013年第五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141705",
+        "PRODUCTNAME": "2014年第五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "151705",
+        "PRODUCTNAME": "2015年第五期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111703",
+        "PRODUCTNAME": "2011年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121703",
+        "PRODUCTNAME": "2012年第三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111704",
+        "PRODUCTNAME": "2011年第四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131702",
+        "PRODUCTNAME": "2013年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121713",
+        "PRODUCTNAME": "2012年第十三期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111702",
+        "PRODUCTNAME": "2011年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111714",
+        "PRODUCTNAME": "2011年第十四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121702",
+        "PRODUCTNAME": "2012年第二期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121714",
+        "PRODUCTNAME": "2012年第十四期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "101711",
+        "PRODUCTNAME": "2010年第十一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "131701",
+        "PRODUCTNAME": "2013年第一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "141701",
+        "PRODUCTNAME": "2014年第一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091707",
+        "PRODUCTNAME": "2009年第七期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "111701",
+        "PRODUCTNAME": "2011年第一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "121701",
+        "PRODUCTNAME": "2012年第一期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "091708",
+        "PRODUCTNAME": "2009年第八期储蓄国债（电子式）"
+      },
+      {
+        "PRODUCTCODE": "06503",
+        "PRODUCTNAME": "06年第五期三年"
+      },
+      {
+        "PRODUCTCODE": "06505",
+        "PRODUCTNAME": "06年第五期五年"
+      },
+      {
+        "PRODUCTCODE": "09203",
+        "PRODUCTNAME": "09年第二期三年"
+      },
+      {
+        "PRODUCTCODE": "09205",
+        "PRODUCTNAME": "09年第二期五年"
+      },
+      {
+        "PRODUCTCODE": "09401",
+        "PRODUCTNAME": "09年第四期一年"
+      },
+      {
+        "PRODUCTCODE": "09403",
+        "PRODUCTNAME": "09年第四期三年"
+      },
+      {
+        "PRODUCTCODE": "11101",
+        "PRODUCTNAME": "2011年凭证式国债一期（一年期）"
+      },
+      {
+        "PRODUCTCODE": "11103",
+        "PRODUCTNAME": "2011年凭证式国债一期（三年期）"
+      },
+      {
+        "PRODUCTCODE": "11105",
+        "PRODUCTNAME": "2011年凭证式国债一期（五年期）"
+      },
+      {
+        "PRODUCTCODE": "11301",
+        "PRODUCTNAME": "2011年凭证式三期国债（一年期）"
+      },
+      {
+        "PRODUCTCODE": "11303",
+        "PRODUCTNAME": "2011年凭证式三期国债（三年期）"
+      },
+      {
+        "PRODUCTCODE": "12203",
+        "PRODUCTNAME": "2012年凭证式国债（二期）三年期"
+      },
+      {
+        "PRODUCTCODE": "13103",
+        "PRODUCTNAME": "2013年凭证式（一期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "14201",
+        "PRODUCTNAME": "2014年凭证式（二期）国债1年期"
+      },
+      {
+        "PRODUCTCODE": "15103",
+        "PRODUCTNAME": "2015年凭证式（一期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "15105",
+        "PRODUCTNAME": "2015年凭证式（一期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "15303",
+        "PRODUCTNAME": "2015年凭证式（三期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "15305",
+        "PRODUCTNAME": "2015年凭证式（三期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "07103",
+        "PRODUCTNAME": "07年第一期三年"
+      },
+      {
+        "PRODUCTCODE": "07105",
+        "PRODUCTNAME": "07年第一期五年"
+      },
+      {
+        "PRODUCTCODE": "07303",
+        "PRODUCTNAME": "07年第三期三年"
+      },
+      {
+        "PRODUCTCODE": "07305",
+        "PRODUCTNAME": "07年第三期五年"
+      },
+      {
+        "PRODUCTCODE": "08203",
+        "PRODUCTNAME": "08年第二期三年"
+      },
+      {
+        "PRODUCTCODE": "08205",
+        "PRODUCTNAME": "08年第二期五年"
+      },
+      {
+        "PRODUCTCODE": "08403",
+        "PRODUCTNAME": "2008年凭证式（四期）三年期"
+      },
+      {
+        "PRODUCTCODE": "08405",
+        "PRODUCTNAME": "2008年凭证式（四期）五年期"
+      },
+      {
+        "PRODUCTCODE": "10103",
+        "PRODUCTNAME": "10年第一期三年"
+      },
+      {
+        "PRODUCTCODE": "10301",
+        "PRODUCTNAME": "2010年凭证式国债（三期）一年期"
+      },
+      {
+        "PRODUCTCODE": "10303",
+        "PRODUCTNAME": "2010年凭证式国债（三期）三年期"
+      },
+      {
+        "PRODUCTCODE": "07503",
+        "PRODUCTNAME": "07年第五期三年"
+      },
+      {
+        "PRODUCTCODE": "07505",
+        "PRODUCTNAME": "07年第五期五年"
+      },
+      {
+        "PRODUCTCODE": "10101",
+        "PRODUCTNAME": "10年第一期一年"
+      },
+      {
+        "PRODUCTCODE": "10501",
+        "PRODUCTNAME": "2010年凭证式（五期）国债一年期"
+      },
+      {
+        "PRODUCTCODE": "10503",
+        "PRODUCTNAME": "2010年凭证式（五期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "11405",
+        "PRODUCTNAME": "2011年凭证式四期国债（五年期）"
+      },
+      {
+        "PRODUCTCODE": "12305",
+        "PRODUCTNAME": "2012年凭证式（三期）国债5年期"
+      },
+      {
+        "PRODUCTCODE": "13205",
+        "PRODUCTNAME": "2013年凭证式（二期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "13403",
+        "PRODUCTNAME": "2013年凭证式（四期）国债三年期"
+      },
+      {
+        "PRODUCTCODE": "13405",
+        "PRODUCTNAME": "2013年凭证式（四期）国债五年期"
+      },
+      {
+        "PRODUCTCODE": "14105",
+        "PRODUCTNAME": "2014年凭证式（一期）国债5年期"
+      },
+      {
+        "PRODUCTCODE": "14303",
+        "PRODUCTNAME": "2014年凭证式（三期）国债3年期"
+      },
+      {
+        "PRODUCTCODE": "14305",
+        "PRODUCTNAME": "2014年凭证式（三期）国债5年期"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

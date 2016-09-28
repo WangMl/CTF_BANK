@@ -1,0 +1,113 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}'>
+    <div></div>
+    <div class="main-container">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openProductCenterMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            理&nbsp;财&nbsp;产&nbsp;品
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12"
+                         style="color: #989898;background-color:#fbfbfb;box-shadow: 5px 5px 5px #a2a2a2;"
+                         hui-layout-type="RowLayout">
+                        <div>
+                            <div class="col l12">
+                                <div id='app'>
+                                    <filter-list></filter-list>
+                                </div>
+                                <template id='licai-condition-temp'>
+                                    <input type="text" v-model="filterText" class="input-control"
+                                           bui-disable-focus='true'
+                                           placeholder="请输入查询条件"/>
+                                </template>
+                                <template id='licai-filter-list-temp'>
+                                    <div hui-layout-type="RowLayout" style="margin-bottom: 10px;">
+                                        <div>
+                                            <div class="col l3">
+                                                <condition :filter-text.sync="filterText"></condition>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="col l12" style="overflow-y: auto;height: 500px;">
+                                                <list :items="filteredItems"></list>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </template>
+                                <template id='licai-list-temp'>
+                                    <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                                        <tr class="active" style="text-align: center;">
+                                            <th style="text-align: center">产品名称
+                                            </th>
+                                            <th style="text-align: center">个人起购金额
+                                            </th>
+                                            <th style="text-align: center">产品代码
+                                            </th>
+                                            <th style="text-align: center">风险等级</th>
+                                            <th style="text-align: center">预计年化收益率
+                                            </th>
+                                            <th style="text-align: center">到期日
+                                            </th>
+                                            <th style="text-align: center">销售渠道</th>
+                                            <th style="text-align: center">产品详情</th>
+                                            <th style="text-align: center">额度查询</th>
+                                            <th style="text-align: center">说明书下载</th>
+                                            <th style="text-align: center">产品购买
+                                            </th>
+                                        </tr>
+                                        <tr v-for="item in items">
+                                            <td>{{item.PrdName}}</td>
+                                            <td>{{item.PfirstAmt}}</td>
+                                            <td>{{item.PrdCode}}</td>
+                                            <td>{{item.RiskName}}</td>
+                                            <td>{{item.GuestRate}}</td>
+                                            <td>{{item.EndDate}}</td>
+                                            <td>{{item.Channels}}</td>
+                                            <td>
+                                                <div class="btn btn-cold" name="{{item.PrdName}}"
+                                                     style="height: 25px;line-height: 25px;">详情
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn btn-cold" name="{{item.PrdCode}}"
+                                                     style="height: 25px;line-height: 25px;">查询
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn btn-cold" name1="{{item.PrdCode}}"
+                                                     name2="{{item.PrdName}}" style="height: 25px;line-height: 25px;">下载
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="btn btn-cold {{item.Channels.indexOf('网上营业厅')==-1?'opp-hidden':'opp-show'}}"
+                                                     name="{{item.PrdCode}}" style="height: 25px;line-height: 25px;">购买
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</div>

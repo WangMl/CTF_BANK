@@ -1,0 +1,26 @@
+.header {
+    background-color: #1e7fda;
+    box-shadow: 2px 2px 5px gray;
+}
+
+/**Alert组件*/
+.bui-alert-root
+{
+    background-color: blue !important;
+}
+
+/**Confirm组件*/
+.bui-confirm-root
+{
+    background-color:blue !important;
+}
+
+/**Prompt组件*/
+.bui-prompt-root{
+    background-color:blue !important;
+}
+
+/**Login组件*/
+.bui-login-root{
+    background-color:blue !important;
+}

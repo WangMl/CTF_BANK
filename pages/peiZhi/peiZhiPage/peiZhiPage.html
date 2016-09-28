@@ -1,0 +1,162 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}'>
+    <div></div>
+    <div class="main-container" id="peiZhiPage">
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            配&nbsp;置
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout">
+                <div>
+                    <div class="col l12" style="height: 567px;background-color: #fbfbfb;"
+                         hui-layout-type="RowLayout">
+                        <div hui-layout-type="RowLayout" style="margin-top: 30px;">
+                            <div>
+                                <div class="col l2" style="text-align: right;">
+                                    <label class="label" style="font-size: 18px;">显示等待时间提醒：</label>
+                                </div>
+                                <div class="col l6">
+                               <span style="padding-left: 0.3rem;">
+                                    <input type="range" style="width: 100%;" value="22" max="100"
+                                           hui-widget-nodeType="waitTimeRange"/>
+                               </span>
+                                </div>
+                                <div class="col l3">
+                                    <span hui-widget-nodeType="waitTimeValue">100</span>分钟
+                                </div>
+                            </div>
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label" style="font-size: 18px;">客户生日提醒：</label>
+                                </div>
+                                <div class="col l4" id="birthdayInfo" style="height: 40px;line-height: 40px">
+                                    <input type="checkbox" id="birthdayInfoInput" class="checkbox-switch-oval"
+                                           checked>
+                                    <label for="birthdayInfoInput" style="vertical-align: middle;"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label" style="font-size: 18px;">铃声提醒：</label>
+                                </div>
+                                <div class="col l1" id="clockInfo" style="height: 40px;line-height: 40px">
+                                    <input type="checkbox" id="clockInfoInput" class="checkbox-switch-oval" checked>
+                                    <label for="clockInfoInput" style="vertical-align: middle;"></label>
+                                </div>
+                                <div class="col l8" hui-layout-type="RowLayout" id="ringTipType">
+                                     <div style="width: 90%">
+                                         <div class="col l3">
+                                             <input name="No1" value=1 type="checkbox" class="checkbox-question" id="checkbox-1-1">
+                                             <label for="checkbox-1-1" style="vertical-align: baseline;margin-right:0"></label>
+                                             <label class="label ring-type-info">类型1</label>
+                                         </div>
+                                         <div class="col l3">
+                                             <input name="No1" value=2 type="checkbox" class="checkbox-question " id="checkbox-1-2">
+                                             <label for="checkbox-1-2" style="vertical-align: baseline;margin-right:0"></label>
+                                             <label class="label ring-type-info">类型2</label>
+                                         </div>
+                                         <div class="col l3">
+                                             <input name="No1" value=2 type="checkbox" class="checkbox-question " id="checkbox-1-3">
+                                             <label for="checkbox-1-3" style="vertical-align: baseline;margin-right:0"></label>
+                                             <label class="label ring-type-info">类型3</label>
+                                         </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label" style="font-size: 18px;">MAC地址：</label>
+                                </div>
+                                <div class="col l4" style="height: 40px;line-height: 40px">
+                                    <div for="clockInfoInput" style="vertical-align: middle;"  id="macAddress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label" style="font-size: 18px;" >IP地址：</label>
+                                </div>
+                                <div class="col l4" style="height: 40px;line-height: 40px">
+                                    <div for="clockInfoInput" style="vertical-align: middle;"id="ipAddress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label" style="font-size: 18px;" >资源文件：</label>
+                                </div>
+                                <div class="col l8" style="height: 40px;line-height: 40px">
+                                    <div class="btn btn-cold" id="queryVideos">查看视频</div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div class="btn btn-cold" id="queryAudios">查看音频</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label" style="font-size: 18px;" >定时上传资源文件：</label>
+                                </div>
+                                <div class="col l4" style="height: 40px;line-height: 40px">
+                                    <div class="btn btn-cold" id="uploadVides">上传视频</div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div class="btn btn-cold" id="updateAudios">上传音频</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2"  style="text-align: right;height: 40px;line-height: 40px">
+                                    <label class="label">资源自动上传定时：</label>
+                                </div>
+                                <div class="col l6">
+                                    <div style="display: inline-block;width: 120px;vertical-align: sub;">
+                                        <div id="uploadHour" hui-widget-type="btop.bui.Select" style="width: 70%;display: inline-block"></div>&nbsp;&nbsp;时
+                                    </div>
+                                    <div style="display: inline-block;width: 120px;vertical-align: sub;">
+                                        <div id="uploadMinute" hui-widget-type="btop.bui.Select" style="width: 70%;display: inline-block"></div>&nbsp;&nbsp;分
+                                    </div>
+                                    <div style="display: inline-block;width: 120px;vertical-align: sub;">
+                                        <div id="uploadSecond" hui-widget-type="btop.bui.Select" style="width: 70%;display: inline-block"></div>&nbsp;&nbsp;秒
+                                    </div>
+                                    <div class="btn btn-cold" id="uploadTimer">确定</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div hui-layout-type="RowLayout">
+                            <div>
+                                <div class="col l2" style="text-align: right;height: 40px;line-height: 40px">
+                                    <div class="label" style="font-size: 18px;">主题：</div>
+                                </div>
+                                <div class="col l8" hui-widget-nodeType="themeMountNode" style="overflow-x: auto;white-space: nowrap;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</div>

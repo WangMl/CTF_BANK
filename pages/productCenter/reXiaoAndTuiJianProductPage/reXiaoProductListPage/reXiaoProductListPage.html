@@ -1,0 +1,53 @@
+<div style="background-color: #fbfbfb" hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["8%", "92%", "0%"]}'>
+    <div>
+        <div hui-layout-type='RowLayout'>
+            <div>
+                <div class="col l12">
+                    <div class="stack-title" hui-widget-nodeType='stackTitle'>
+                        推荐产品
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="overflow-y: auto">
+        <div hui-layout-type='RowLayout' class="stack-container">
+            <div>
+                <div class="col l12" hui-layout-type="RowLayout">
+                    <div  style="width: 98%;height: 480px;overflow-y: auto;" id="productListStack">
+                        <div class="col l4 bui-product-card" v-for="product in productList">
+                            <div style="" class="bui-product-content-container">
+                                <div class="col l12 bui-product-content" hui-layout-type="RowLayout">
+                                    <div>
+                                        <div class="col l4 bui-product-content-img" >
+                                            <img src="skin/default/img/productlibrary_zichanyewu.png"/>
+                                        </div>
+                                        <div class="col l7 push-l1">
+                                            <div class="bui-product-content-title">{{product.PRODUCTNAME}}</div>
+                                        </div>
+                                        <div style="display: none;" class="query-info" name="{{product.PRODUCTCODE}}">查看详情</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bui-product-btn-container">
+                                <div class="col l12 bui-product-btn" hui-layout-type="RowLayout">
+                                    <div>
+                                        <div class="col l12">
+                                            <div name="{{product.PRODUCTCODE}}" style="padding-right: 10px;">查看详情</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br/>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</div>

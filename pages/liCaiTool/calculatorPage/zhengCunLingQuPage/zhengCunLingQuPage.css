@@ -1,0 +1,48 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 15px;
+}
+
+
+.input-success {
+    position: absolute;
+    color: #468847;
+    margin-top: -25px;
+}
+
+.input-error{
+    position: absolute;
+    color:#b94a48;
+    margin-top: -25px;
+}
+
+[class^="icon-"]{
+    background:none !important;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+}
+
+.icon-ok:before {
+    content: "\2714";
+}
+
+.icon-fail:before{
+    content:"X"
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    cursor: default;
+}
+
+.input-error-info{
+    position: absolute;
+    color:rgb(185, 74, 72);
+    margin-top: -25px;
+}

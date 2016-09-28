@@ -1,0 +1,50 @@
+{
+  "b": {
+    "List": [
+      {
+        "CUSTID": "",
+        "CUSTNAME": "33",
+        "CUSTTYPE": "潜在客户",
+        "MBDATE": "2016-05-19",
+        "MBPRO": "工银7天理财A",
+        "OTHERBZ": "",
+        "OWNERNAME": "王建军",
+        "PHONE": "33"
+      },
+      {
+        "CUSTID": "",
+        "CUSTNAME": "22",
+        "CUSTTYPE": "潜在客户",
+        "MBDATE": "2016-05-19",
+        "MBPRO": "工银7天理财A",
+        "OTHERBZ": "",
+        "OWNERNAME": "王建军",
+        "PHONE": "44"
+      },
+      {
+        "CUSTID": "",
+        "CUSTNAME": "33",
+        "CUSTTYPE": "潜在客户",
+        "MBDATE": "2016-05-19",
+        "MBPRO": "工银7天理财A",
+        "OTHERBZ": "",
+        "OWNERNAME": "王建军",
+        "PHONE": "33"
+      },
+      {
+        "CUSTID": "",
+        "CUSTNAME": "33",
+        "CUSTTYPE": "潜在客户",
+        "MBDATE": "2016-05-19",
+        "MBPRO": "工银7天理财A",
+        "OTHERBZ": "",
+        "OWNERNAME": "王建军",
+        "PHONE": "33"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

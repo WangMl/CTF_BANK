@@ -1,0 +1,18 @@
+{
+  "b": {
+    "AdjustUseLimit": "",
+    "ErrorInfo": "该产品不控制额度.",
+    "ErrorNo": "1214",
+    "HoldAmt": "",
+    "LimitBookAmt": "",
+    "OrgUseLimit": "",
+    "PersonUseLimit": "",
+    "TotBookAmt": "",
+    "TotLimit": "",
+    "TotUseLimit": ""
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

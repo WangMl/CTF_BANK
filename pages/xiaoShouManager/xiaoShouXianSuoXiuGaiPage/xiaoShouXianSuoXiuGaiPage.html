@@ -1,0 +1,210 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}'
+     id="xiaoShouXianSuoXiuGaiPage">
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='backXiaoShouMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            修&nbsp;改&nbsp;销&nbsp;售&nbsp;线&nbsp;索
+                        </div>
+                    </div>
+
+                    <div id="baoCunXiaoShouXianSuo" class="col l1 common-header-button-wrapper"
+                         hui-widget-nodeType="openbaocun">
+                        <div class="btn btn-warm">
+                            保存
+                        </div>
+                    </div>
+                    <div id="shanChuXiaoShouXianSuo" class="col l1 common-header-button-wrapper"
+                         hui-widget-nodeType="deleteSERIALNO">
+                        <div class="btn btn-danger">删除</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type="RowLayout">
+                <div class="cards-panel-wrapper">
+                    <div class="col l12">
+
+                        <div hui-layout-type="RowLayout">
+                            <div class="cards-panel" style="width: 100%">
+                                <div class="cards-panel-title" style="margin-bottom: 20px">
+                                    <div>
+                                        销售信息
+                                    </div>
+                                </div>
+                                <div hui-layout-type="RowLayout" class="col l12 cards-panel-container form">
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1  input-wrapper-group">
+                                            <label class="label">转介状态：</label>
+                                        </div>
+                                        <div class="col l3">
+                                            <input type="text" id="STATUS" class="input-control" placeholder=""
+                                                   disabled="disabled" />
+                                        </div>
+                                        <!--<div class="col l1 input-wrapper-group">-->
+                                            <!--<label class="label">销售线索ID：</label>-->
+                                        <!--</div>-->
+                                        <!--<div class="col l3 input-wrapper-group rightMove">-->
+                                            <!--<input type="text" id="SERIALNO" placeholder=""-->
+                                                   <!--class="input-control" disabled="disabled" bui-input-rulers='{"required":true}'/>-->
+                                        <!--</div>-->
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">所属机构：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="BRNAME" placeholder=""
+                                                   class="input-control" name="name" disabled="disabled" bui-input-rulers='{"required":true}'/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <!--<div class="col l1 input-wrapper-group">-->
+                                            <!--<label class="label">转介日期：</label>-->
+                                        <!--</div>-->
+                                        <!--<div class="col l3 input-wrapper-group rightMove">-->
+                                            <!--<input type="text" id="INTRDATE" placeholder=""-->
+                                                   <!--class="input-control" disabled="disabled" bui-input-rulers='{"required":true}'/>-->
+                                        <!--</div>-->
+
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label">转介日期：</label>
+                                        </div>
+                                        <div class="col l3 ">
+                                            <div  id="INTRDATE" hui-widget-type="btop.hui.DatePicker" hui-widget-attr='{"format" : "yyyy-MM-dd"}'>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">创建日期：</label>
+                                        </div>
+                                        <div class="col l3 rightMove">
+                                            <input type="text" id="INPUTDT" class="input-control" placeholder=""
+                                                   disabled="disabled" bui-input-rulers='{"required":true}'/>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label">被转介人：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input  class="input-control" id="ZJEMPCODE" bui-input-rulers='{"numberOrLetter":true}' hui-widget-nodeType="chuangJianZhuanJie" readonly>
+                                        </div>
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">客户类型：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="CUSTTYPE" placeholder=""
+                                                   class="input-control" disabled="disabled" bui-input-rulers='{"required":true}'/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label">客户姓名：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="CUSTNAME" placeholder=""
+                                                   class="input-control" bui-input-rulers='{"name":true}' />
+                                        </div>
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">客户号：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="CUST_ID" placeholder=""
+                                                   class="input-control" bui-input-rulers='{"custNumber":true}'/>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group">
+                                            <label class="label">证件类型：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="CERTTYPE" placeholder=""
+                                                   class="input-control" bui-input-rulers='{"required":true}' disabled/>
+                                        </div>
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">证件号码：</label>
+                                        </div>
+                                        <div class="col l3 rightMove">
+                                            <input type="text" id="CERTNO" class="input-control" bui-input-rulers='{"required":true}' placeholder=""/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1 input-wrapper-group ">
+                                            <label class="label">联系电话：</label>
+                                        </div>
+                                        <div class="col l3 rightMove">
+                                            <input type="text" id="CONT_TEL_NO" class="input-control" name="telephone"
+                                                   placeholder="" bui-input-rulers='{"telePhone":true}'/>
+                                        </div>
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">意向产品：</label>
+                                        </div>
+
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="CUST_PRODID"
+                                                   hui-widget-nodeType="YiXiangChanPin" placeholder="请选择"
+                                                   class="input-control" bui-input-rulers='{"required":true}' readonly/>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-row" style="margin-left: 15px">
+
+
+                                        <div class="col l1  input-wrapper-group">
+                                            <label class="label labelFontSize">是否转介 ：</label>
+                                        </div>
+                                        <div class="col l3" style="margin-left: 0px">
+                                            <input name="choice" value=1 type="checkbox"
+                                                   class="checkbox-question" id="checkbox-1-2">
+                                            <label for="checkbox-1-2" style="vertical-align: baseline;"></label>
+                                        </div>
+
+                                        <div class="col l3 push-l2 input-wrapper-group">
+                                            <label class="label">创建人：</label>
+                                        </div>
+                                        <div class="col l3 input-wrapper-group rightMove">
+                                            <input type="text" id="CEMPCODE" placeholder=""
+                                                   class="input-control" bui-input-rulers='{"name":true}'disabled="disabled"/>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="input-row" style="margin-left: 15px">
+                                        <div class="col l1  input-wrapper-group">
+                                            <label class="label">销售线索描述：</label>
+                                        </div>
+                                        <div class="col l10">
+                                            <!--<input type="text" id="COMOC_STATE" class="input-control" placeholder=""-->
+                                                   <!--disabled="disabled" />-->
+                                        <!--</div>-->
+                                            <textarea rows="5" id="COMOC_STATE" class="input-control inputHe"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</div>

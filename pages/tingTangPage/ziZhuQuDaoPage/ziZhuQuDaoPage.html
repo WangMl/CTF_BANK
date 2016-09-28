@@ -1,0 +1,60 @@
+<div hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights" : ["0%", "100%", "0%"]}'>
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l2 common-header-back-wrapper" hui-widget-nodeType='openTingTangMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l6 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            自&nbsp;助&nbsp;渠&nbsp;道&nbsp;到&nbsp;访&nbsp;客&nbsp;户
+                        </div>
+                    </div>
+                    <div class="col l4 push-l1 common-header-button-wrapper" >
+                        <div class="btn btn-warm" hui-widget-nodeType="refreshDataNode">
+                            刷新
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="common-content-container">
+            <div hui-layout-type='RowLayout'>
+                 <div style="background-color: #f2f2f2;color: #63ccca; margin-bottom: 0;padding: 10px 0;">
+                     <div class="col l12" style="padding: 0;">
+                         &nbsp;&nbsp;&nbsp;
+                         <div style="display: inline-block;">
+                             排队机：<span id="paiDuiJi">0</span>人
+                         </div>&nbsp;&nbsp;&nbsp;
+                         <div style="display: inline-block;">
+                             微信银行：<span id="weiXinYinHang">0</span>人
+                         </div>&nbsp;&nbsp;&nbsp;
+                         <div style="display: inline-block;">
+                             WIFI：<span id="WIFI">0</span>人
+                         </div>&nbsp;&nbsp;&nbsp;
+                         <div style="display: inline-block;">
+                             蓝牙：<span id="lanYa">0</span>人
+                         </div>&nbsp;&nbsp;&nbsp;
+                         <div style="display: inline-block;">
+                             智能终端：<span id="zhiNengTerminal">0</span>人
+                         </div>
+                     </div>
+                 </div>
+                 <div>
+                     <div class="col l12" style="padding: 0;">
+                         <div id="assistChannelQueue" hui-widget-type='btop.bui.AssistChannelQueue' style="display: block;background-color: rgba(255, 255, 255, 0.5);">
+                         </div>
+                     </div>
+                 </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer" id="footer"></div>
+</div>

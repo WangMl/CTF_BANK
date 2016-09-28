@@ -1,0 +1,157 @@
+{
+  "b": {
+    "MENULIST": [
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010201",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户小额信用贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010202",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户联保贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010203",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户房产抵押贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010204",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户质押贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010205",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户保证贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010206",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "设施农业贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010207",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "产权式农业项目贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010208",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户计生贴息贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010209",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "助残贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010210",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户助学贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010211",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "订单农业贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010212",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "协会+农户贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010213",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农户融资快车贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010214",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农家女小额贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010215",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "农村个体经营户贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010216",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "“新民居”贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010217",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "凤凰乡村游商户贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010218",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "板栗收购贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010219",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "“兴市惠农”农户贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010220",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "民俗旅游户贷款",
+        "SUPERIOR_MENUID": "010102"
+      },
+      {
+        "ISCONTENT": "1",
+        "MENU_ID": "01010221",
+        "MENU_LEVEL": "4",
+        "MENU_NAME": "冷水鱼农户养殖贷款",
+        "SUPERIOR_MENUID": "010102"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

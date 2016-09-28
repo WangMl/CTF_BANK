@@ -1,0 +1,183 @@
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+.main-container .row .col{
+    padding: 10px;
+}
+
+.rightMove{
+    padding-left: 20px;
+}
+/*此页面私有全局覆盖*/
+.switch-page-wrapper .row .col{
+    padding: 0;
+}
+.switch-page-wrapper .row{
+    margin-bottom: 0;
+}
+
+/*切换页面包装器*/
+.switch-page-wrapper{
+    position: absolute;
+    z-index: 9999;
+    opacity: 1;
+    height: 150px;
+    width: 125px;
+    margin-right: -102px;
+    top: 35%;
+    right: 0px;
+}
+.switch-arrow-left-container{
+    position: inherit;
+    height: 50px;
+    width: 33px;
+    top: 8%;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #cccccc;
+    box-shadow: -1px 1px 1px #bdbcbc,-1px -1px 1px #bdbcbc;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform-origin: top right;
+    z-index: 10001;
+}
+
+.switch-arrow-container:hover{
+    background-color: #abaaaa;
+}
+.switch-arrow-open{
+    background-image: url("skin/default/img/clientinfo_left_arrow.png");
+    background-size: 100% 100%;
+    height: 30px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 6px;
+}
+.switch-arrow-right-container{
+    position: inherit;
+    height: 100%;
+    width: 100px;
+    margin-right: -100px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 10000;
+    margin-left: 23px;
+}
+
+/*clientInfoTab样式*/
+#clientInfoTab .bui-widget-view{
+    background-color: #f48969;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#clientInfoTab .bui-tab-root{
+    font-size: 18px;
+    text-align: center;
+
+}
+#clientInfoTab .bui-tab-container{
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    background-color: #e9e9e9;
+}
+#clientInfoTab .bui-tab-item{
+    width: 100px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 40px;
+}
+#clientInfoTab .bui-tab-item-checked{
+    background-color: gainsboro;
+}
+
+/*页面样式*/
+#clientInforMainPage .row{
+    margin-bottom: 10px;
+}
+
+#clientInforMainPage .row .col{
+    padding: 0px;
+}
+
+#clientInforMainPage .tingtangguanli-item {
+    height: 550px;
+    width: 96%;
+    background: url("skin/default/img/clientinfo_background.png");
+    background-size: 100% 100%;
+    background-color: white;
+}
+
+#clientInforMainPage .tingtangguanli-item-title {
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px dashed #FFFFFF;  /*  底部线   虚线      */
+    background-color: rgb(242,242,242);
+    font-size: 25px;
+}
+
+#clientInforMainPage .headInfo{
+    margin-top:12px;
+    height:60px;
+    width:100%;
+    background-color: #ffffff;
+}
+
+#clientInforMainPage .kehutupian{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    background: url("skin/default/img/11111111111.png");
+    background-size: 100% 100%;
+    margin: auto;
+}
+#clientInforMainPage .dazonghuiyuan{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/clientinfo_dazonghuiyuan.png");
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#clientInforMainPage .top-title{
+    font-size: 20px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+#clientInforMainPage .hengxian{
+    height: 35px;
+    background: url("skin/default/img/hengxian.png")no-repeat;
+    background-size: 100% 100%;
+}
+#clientInforMainPage .shengri{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/clientinfo_shengri.png")no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#clientInforMainPage .star{
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#clientInforMainPage .xingbie{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/clientinfo_nan.png")no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+#clientInforMainPage .keHuShengRiImage{
+    display: none;
+}

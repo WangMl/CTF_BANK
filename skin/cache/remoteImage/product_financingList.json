@@ -1,0 +1,82 @@
+{
+  "b": {
+    "ProductList": [
+      {
+        "Channels": "069G",
+        "CurrType": "156",
+        "EndDate": "20160622",
+        "GuestRate": "0.00000000",
+        "IncomeDate": "20160616",
+        "InstAllow": "1",
+        "InterestDays": "6",
+        "IpoEndDate": "20160614",
+        "IpoStartDate": "20160614",
+        "OappAmt": "0.00",
+        "OffSet": "1",
+        "OfirstAmt": "0.00",
+        "PappAmt": "0.00",
+        "PerAllow": "1",
+        "PfirstAmt": "0.00",
+        "PrdCode": "GX-20160627",
+        "PrdName": "滚续测试预受理",
+        "PrdScale": "0.00",
+        "RetNum": "2",
+        "RiskName": "未评定",
+        "TotNum": "2",
+        "TypeName": "保本浮动收益类"
+      },
+      {
+        "Channels": "69G",
+        "CurrType": "156",
+        "EndDate": "20160618",
+        "GuestRate": "0.00000000",
+        "IncomeDate": "20160616",
+        "InstAllow": "1",
+        "InterestDays": "2",
+        "IpoEndDate": "20160614",
+        "IpoStartDate": "20160614",
+        "OappAmt": "0.00",
+        "OffSet": "0",
+        "OfirstAmt": "0.00",
+        "PappAmt": "0.00",
+        "PerAllow": "1",
+        "PfirstAmt": "0.00",
+        "PrdCode": "RRJ_20160627",
+        "PrdName": "日日金测试预受理",
+        "PrdScale": "0.00",
+        "RetNum": "0",
+        "RiskName": "未评定",
+        "TotNum": "0",
+        "TypeName": "保本浮动收益类"
+      },
+      {
+        "Channels": "69V",
+        "CurrType": "156",
+        "EndDate": "20160618",
+        "GuestRate": "0.00000000",
+        "IncomeDate": "20160616",
+        "InstAllow": "1",
+        "InterestDays": "2",
+        "IpoEndDate": "20160614",
+        "IpoStartDate": "20160614",
+        "OappAmt": "0.00",
+        "OffSet": "0",
+        "OfirstAmt": "0.00",
+        "PappAmt": "0.00",
+        "PerAllow": "1",
+        "PfirstAmt": "0.00",
+        "PrdCode": "RRJ_20160627",
+        "PrdName": "日月金测试预受理",
+        "PrdScale": "0.00",
+        "RetNum": "0",
+        "RiskName": "未评定",
+        "TotNum": "0",
+        "TypeName": "保本浮动收益类"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

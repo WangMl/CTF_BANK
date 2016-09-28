@@ -1,0 +1,297 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <!--<div style=" border-bottom: 1px dashed #ffffff;-->
+    <!--background-color: #f2f2f2;">-->
+        <!--<div class="common-header-container main-container">-->
+            <!--<div hui-layout-type='RowLayout' class="common-header-wrapper">-->
+                <!--<div class="common-header">-->
+                    <!--<div class="col l4 push-l4 common-header-title-wrapper">-->
+                        <!--<div class="commom-head-title" id="EDu">-->
+                            <!--理&nbsp;财&nbsp;额&nbsp;度-->
+                        <!--</div>-->
+                        <!--<div class="commom-head-title" id="xiangQing">-->
+                            <!--理&nbsp;财&nbsp;产&nbsp;品&nbsp;详&nbsp;请-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div>
+        <div style="background: #f2f2f2;">
+            <div class="commom-head-title " id="EDu" style="text-align: center;width: 875px;height: 48px;">理&nbsp;财&nbsp;额&nbsp;度</div>
+            <div class="commom-head-title " id="xiangQing" style="text-align: center;width: 875px;height: 48px;" hidden="hidden">理&nbsp;财&nbsp;产&nbsp;品&nbsp;详&nbsp;请</div>
+        </div>
+    </div>
+
+    <div class="main-container">
+
+        <div id="liCaiEDuChaXun" class="common-content-container">
+            <div hui-layout-type="RowLayout" style="overflow-y: auto">
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">计划总额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.TotLimit}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">总可用额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.TotUseLimit}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">可用机构额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.OrgUseLimit}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">可用个人额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PersonUseLimit}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">可用机动额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.AdjustUseLimit}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">预约额度上限:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.LimitBookAmt}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">累积预约额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.TotBookAmt}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">保留额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.HoldAmt}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="liCaiXiangQing" class="common-content-container">
+            <div hui-layout-type="RowLayout" style="overflow-y: auto">
+                <!--<div class="input-row" style="margin-left: 15px">-->
+                <!--<div class="col l5 push-l2 input-wrapper-group ">-->
+                <!--<label class="label">总行数:</label>-->
+                <!--</div>-->
+                <!--<div class="col l6 rightMove">-->
+                <!--<div>{{accountManagerLog.TotNum}}</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品代码:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PrdCode}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品名称:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PrdName}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">币种:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.CurrType}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品发行期:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div style="display: inline-block">{{accountManagerLog.IpoStartDate}}</div>
+                        <div style="display: inline-block"> 到</div>
+                        <div style="display: inline-block">{{accountManagerLog.IpoEndDate}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品起息日:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.IncomeDate}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品到期日:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.EndDate}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">计息天数:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.InterestDays}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">个人起购金额:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PfirstAmt}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">个人递增金额:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PappAmt}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">机构起购金额:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.OfirstAmt}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">机构递增金额:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.OappAmt}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">发行规模:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PrdScale}}</div>
+                    </div>
+                </div>
+
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">对私是否允许:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PerAllow}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">对公是否允许:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.InstAllow}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品收益类型:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.TypeName}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">风险等级:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.RiskName}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">预计年化收益率:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.GuestRate}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">销售渠道:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.Channels}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="
+    background-color: #f2f2f2;padding-top: 20px">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l10">
+                    <div class="wenXinTiShi">温馨提示：以上信息仅供参考，请以产品说明书为准；产品信息更新变动，请及时关注产品公告</div>
+                </div>
+                <div class="col l2 ">
+                    <div class="btn btn-cold" hui-widget-nodeType="cancelBtnNode">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

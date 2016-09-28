@@ -1,0 +1,24 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+
+.DetailsVedio-input-area{
+    height: 540px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+.DetailsVedio{
+    height: 530px;
+    width: 1210px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding-right: 10px;
+    margin: auto;
+}

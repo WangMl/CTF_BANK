@@ -1,0 +1,16 @@
+.main-container .row .col{
+    padding: 0px;
+}
+
+.main-container .row{
+    margin: 10px;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+.t1{
+    text-align: left;
+}

@@ -1,0 +1,130 @@
+#subone .tingtangguanli-item {
+    border:1px solid gray;
+    height: 550px;
+    width: 97%;
+    border: 1px solid #ffffff;
+    background-color: #fbfbfb;
+    margin: auto;
+}
+
+#subone .tingtangguanli-item-title {
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px dashed #FFFFFF;  /*  底部线   虚线      */
+    background-color: rgb(242,242,242);
+    font-size: 25px;
+}
+
+#subone .headInfo{
+    margin-top:12px;
+    height:60px;
+    width:100%;
+    background-color: #ffffff;
+}
+#subone .btn-xiaoshou{
+    padding-top: 6px;
+    margin-top: 12px;
+    text-align: center;
+    height:30px;
+    width:177px;
+    border-radius:15px;
+    color: white;
+    background-color: #46bdba;
+}
+#subone .btn-search{
+    padding-top: 6px;
+    margin-top: 12px;
+    text-align: center;
+    height:30px;
+    width:177px;
+    border-radius:15px;
+    color: white;
+    background-color:#f48969;
+}
+
+#subone .show-area{
+    background-color: #fbfbfb !important;
+    width:100%;
+    height:508px;
+}
+#subone .cardPie{
+    height:250px;
+}
+#subone .type-info{
+    margin-top: 20px;
+    /*margin-left:50px !important;*/
+}
+
+#subone .type-info div{
+    margin-bottom: 3px;
+}
+
+#subone .businessPie{
+    height:240px;
+}
+#subone .type-6{
+    background-color: #47b8d6;
+    height:16px;
+    width:100%;
+}
+
+
+#subone .dengdaitime{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    background: url("skin/default/img/product_center_star.png");
+    background-size: 100% 100%;
+}
+#subone .kehutupian{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    background: url("skin/default/img/11111111111.png");
+    background-size: 100% 100%;
+    margin: auto;
+}
+#subone .dazonghuiyuan{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/clientinfo_dazonghuiyuan.png");
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#subone .top-title{
+    font-size: 20px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+#subone .left{
+    text-align: right;
+    padding-right: 10px;
+    font-size: 8px;
+}
+#subone .right{
+
+    text-align: left;
+    /*font-size: 16px;*/
+}
+
+
+#subone .xingbie{
+    width: 20px;
+    height: 20px;
+    background: url("skin/default/img/nan.png")no-repeat;
+    text-align: right;
+}
+
+#subone  .hengxian{
+    padding-top: 20px;
+
+}
+
+#subone  .nonghu{
+   background-color: #fd5a5d;
+
+}

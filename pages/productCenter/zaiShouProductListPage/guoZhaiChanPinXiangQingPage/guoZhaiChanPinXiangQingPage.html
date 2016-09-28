@@ -1,0 +1,175 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div style=" border-bottom: 1px dashed #ffffff;
+    background-color: #f2f2f2;">
+        <div class="common-header-container" >
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 push-l4 common-header-title-wrapper">
+                        <div class="commom-head-title" >
+                            国&nbsp;债
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+
+        <div id="guozhaiEDuChaXun" class="common-content-container">
+            <div hui-layout-type="RowLayout" style="overflow-y: auto">
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">剩余额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.ProdLimit}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="guozhaiXiangQing" class="common-content-container">
+            <div hui-layout-type="RowLayout" style="overflow-y: auto">
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品名称:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PRODUCTNAME}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品代码:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PRODUCTCODE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">产品期限:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PRODUCTLIMIT}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">国债期数:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PERIODS}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">发行年份:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.ISSUEYEAR}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">发行额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.ISSUEPRICE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">机动额度:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.MOVEPRICE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">发售开始日期:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.STARTDT}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">起购金额:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PURCHASEAMOUNT}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">利率:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.RATE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">币种:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.CURRENCY}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">计息方式:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.INTERESTTYPE}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">付息频率:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.PAYFREQUENCY}}</div>
+                    </div>
+                </div>
+
+                <div class="input-row" style="margin-left: 15px">
+                    <div class="col l5 push-l2 input-wrapper-group ">
+                        <label class="label">国债类型:</label>
+                    </div>
+                    <div class="col l6 rightMove">
+                        <div>{{accountManagerLog.NDTYPE}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div  style="background-color: #f2f2f2; padding-top: 10px">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l10">
+                    <div class="wenXinTiShi" >温馨提示：以上信息仅供参考，请以产品说明书为准；产品信息更新变动，请及时关注产品公告</div>
+                </div>
+                <div class="col l2 ">
+                    <div class="btn btn-cold" hui-widget-nodeType="cancelBtnNode">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+{
+  "b": {
+    "CustList": [
+      {
+        "BusName": "个人业务",
+        "BusType": "A",
+        "BusTypeId": "001",
+        "CustId": "112782148",
+        "CustLevel": "",
+        "CustName": "李健甲",
+        "Sex": "1",
+        "Telephone": "13787654321"
+      },
+      {
+        "BusName": "理财业务",
+        "BusType": "C",
+        "BusTypeId": "004",
+        "CustId": "112782148",
+        "CustLevel": "",
+        "CustName": "李健甲",
+        "Sex": "1",
+        "Telephone": "13787654321"
+      },
+      {
+        "BusName": "对公业务",
+        "BusType": "D",
+        "BusTypeId": "123",
+        "CustId": "112782148",
+        "CustLevel": "",
+        "CustName": "李健甲",
+        "Sex": "1",
+        "Telephone": "13787654321"
+      },
+      {
+        "BusName": "个人业务",
+        "BusType": "A",
+        "BusTypeId": "001",
+        "CustId": "112782148",
+        "CustLevel": "",
+        "CustName": "李健甲",
+        "Sex": "1",
+        "Telephone": "13787654321"
+      },
+      {
+        "BusName": "理财业务",
+        "BusType": "C",
+        "BusTypeId": "004",
+        "CustId": "112782148",
+        "CustLevel": "",
+        "CustName": "李健甲",
+        "Sex": "1",
+        "Telephone": "13787654321"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

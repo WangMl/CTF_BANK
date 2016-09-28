@@ -1,0 +1,33 @@
+<div id="whcklilv">
+    <div hui-layout-type="RowLayout" class="whckll">
+        <!--<div>-->
+            <!--<div id="jiaobiao">单位 : <span id="nianlilv"></span> %</div>-->
+        <!--</div>-->
+        <div style="background: #FFFFFF;height: 530px;">
+            <div class="col l12" style="margin-top: -10px;" id='app1'>
+                <table class="table table-bordered" style="margin-top: 10px;text-align: center;">
+                    <tr class="active">
+                        <th>项目(%)</th>
+                        <th>活期</th>
+                        <th>七天通知</th>
+                        <th>一个月</th>
+                        <th>三个月</th>
+                        <th>六个月</th>
+                        <th>一年</th>
+                        <th>二年</th>
+                    </tr>
+                    <tr v-for="item in items">
+                        <td class="zuoti">{{item.CURTYPE}}</td>
+                        <td>{{item.CURR_RATE}}</td>
+                        <td>{{item.SEVENDAY}}</td>
+                        <td>{{item.ONEMONTH}}</td>
+                        <td>{{item.THREEMONTH}}</td>
+                        <td>{{item.SIXMONTH}}</td>
+                        <td>{{item.ONEYEAR}}</td>
+                        <td>{{item.TWOYEAR}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,215 @@
+    <!--js代码可以放置在任意位置，按照先后顺序依次执行 一般放在head标签之间-->
+    <script type="text/javascript">
+
+        /* 定义一个Calculator类*/
+        function Calculator() {
+
+            this.jisuan = function (num1, num2, oper) {
+                var res = 0;
+                switch (oper) {
+                    case "+":
+                        res = num1 + num2;
+                        break;
+                    case "-":
+                        res = num1 - num2;
+                        break;
+                    case "*":
+                        res = num1 * num2;
+                        break;
+                    case "/":
+                        if (num2 == 0){
+                            var xsval = document.getElementById("outPut");
+                            xsval.value = "被除数不能为0";
+                            res = xsval.value;
+                        }else {
+                            res = num1 / num2;
+                        }
+                        break;
+                }
+                return res;
+            }
+        }
+
+        //创建对象
+        var calculator = new Calculator();
+
+        /*定义全局变量*/
+        var val = 0; //放置输入的值
+        var xval = 0;//保存转换Number类型的值
+        var temp = 0; //保存第一次输入的值
+        var oper = "";//保存输入的操作符
+
+        /*获取输入数字*/
+        function inputEvent(e) {
+            val = e.value;     //放置输入的值
+            console.log(val);
+            var xsval = document.getElementById("outPut");
+            xsval.value += val; //连续输入数字(String类型)
+            //转换Number类型
+            xval = parseFloat(xsval.value);  //保存转换Number类型的值
+        }
+
+        /*获取特殊字符的数据*/
+        function inputPCB(e) {
+            //window.alert(e.value);
+
+            if (e.value == "C") {
+        var xsval = document.getElementById("outPut");
+                xsval.value = "";
+            } else if (e.value == "←") {
+                var xsval = document.getElementById("outPut");
+                var aaa = xsval.value+""
+                var bbb = aaa.substring(0,aaa.length-1);
+                $("#outPut").val(bbb);
+
+            } else if (e.value == "平方" || $(e).attr('value')) {
+                var xsval = document.getElementById("outPut");
+                //计算平方
+                xsval.value = Math.pow(xsval.value, 2);
+            }
+        }
+
+        /*输入操作符*/
+        function inputOper(e) {
+
+            oper = e.value;
+
+            if (e.value == "+") {
+                var xsval = document.getElementById("outPut");
+//                console.log(xsval.value);
+                //保存上次计算结果，并对字符串进行转换Number类型
+                temp = parseFloat(xsval.value);
+                //第一次输入的值设置为空
+                xsval.value = "";
+            } else if (e.value == "-") {
+                var xsval = document.getElementById("outPut");
+                temp = parseFloat(xsval.value);
+                xsval.value = "";
+            } else if (e.value == "*") {
+                var xsval = document.getElementById("outPut");
+                temp = parseFloat(xsval.value);
+                xsval.value = "";
+            } else if (e.value == "/") {
+                var xsval = document.getElementById("outPut");
+                temp = parseFloat(xsval.value);
+                xsval.value = "";
+            }
+        }
+
+        /*计算结果*/
+        function inputEquel(e) {
+
+            var xsval = document.getElementById("outPut");
+            if (e.value == "=") {
+                //window.alert(xval);
+                //调用对象方法
+                xsval.value = calculator.jisuan(temp, xval, oper);
+            }
+        }
+    </script>
+
+<div id="commonCalculatorPage" hui-layout-type="HeaderFooterLayout" hui-layout-attr='{"heights":["0%","100%","0%"]}'>
+    <div></div>
+    <div class="main-container">
+
+        <div class="common-header-container">
+            <div hui-layout-type='RowLayout' class="common-header-wrapper">
+                <div class="common-header">
+                    <div class="col l4 common-header-back-wrapper" hui-widget-nodeType='openCalculatorMainPage'>
+                        <div class="common-header-back">
+                            <img src="skin/default/img/common_back.png"/>
+                        </div>
+                    </div>
+                    <div class="col l4 common-header-title-wrapper">
+                        <div class="commom-head-title">
+                            计&nbsp;算&nbsp;器
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="common-content-container">
+           <div style="background-color: white">
+               <div style="width: 60%;margin: auto">
+                   <div class="col l12" style=" height: 550px">
+                       <div hui-layout-type="RowLayout">
+                           <div >
+                               <div class="col l12">
+                                   <input type="text" id="outPut" class="output" value="" onfocus="this.blur()" style="margin-top: 10px" readonly/>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="col l3 ">
+                                   <input type="button" value="平方" class="backImage" onclick="inputPCB(this)" bui-disable-focus='true' style="display: none"/>
+                                   <div style="display: inline-block;background-color: buttonface;" class="backImage"  value="平方" onclick="inputPCB(this)"> X &sup2;</div>
+                               </div>
+                               <div class="col l3 ">
+                                   <input type="button" class=" backImage" value="C" onclick="inputPCB(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3 ">
+                                   <input type="button" class=" backImage" value="←" onclick="inputPCB(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3 ">
+                                   <input type="button" class="backImage" value="/" onclick="inputOper(this)" bui-disable-focus='true'/>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="col l3 ">
+                                   <input type="button" class="backImage" value="7" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="8" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="9" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="*" onclick="inputOper(this)" bui-disable-focus='true'/>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="4" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="5" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="6" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="-" onclick="inputOper(this)" bui-disable-focus='true'/>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="1" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="2" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="3" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="+" onclick="inputOper(this)" bui-disable-focus='true'/>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="col l6">
+                                   <input type="button" class="backImage" value="0" onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="." onclick="inputEvent(this)" bui-disable-focus='true'/>
+                               </div>
+                               <div class="col l3">
+                                   <input type="button" class="backImage" value="=" onclick="inputEquel(this)" bui-disable-focus='true'/>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div id="bottonPanel" hui-layout-type="RowLayout"></div>

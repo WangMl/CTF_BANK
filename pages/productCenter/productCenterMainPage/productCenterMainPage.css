@@ -1,0 +1,22 @@
+.main-container .row .col{
+    padding: 0px 0px;
+}
+.main-container .row{
+    margin-bottom: 10px;
+}
+#productTab .bui-tab-root{
+    height: 58px;
+    font-size: 24px;
+    text-align: center;
+}
+#productTab .bui-tab-item{
+    display: inline-block;
+    line-height: 58px;
+    width: 33.3%;
+}
+ .bui-tab-item-checked{
+    background-color: #efefef;
+}
+#productCenterMount .bui-pbox-img{
+    height:52px;
+}

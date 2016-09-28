@@ -1,0 +1,13 @@
+
+#liCaiEDuChaXun .row{
+    margin-bottom: 15px;
+}
+
+#liCaiEDuChaXun .row .col{
+    padding: 0px;
+}
+
+.wenXinTiShi{
+    color: red;
+    font-size: 14px;
+}

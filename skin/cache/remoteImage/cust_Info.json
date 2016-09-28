@@ -1,0 +1,24 @@
+{
+  "b": {
+    "CERT_NO": "19900108",
+    "CERT_TYPE": "0317",
+    "CUST_AGE": "25",
+    "CUST_BIRTHDAY": "1990-09-10",
+    "CUST_BRANCH": "010200",
+    "CUST_ID": "1231541236",
+    "CUST_LEVEL": "1",
+    "CUST_NAME": "王红霞",
+    "CUST_SEX": "1",
+    "DATA_DT": "2015-11-02 00:00:00.0",
+    "MANAGER_BRANCH": "",
+    "MANAGER_ID": "",
+    "MANAGER_NAME": "",
+    "MANAGER_TELEPHONE": "",
+    "RISK_LEVEL": "06",
+    "TELEPHONE": "null"
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "b": {
+    "MENULIST": [
+      {
+        "ISCONTENT": "0",
+        "MENU_ID": "010101",
+        "MENU_LEVEL": "3",
+        "MENU_NAME": "个人客户授信业务",
+        "SUPERIOR_MENUID": "0101"
+      },
+      {
+        "ISCONTENT": "0",
+        "MENU_ID": "010102",
+        "MENU_LEVEL": "3",
+        "MENU_NAME": "农户授信业务",
+        "SUPERIOR_MENUID": "0101"
+      }
+    ]
+  },
+  "h": {
+    "rc": "0000",
+    "rm": ""
+  }
+}

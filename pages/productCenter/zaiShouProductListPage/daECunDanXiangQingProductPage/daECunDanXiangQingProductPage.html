@@ -1,0 +1,70 @@
+<div hui-layout-type='HeaderFooterLayout' hui-layout-attr='{"heights" : ["10%", "80%", "10%"]}'>
+    <div>
+        <div style="background: #f2f2f2;">
+            <div class="commom-head-title decdxiangqing" style="text-align: center;width: 875px;height: 48px;">大额存单详情</div>
+            <div class="commom-head-title decdedu" style="text-align: center;width: 875px;height: 48px;" hidden="hidden">大额存单额度</div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="decdxiangqing" hidden="hidden">
+            <div hui-layout-type="RowLayout" id="daecundanxq">
+                <div>
+                    <div class="col l3 push-l3">产品代码：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.PRODUCTCODE}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">产品名称：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.PRODUCTNAME}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">起购金额：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.PURCHASEAMOUNT}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">递增金额：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.PLUSAMOUNT}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">发行起始日：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.STARTDT}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">发行结束日：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.ENDDT}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">年化收益率：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.ANNUALYIELD}}</div>
+                </div>
+                <div>
+                    <div class="col l3 push-l3">现行定期利率：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.CURRENTRATES}}</div>
+                </div>
+                <!--<div>-->
+                    <!--<div class="col l3 push-l3">数据日期：</div>-->
+                    <!--<div class="col l9 push-l3">{{lobbyManagerLog.DATADATE}}</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="decdedu" hidden="hidden">
+            <div hui-layout-type="RowLayout" id="daecundaned">
+                <div>
+                    <div class="col l3 push-l3">剩余额度：</div>
+                    <div class="col l9 push-l3">{{lobbyManagerLog.SurplusAmount}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  style="background-color: #f2f2f2; padding-top: 10px">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l10">
+                    <div class="wenXinTiShi" >温馨提示：以上信息仅供参考，请以产品说明书为准；产品信息更新变动，请及时关注产品公告</div>
+                </div>
+                <div class="col l2 ">
+                    <div class="btn btn-cold" hui-widget-nodeType="tuichuxaingqing">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

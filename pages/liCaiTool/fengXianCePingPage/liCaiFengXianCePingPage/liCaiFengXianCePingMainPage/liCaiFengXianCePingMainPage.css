@@ -1,0 +1,14 @@
+.text-box{
+    margin-top: 10px;
+    text-align: center;
+}
+.text-label{
+    font-size:30px;
+}
+.title{
+    margin-bottom: 0 !important;
+}
+p{
+    font-size: 16px;
+}
+

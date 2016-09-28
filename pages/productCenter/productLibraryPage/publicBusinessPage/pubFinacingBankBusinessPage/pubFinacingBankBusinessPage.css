@@ -1,0 +1,33 @@
+.main-container .row .col{
+    padding: 0px;
+}
+
+.main-container .row{
+    margin-bottom: 10px;
+}
+
+#pubFinacingBankBusinessPage .bui-tab-item:nth-child(1){
+    background-color: #f47a7a;
+}
+#pubFinacingBankBusinessPage .bui-tab-item:nth-child(1):hover{
+    background-color: #e27272;
+}
+#pubFinacingBankBusinessPage .bui-tab-item:nth-child(1) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_jijinchanping.png");
+    background-size: 100% 100%;
+}
+
+
+
+
+#pubFinacingBankBusinessPage .bui-tab-item:nth-child(2){
+    background-color: #96cb00;
+}
+#pubFinacingBankBusinessPage .bui-tab-item:nth-child(2):hover{
+    background-color: #7ca701;
+}
+#pubFinacingBankBusinessPage .bui-tab-item:nth-child(2) .bui-tab-item-img{
+    background: url("skin/default/img/sellingproduct_licaichanping.png");
+    background-size: 100% 100%;
+}
+

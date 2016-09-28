@@ -1,0 +1,77 @@
+.main-container .row .col{
+    padding: 0px;
+}
+.main-container .row{
+    margin-bottom: 15px;
+}
+
+.ming-xi{
+    text-align: left;
+    margin-bottom: 16px;
+    font-size: 25px;
+    margin-left:16px ;
+}
+.ming-xi-biao{
+    display: none;
+    margin-bottom: 0 !important;
+}
+
+.data{
+    margin-top: -15px;
+    height: 370px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+input[type="checkbox"]{
+    width:12px;
+    height:12px;
+}
+
+.info div{
+    display: inline-block;
+    width: 18%;
+    text-align: left;
+}
+
+
+.input-success {
+    position: absolute;
+    color: #468847;
+    margin-top: -25px;
+}
+
+.input-error{
+    position: absolute;
+    color:#b94a48;
+    margin-top: -25px;
+}
+
+[class^="icon-"]{
+    background:none !important;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+}
+
+.icon-ok:before {
+    content: "\2714";
+}
+
+.icon-fail:before{
+    content:"X"
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    cursor: default;
+}
+
+.input-error-info{
+    position: absolute;
+    color:rgb(185, 74, 72);
+    margin-top: -25px;
+}

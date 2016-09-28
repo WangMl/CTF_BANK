@@ -1,0 +1,39 @@
+<div id="jsphj">
+    <div class="common-content-container" style="height: 100%;padding-top: 0px;">
+        <div hui-layout-type="RowLayout">
+            <div>
+                <div class="col l12"
+                     style="background-color:#fbfbfb;box-shadow: 5px 5px 5px #a2a2a2;height: 560px;"
+                     hui-layout-type="RowLayout">
+                    <div id='appjieshou'>
+                        <div class="col l12">
+                            <table class="table table-bordered" style="text-align: center;">
+                                <tr class="active">
+                                    <th>币种</th>
+                                    <th>钞买价</th>
+                                    <th>汇买价</th>
+                                    <th>卖出价</th>
+                                    <th>中间价</th>
+                                    <th>发布时间</th>
+                                    <th>操作</th>
+                                </tr>
+                                <tr v-for="item in items">
+                                    <td class="zuoti">{{item.CURTYPE}}</td>
+                                    <td>{{item.SUPUPRICE}}</td>
+                                    <td>{{item.HUPUPRICE}}</td>
+                                    <td>{{item.SELLPRICE}}</td>
+                                    <td>{{item.MIDDLEPRICE}}</td>
+                                    <td>{{item.RELEASETIME}}</td>
+                                    <td style="background: #dff0d8!important;">
+                                        <div class="btn btn-cold" name="{{item.CURTYPE}}+{{item.DATA_DT}}" style="height: 25px;line-height: 25px;">查看历史</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
